@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+Disallow: /404.html
+Disallow: /assets/
+Disallow: /js/
+Disallow: /css/
+Sitemap: https://blog.weifamily.cn/sitemap.xml
+Sitemap: https://blog.weifamily.cn/baidusitemap.xml
