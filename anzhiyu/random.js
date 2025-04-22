@@ -1,3 +1,3 @@
-var posts=["undefined/create-your-own-comic-style-avatar/","undefined/midjourney-dragonball-coloring-book/","undefined/tesla-updates-mission-statement/","undefined/iphone17-pro-camera-upgrade/","undefined/midjourney-dragon-ball-avatar/","undefined/midjourney-gundam-coloring-book/","undefined/midjourney-ukiyo-e-anime/"];function toRandomPost(){
+var posts=["undefined/create-your-own-comic-style-avatar/","undefined/iphone17-pro-camera-upgrade/","undefined/midjourney-dragonball-coloring-book/","undefined/midjourney-dragon-ball-avatar/","undefined/tesla-fsd-why-abandon-lidar/","undefined/midjourney-gundam-coloring-book/","undefined/midjourney-ukiyo-e-anime/","undefined/tesla-updates-mission-statement/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
