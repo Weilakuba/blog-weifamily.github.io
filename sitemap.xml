@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/midjourney-ukiyo-e-anime/</loc>
+    
+    <lastmod>2025-04-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/create-your-own-comic-style-avatar/</loc>
     
     <lastmod>2025-04-22</lastmod>
@@ -71,6 +80,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
+    <lastmod>2025-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%B5%AE%E4%B8%96%E7%BB%98/</loc>
     <lastmod>2025-04-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,3 +1,3 @@
-var posts=["undefined/create-your-own-comic-style-avatar/","undefined/iphone17-pro-camera-upgrade/","undefined/midjourney-dragon-ball-avatar/"];function toRandomPost(){
+var posts=["undefined/create-your-own-comic-style-avatar/","undefined/iphone17-pro-camera-upgrade/","undefined/midjourney-dragon-ball-avatar/","undefined/midjourney-ukiyo-e-anime/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
