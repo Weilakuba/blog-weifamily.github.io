@@ -1,0 +1,17 @@
+# Wei Family LLC 博客
+
+> 探索AI创新与科技前沿，分享高质量的Midjourney创意与特斯拉动态，打造AI思维的未来视角
+
+## 核心内容
+- [AI思维车间](https://www.aimindwork.com)：专业AI创意工作坊，提供各类AI生成内容服务
+- [Midjourney教程](https://blog.weifamily.cn/categories/Midjourney/)：分享实用的Midjourney提示词与风格代码
+- [科技动态](https://blog.weifamily.cn/categories/Others/)：关注特斯拉等前沿科技公司的最新发展
+
+## 常用资源
+- [文章归档](https://blog.weifamily.cn/archives/)：按时间浏览所有博客文章
+- [分类专栏](https://blog.weifamily.cn/categories/)：按主题浏览特定领域的内容
+- [标签索引](https://blog.weifamily.cn/tags/)：通过关键词快速定位相关内容
+
+## 最新更新
+- [解锁Midjourney创意神器](https://blog.weifamily.cn/post/midjourney-cute-style-code/)：最新萌系风格代码让角色变身可爱动画
+- [特斯拉FSD为何弃用激光雷达](https://blog.weifamily.cn/post/tesla-fsd-why-abandon-lidar/)：深度解析特斯拉全自动驾驶的"纯视觉"技术路线
