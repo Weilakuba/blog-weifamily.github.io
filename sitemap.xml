@@ -164,20 +164,6 @@
 
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
-    <lastmod>2025-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
-    <lastmod>2025-05-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/Midjourney/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -199,6 +185,20 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
+    <lastmod>2025-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
+    <lastmod>2025-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -213,7 +213,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E6%93%8E%E5%A4%A9%E6%9F%B1/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -227,14 +227,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E9%AB%98%E8%BE%BE%E6%B6%82%E8%89%B2%E4%B9%A6/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%93%8E%E5%A4%A9%E6%9F%B1/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E9%AB%98%E8%BE%BE%E6%B6%82%E8%89%B2%E4%B9%A6/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -243,14 +243,14 @@
 
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Others/</loc>
+    <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
+    <loc>https://blog.weifamily.cn/categories/Others/</loc>
     <lastmod>2025-05-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
