@@ -201,7 +201,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
+    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -209,6 +209,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
+    <lastmod>2025-05-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -237,13 +244,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/%E6%93%8E%E5%A4%A9%E6%9F%B1/</loc>
-    <lastmod>2025-05-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
     <lastmod>2025-05-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
