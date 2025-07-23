@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/midjourney-v7-optimus-prime-prompt-revealed/</loc>
+    
+    <lastmod>2025-07-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/why-ai-gets-dumber-and-how-to-keep-it-smart/</loc>
     
     <lastmod>2025-07-23</lastmod>
@@ -399,7 +408,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E4%BB%99%E4%BE%A0/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -413,14 +422,21 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E4%BB%99%E4%BE%A0/</loc>
+    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -441,21 +457,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
-    <lastmod>2025-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/%E6%93%8E%E5%A4%A9%E6%9F%B1/</loc>
-    <lastmod>2025-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Tesla/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -475,10 +477,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://blog.weifamily.cn/tags/Tesla/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -499,7 +515,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
+    <loc>https://blog.weifamily.cn/categories/AI/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -507,13 +523,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/categories/Tesla/</loc>
-    <lastmod>2025-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/categories/AI/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
