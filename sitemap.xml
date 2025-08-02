@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/iphone-17-air-leak-thinnest-body-small-battery/</loc>
+    
+    <lastmod>2025-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/midjourney-phoenix-prompt-stunning-art/</loc>
     
     <lastmod>2025-08-02</lastmod>
@@ -425,7 +434,35 @@
 
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/Midjourney/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -446,35 +483,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/%E4%BB%99%E4%BE%A0/</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -532,13 +541,6 @@
 
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
-    <lastmod>2025-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/categories/Apple/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -546,7 +548,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Others/</loc>
+    <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -554,6 +556,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/categories/iPhone/</loc>
+    <lastmod>2025-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/categories/Others/</loc>
     <lastmod>2025-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
