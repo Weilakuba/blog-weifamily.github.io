@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/apple-watch-ultra-3-upgrade-leaks/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/flux-ai-lego-superhero/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -452,6 +461,13 @@
 
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -480,14 +496,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
+    <loc>https://blog.weifamily.cn/tags/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -508,13 +524,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/AI%E7%BB%98%E5%9B%BE/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -529,14 +538,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E6%B5%AE%E4%B8%96%E7%BB%98/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%B5%AE%E4%B8%96%E7%BB%98/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -566,6 +575,13 @@
 
   
   <url>
+    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/categories/iPhone/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -580,7 +596,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
+    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -588,13 +604,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/categories/Others/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
