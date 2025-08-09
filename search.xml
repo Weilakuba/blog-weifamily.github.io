@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>flux-ai-lego-superhero</title>
+      <link href="/undefined/flux-ai-lego-superhero/"/>
+      <url>/undefined/flux-ai-lego-superhero/</url>
+      
+        <content type="html"><![CDATA[<!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><p>本篇将手把手教你用 <strong>Flux AI</strong> 生成电影海报级的 <strong>乐高超级英雄</strong> 场景，并附上可复制的英文提示词，零基础也能画出大片效果。  </p><hr><h3 id="Flux-AI是什么？"><a href="#Flux-AI是什么？" class="headerlink" title="Flux AI是什么？"></a>Flux AI是什么？</h3><p>最近在AI绘画圈，<strong>Flux AI</strong>热度急升。<br>它由最新图像生成技术驱动，支持高细节建模、真实光影和电影级构图。不论是人像、风景还是创意场景，Flux都能还原得极其逼真。<br>相比其他模型，Flux在视觉冲击力和细节表现上有天然优势，特别适合生成复杂、充满动态感的画面。  </p><hr><h3 id="今日主题：乐高超级英雄"><a href="#今日主题：乐高超级英雄" class="headerlink" title="今日主题：乐高超级英雄"></a>今日主题：乐高超级英雄</h3><p>我今天要分享的是一条<strong>超实用的Flux绘图提示词</strong>，可以帮你生成一张史诗感十足的 <strong>LEGO Superheroes</strong> 场景图。  </p><p>画面效果请自行脑补：</p><ul><li><strong>英雄</strong>：用乐高积木重现经典超级英雄形象，标志性战服和颜色全部保真。  </li><li><strong>场景</strong>：暴风天、闪电划破长空，光影打在英雄脸上。  </li><li><strong>动作</strong>：动态战斗姿势，砖块飞溅，小乐高人惊叹围观。  </li><li><strong>构图</strong>：好莱坞海报风，色彩饱满，景深与光影堪比摄影棚拍摄。</li></ul><hr><h3 id="可直接使用的Flux-AI提示词"><a href="#可直接使用的Flux-AI提示词" class="headerlink" title="可直接使用的Flux AI提示词"></a>可直接使用的Flux AI提示词</h3><p><em>Epic LEGO [SUPERHERO] in dynamic action pose showcasing their signature powers, wearing their iconic costume with authentic colors and details, dramatic stormy sky with brilliant lightning bolts illuminating the scene, heroic stance amid swirling LEGO debris and flying bricks, small LEGO minifigures scattered throughout the scene watching in awe, cinematic movie poster composition with photorealistic rendering, epic superhero atmosphere with rich saturated colors, professional depth of field and dramatic lighting effects</em></p><p><strong>使用方法：</strong></p><ol><li>将 <code>[SUPERHERO]</code> 替换成你想画的角色，如 Batman、Spider-Man、Iron Man。  </li><li>复制到 Flux AI 或其他支持英文提示词的AI绘画工具。  </li><li>调整分辨率选项，几秒钟就能获得一张超燃的乐高英雄海报。</li></ol><hr><h3 id="示例展示"><a href="#示例展示" class="headerlink" title="示例展示"></a>示例展示</h3><h4 id="蜘蛛侠"><a href="#蜘蛛侠" class="headerlink" title="蜘蛛侠"></a>蜘蛛侠</h4><p><strong>提示词：</strong></p><p><em>Epic LEGO Spider-Man in dynamic action pose showcasing their signature powers, wearing their iconic costume with authentic colors and details, dramatic stormy sky with brilliant lightning bolts illuminating the scene, heroic stance amid swirling LEGO debris and flying bricks, small LEGO minifigures scattered throughout the scene watching in awe, cinematic movie poster composition with photorealistic rendering, epic superhero atmosphere with rich saturated colors, professional depth of field and dramatic lighting effects</em></p><p><img src="https://r2.weifamily.cn/obsidian/20250809195454142.webp"></p><p><img src="https://r2.weifamily.cn/obsidian/20250809195501590.webp"></p><h4 id="钢铁侠"><a href="#钢铁侠" class="headerlink" title="钢铁侠"></a>钢铁侠</h4><p><strong>提示词：</strong></p><p><em>Epic LEGO Ironman in dynamic action pose showcasing their signature powers, wearing their iconic costume with authentic colors and details, dramatic stormy sky with brilliant lightning bolts illuminating the scene, heroic stance amid swirling LEGO debris and flying bricks, small LEGO minifigures scattered throughout the scene watching in awe, cinematic movie poster composition with photorealistic rendering, epic superhero atmosphere with rich saturated colors, professional depth of field and dramatic lighting effects</em></p><p><img src="https://r2.weifamily.cn/obsidian/20250809195428075.webp"></p><p><img src="https://r2.weifamily.cn/obsidian/20250809195444423.webp"></p><hr><p>如果你想让AI绘画作品更有故事性，Flux AI是个不可错过的选择。<br>今天分享的乐高超级英雄提示词，只是Flux创作力的一小部分——<br>你还可以用它来画赛博朋克、古风人物、城市夜景、科幻飞船……  </p><p><strong>👉 在评论里告诉我</strong>，你最想画的主题是什么！  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI绘图 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI绘图 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>你敢信？用这套Prompt，轻松画出超燃经典漫画英雄！</title>
       <link href="/undefined/prompt-to-draw-classic-comic-heroes/"/>
       <url>/undefined/prompt-to-draw-classic-comic-heroes/</url>
