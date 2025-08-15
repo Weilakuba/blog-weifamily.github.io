@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>新手也能用：一段参数做出DC暗黑手绘感（含示例）</title>
+      <link href="/undefined/midjourney-dc-hero-style-guide/"/>
+      <url>/undefined/midjourney-dc-hero-style-guide/</url>
+      
+        <content type="html"><![CDATA[<p>最近小编在 Midjourney 摸到一条“宝藏代码”，一贴就把DC英雄拉进暗黑史诗宇宙：线条更硬朗、阴影更厚重、手绘感扑面而来，漫画与写实的冲击力直接拉满。最妙的是，用法超简单，新手也能马上上手。</p><hr><h3 id="这行代码是什么"><a href="#这行代码是什么" class="headerlink" title="这行代码是什么"></a>这行代码是什么</h3><p>把下面这段加在你的提示词后面：  </p><p><code>--sref 280506761 --sv 6</code></p><p>这是 Midjourney 的“风格参考”功能。简单理解：把一套固定的光影、线条、色调“套”在你要生成的画面上，让画面统一、质感强、氛围稳。这个风格偏暗黑、偏写实，带手绘笔触，非常适合DC系的氛围。</p><h3 id="两条即用示例（直接复制）"><a href="#两条即用示例（直接复制）" class="headerlink" title="两条即用示例（直接复制）"></a>两条即用示例（直接复制）</h3><h4 id="神奇女侠"><a href="#神奇女侠" class="headerlink" title="神奇女侠"></a>神奇女侠</h4><p><strong>提示词：</strong></p><blockquote><p>Wonder Woman –sref 280506761 –sv 6  </p></blockquote><p>亚马逊战士手握长剑，蓝黑冷调带一点荧光，眼神锐利，有冲出画面的劲头。</p><p><img src="https://r2.weifamily.cn/obsidian/20250815133659972.webp"></p><p><img src="https://r2.weifamily.cn/obsidian/20250815133709108.webp"></p><p><img src="https://r2.weifamily.cn/obsidian/20250815133715273.webp"></p><h4 id="蝙蝠侠"><a href="#蝙蝠侠" class="headerlink" title="蝙蝠侠"></a>蝙蝠侠</h4><p><strong>提示词：</strong></p><blockquote><p>Batman –sref 280506761 –sv 6  </p></blockquote><p>黑暗骑士披风猎猎，站在废墟与雾气中，哥谭夜色的压迫感一下出来了。</p><p><img src="https://r2.weifamily.cn/obsidian/20250815133732341.webp"></p><p><img src="https://r2.weifamily.cn/obsidian/20250815133744121.webp"></p><p><img src="https://r2.weifamily.cn/obsidian/20250815133750931.webp"></p><p>想要更个性？在名字后加1—2个短描述就够了：</p><ul><li>Batman，雨夜屋顶，低角度逆光 –sref 280506761 –sv 6</li><li>Wonder Woman，风暴来临，碎石飞溅 –sref 280506761 –sv 6</li></ul><h3 id="为什么它好用"><a href="#为什么它好用" class="headerlink" title="为什么它好用"></a>为什么它好用</h3><ul><li>统一风格：同一套光影和笔触，系列图更整齐。</li><li>容错高：提示词不用很长，也能出氛围感。</li><li>适配广：DC英雄最佳，但奇幻骑士、科幻战士、机甲也都能用。</li></ul><hr><p>这段代码是我从AI爱好者圈子里挖到的，亲测稳定出片。DC迷们，去把你的Superman、Batman、Wonder Woman一一“暗黑化”吧。欢迎在评论区晒图，我们一起交流构图和用词。喜欢这类Midjourney小技巧，点个关注、收藏这篇，下次继续分享更多高质量的可复制风格方案。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI绘画 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Midjourney </tag>
+            
+            <tag> AI绘画 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>iOS 26 Beta 6发布：相机手势选项疑似消失、新铃声上线、动画更顺滑｜完整变化汇总</title>
       <link href="/undefined/ios-26-beta-6-full-changelog/"/>
       <url>/undefined/ios-26-beta-6-full-changelog/</url>
@@ -739,9 +766,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
         </tags>
       
@@ -791,9 +818,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
             <tag> 仙侠 </tag>
             
@@ -922,9 +949,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1030,9 +1057,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
         </tags>
       
@@ -1161,9 +1188,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
         </tags>
       
