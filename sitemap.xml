@@ -551,14 +551,14 @@
 
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
+    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
+    <loc>https://blog.weifamily.cn/tags/iPhone/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -580,13 +580,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/Midjourney/</loc>
-    <lastmod>2025-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Others/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -615,6 +608,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/AI%E7%BB%98%E5%9B%BE/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/Others/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -663,6 +663,13 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%B5%AE%E4%B8%96%E7%BB%98/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/AI/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -676,24 +683,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%B5%AE%E4%B8%96%E7%BB%98/</loc>
-    <lastmod>2025-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/iPhone/</loc>
+    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
+    <loc>https://blog.weifamily.cn/categories/iPhone/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -714,14 +714,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
+    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
+    <loc>https://blog.weifamily.cn/categories/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
