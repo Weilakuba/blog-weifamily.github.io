@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/naval-ravikant-guide-financial-freedom/</loc>
+    
+    <lastmod>2025-09-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/xibei-crisis-beyond-pre-cooked-food/</loc>
     
     <lastmod>2025-09-15</lastmod>
@@ -558,6 +567,13 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/Midjourney/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -579,28 +595,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/Apple/</loc>
-    <lastmod>2025-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
-    <lastmod>2025-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/AI%E7%BB%98%E5%9B%BE/</loc>
-    <lastmod>2025-09-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E4%BB%99%E4%BE%A0/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -614,7 +616,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E4%BB%99%E4%BE%A0/</loc>
+    <loc>https://blog.weifamily.cn/tags/AI%E7%BB%98%E5%9B%BE/</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -656,7 +665,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%93%8E%E5%A4%A9%E6%9F%B1/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -670,14 +679,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%8A%95%E8%B5%84/</loc>
+    <loc>https://blog.weifamily.cn/tags/AI/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/AI/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E6%93%8E%E5%A4%A9%E6%9F%B1/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -693,14 +702,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
+    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Apple/</loc>
+    <loc>https://blog.weifamily.cn/categories/Midjourney/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -735,14 +744,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/Tesla/</loc>
+    <loc>https://blog.weifamily.cn/categories/%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E6%8A%95%E8%B5%84/</loc>
+    <loc>https://blog.weifamily.cn/categories/Tesla/</loc>
     <lastmod>2025-09-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
