@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/chatgpt-ai-dog-cancer-vaccine/</loc>
+    
+    <lastmod>2026-03-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/apple-new-products-march-2026-budget-macbook-iphone-17e/</loc>
     
     <lastmod>2026-02-27</lastmod>
@@ -1004,13 +1013,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/Clawdbot/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1039,7 +1041,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%95%99%E8%82%B2/</loc>
+    <loc>https://blog.weifamily.cn/tags/%E9%BE%99%E7%8F%A0/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1047,6 +1049,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/%E4%BB%99%E4%BE%A0/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%95%99%E8%82%B2/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1130,6 +1139,13 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/%E9%BB%84%E4%BB%81%E5%8B%8B/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -1194,13 +1210,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/Macbook/</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%BC%AB%E5%A8%81/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1419,21 +1428,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/categories/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/categories/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1448,6 +1450,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/categories/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
