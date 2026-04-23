@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Anthropic 安全神话崩塌：一个Discord群众就把&quot;核武器&quot;偷走了</title>
+      <link href="/undefined/anthropic-mythos-security-breach-discord/"/>
+      <url>/undefined/anthropic-mythos-security-breach-discord/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>你永远猜不到，AI 安全领域今年最大的讽刺剧，会以这种方式收场。</p><p>昨天，彭博社爆出一个大瓜：<strong>Anthropic 那个声称”太危险绝对不能公开发布”的网络安全模型 Mythos，被一个 Discord 小群偷偷摸进去了，整整两周，安安静静，无人察觉。</strong></p><p><img src="https://r2.weifamily.cn/obsidian/20260423132855439.webp"></p><p>但真正让人笑不出来的，是它暴露的真相。</p><hr><h3 id="什么叫”最高安全”？"><a href="#什么叫”最高安全”？" class="headerlink" title="什么叫”最高安全”？"></a>什么叫”最高安全”？</h3><p>先说说 Mythos 是什么。</p><p>这是 Anthropic 家的<strong>顶级网络安全模型</strong>，能批量发现零日漏洞，能入侵几乎所有系统。简单点说，这就是一个「数字核武器」——掌握了它，理论上可以黑掉大半个互联网。</p><p>Anthropic 对它的保护有多夸张？</p><p><strong>只给苹果、亚马逊、思科这种级别的公司做封闭测试。</strong> 普通公司？不存在的。民间开发者？想都别想。</p><p>对外的宣传口径是：<strong>太危险，不能放出来。</strong></p><p>听起来是不是很靠谱？</p><hr><h3 id="入侵方式：三步，简单到离谱"><a href="#入侵方式：三步，简单到离谱" class="headerlink" title="入侵方式：三步，简单到离谱"></a>入侵方式：三步，简单到离谱</h3><p>然后呢？发布当天就被打脸了。</p><p>一个 Discord 小群，仅用三步，就把全世界最危险的 AI 网络武器收入囊中：</p><p><strong>第一步：翻文件</strong></p><p>他们从之前 <strong>Mercor 数据泄露</strong> 的 4TB 文件里，翻出了 Anthropic 的 API 命名规则。</p><p><strong>第二步：猜地址</strong></p><p>对着规则，随手猜了几个可能的 endpoint 地址。</p><p><strong>第三步：闯进去</strong></p><p>用群里一个<strong>第三方评估承包商的合法凭证</strong>，直接登进去了。</p><p>没有惊天的黑客技术，没有零日利用，没有暴力破解。</p><p>就是<strong>翻资料 + 猜密码 + 借账号</strong>——这才是真正让科技圈笑不出来的原因。</p><hr><h3 id="最危险的不是AI，是人"><a href="#最危险的不是AI，是人" class="headerlink" title="最危险的不是AI，是人"></a>最危险的不是AI，是人</h3><p>更有意思的是，这群人的操作。</p><p>拿到全世界最危险的网络武器之后，他们干啥了？</p><p><strong>建了几个简单的网站。</strong></p><p>刻意低调到连 Anthropic 的监控都没触发。</p><p>直到他们把截图发给彭博社，全世界才知道这件事。</p><p>你看，这就是最讽刺的地方：<strong>所有人都以为拿到模型的人会去搞破坏，结果他们选择了最无害的用法。</strong></p><p>这说明什么？</p><p><strong>到今天为止，最危险的不是 AI 本身，是管理 AI 的人。</strong></p><hr><h3 id="被攻破的，不是模型，是信任"><a href="#被攻破的，不是模型，是信任" class="headerlink" title="被攻破的，不是模型，是信任"></a>被攻破的，不是模型，是信任</h3><p>事后很多人说这是「AI 安全的重大事故」。</p><p>但我觉得不是。</p><p><strong>被攻破的不是 Mythos 这个模型，是 Anthropic 整个外围的信任链。</strong></p><p>模型能找遍全世界的零日漏洞，却防不住：</p><ul><li>自己人把凭证随便分享</li><li>供应链厂商把内部部署规则泄露出去</li><li>别人猜一下自己的 URL 地址</li></ul><p>这才是最扎心的地方。</p><p>我们天天担心超级智能会失控毁灭世界，结果呢？</p><p><strong>最前沿的 AI 实验室，连最基础的运营安全都做不好。</strong></p><hr><h3 id="一个形象的比喻"><a href="#一个形象的比喻" class="headerlink" title="一个形象的比喻"></a>一个形象的比喻</h3><p>就像你造了一颗原子弹，把所有精力都花在防止它自己爆炸上。</p><p>结果大门忘了锁。</p><p>被路过的小孩推门进来，拿原子弹炸了个鱼。</p><hr><p>Anthropic 一直以<strong>安全第一</strong>自居。</p><p>天天讲负责任的规模化，讲可控发布，讲 AI 安全边界。</p><p>结果这次出事的，恰恰就是他们最引以为傲的<strong>可控发布机制</strong>。</p><p>这年头，打脸来得太快，就像龙卷风。</p><p><strong>那么问题来了——</strong></p><p>AI 的安全边界到底在哪？<br>是在模型的权重里？<br>还是在人和系统的每一个缝隙里？</p><p>这个问题，值得我们所有人思考。</p><hr><p><strong>你怎么看这场”安全笑话”？是 Anthropic 的失误，还是整个 AI 安全行业的警钟？</strong></p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpaceX 联手 Cursor：AI 编程界迎来「核弹级」合作，马斯克又要改变世界？</title>
       <link href="/undefined/spacex-cursor-ai-partnership-600-billion/"/>
       <url>/undefined/spacex-cursor-ai-partnership-600-billion/</url>
