@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>最危险的不是不会用 AI，而是你以为自己已经会了</title>
+      <link href="/undefined/ai-danger-thinking-you-already-know-it/"/>
+      <url>/undefined/ai-danger-thinking-you-already-know-it/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>现在最危险的事，不是你不会用 AI。</p><p>而是你以为自己已经会用了。</p><p>我最近越来越强烈地感觉到一件事：</p><p>很多人嘴上说“我每天都在用 AI”，但实际动作只有一个。</p><p>打开 ChatGPT。</p><p>输入一句话。</p><p>等它回答。</p><p>不满意，再骂一句“AI 还是不行”。</p><p>说实话，我以前也差不多。</p><p>看到别人分享 prompt，我先收藏。</p><p>看到什么“万能提示词模板”，我先转发给自己。</p><p>看到新的 AI 工具榜单，我也会点进去看，然后心里默默想：这个周末一定研究一下。</p><p>结果呢？</p><p>周末过去了。</p><p>收藏夹越来越满。</p><p>电脑里没有多一个能跑起来的项目，工作流里也没有多一个真正替我产出的环节。</p><p>最尴尬的是，有一天我突然意识到：</p><p><strong>我不是在用 AI，我是在围观 AI。</strong></p><h2 id="会问问题，已经不够了"><a href="#会问问题，已经不够了" class="headerlink" title="会问问题，已经不够了"></a>会问问题，已经不够了</h2><p>过去一年，很多人对“会用 AI”的理解，基本停留在 prompt。</p><p>怎么提问。</p><p>怎么让它按步骤回答。</p><p>怎么让它扮演专家。</p><p>这些当然有用。</p><p>但如果今天还把全部注意力放在 prompt 上，就像把开车这件事理解成“怎么拧钥匙”。</p><p>真正的差距不在这里了。</p><p>差距在于：</p><p><strong>你能不能让 AI 进入真实工作现场。</strong></p><p>不是写一段漂亮文案。</p><p>不是生成一个看起来很厉害的 demo。</p><p>而是让它读你的代码，理解你的业务，修你的 bug，写你的测试，跑你的构建，帮你把一个改动推到 PR 里。</p><p>这也是我最近对 Codex、Claude Code 这类工具最大的感受。</p><p>它们最有价值的地方，不是“更会聊天”，而是更接近一个能干活的工程同事。</p><p>你给它一个真实仓库。</p><p>它要先看代码。</p><p>再判断改哪里。</p><p>改完还要跑测试。</p><p>测试不过，还得继续修。</p><p>这件事一旦跑通，你对 AI 的理解会变。</p><p>你不再问：</p><p>“有没有一个神级 prompt？”</p><p>你会开始问：</p><p>“我现在的工作，哪一段可以被 AI 接管一半？”</p><p>这两个问题，差了一个时代。</p><p><img src="https://r2.weifamily.cn/obsidian/20260511094730334.webp"></p><h2 id="最强的模型，别拿来问最便宜的问题"><a href="#最强的模型，别拿来问最便宜的问题" class="headerlink" title="最强的模型，别拿来问最便宜的问题"></a>最强的模型，别拿来问最便宜的问题</h2><p>还有一个误区也很常见：</p><p>花钱买了最强模型，但每天只问它一些三秒钟搜索就能解决的问题。</p><p>不是说不能问。</p><p>只是有点浪费。</p><p>GPT-5.5 Pro 这类高能力模型，真正适合的不是“帮我想 10 个标题”这种轻任务。</p><p>它更适合处理那些你自己也觉得头疼的问题：</p><p>一个产品到底该先做哪条线？</p><p>一个销售话术为什么转化差？</p><p>一段系统架构为什么越改越重？</p><p>一份商业计划里真正的风险在哪里？</p><p>一篇文章的核心观点是不是站得住？</p><p>我现在会刻意把问题分层。</p><p>便宜问题，用普通模型。</p><p>琐碎问题，用自动化。</p><p>真正贵的问题，才交给最强模型。</p><p>所谓“贵”，不是指模型价格贵，而是指这个问题本身的机会成本很贵。</p><p>比如一个产品方向判断错了，你浪费的不是几块钱 token。</p><p>你浪费的是一个月、一个团队、一次窗口期。</p><p>所以别把最强模型当高级搜索框。</p><p>它更像一个高强度的思考外骨骼。</p><p>你得把真正难的东西交给它，它才有机会帮你放大判断力。</p><h2 id="未来很多机会，属于能把东西做出来的人"><a href="#未来很多机会，属于能把东西做出来的人" class="headerlink" title="未来很多机会，属于能把东西做出来的人"></a>未来很多机会，属于能把东西做出来的人</h2><p>这句话可能有点刺耳：</p><p><strong>只会讨论想法的人，会越来越被动。</strong></p><p>因为 AI 正在降低“从想法到成品”的成本。</p><p>以前你有一个点子，至少要找前端、找后端、找设计、找部署。</p><p>还没开始做，会议已经开了三轮。</p><p>现在不一样。</p><p>你不一定要成为全职程序员，但你最好懂一点前端，懂一点数据库，懂一点部署。</p><p>至少你要知道：</p><p>页面是怎么搭出来的。</p><p>数据是怎么存进去的。</p><p>服务是怎么跑起来的。</p><p>域名是怎么指过去的。</p><p>这些东西不要求你都精通。</p><p>但你一旦懂了基本链路，AI 就不只是“帮你写几段文字”，它会变成你的执行层。</p><p>你说：</p><p>“帮我做一个客户线索管理页面。”</p><p>它能写页面。</p><p>你说：</p><p>“把表单数据存到数据库里。”</p><p>它能接接口。</p><p>你说：</p><p>“部署到线上，给我一个能访问的链接。”</p><p>它能带你走完整流程。</p><p>这时候，你和只会开会讨论“我们是不是应该做一个系统”的人，已经不在同一条跑道上了。</p><p>不是因为你更聪明。</p><p>而是因为你的想法有了落地速度。</p><p><img src="https://r2.weifamily.cn/obsidian/20260511094758901.webp"></p><h2 id="AI-会让功能变便宜，审美会变贵"><a href="#AI-会让功能变便宜，审美会变贵" class="headerlink" title="AI 会让功能变便宜，审美会变贵"></a>AI 会让功能变便宜，审美会变贵</h2><p>还有一件事，我以前低估了。</p><p>AI 让功能越来越容易做出来之后，真正稀缺的反而是审美和表达。</p><p>同样是一个页面。</p><p>有的人做出来像后台模板。</p><p>有的人做出来让你一眼就愿意继续点。</p><p>同样是一个产品说明。</p><p>有的人写得像参数表。</p><p>有的人能让你立刻明白：这东西到底解决我什么问题。</p><p>这就是审美的价值。</p><p>所以我现在看 AI 工具，不只看它能不能生成代码，也会看它能不能帮我提高判断。</p><p>Claude Design、Figma、好的 X 案例、优秀产品的官网、成熟 SaaS 的交互细节，都值得反复看。</p><p>不是为了抄。</p><p>是为了训练眼睛。</p><p>未来功能会越来越便宜。</p><p>但什么是好看，什么是清楚，什么是可信，什么是高级，仍然需要人来判断。</p><p>AI 可以给你 20 个方案。</p><p>但最后选哪个，怎么改，哪里删掉，哪里留白，哪里该克制，这些都是你的品味。</p><h2 id="不要收藏-100-个工具，先让-5-个工具每天产出"><a href="#不要收藏-100-个工具，先让-5-个工具每天产出" class="headerlink" title="不要收藏 100 个工具，先让 5 个工具每天产出"></a>不要收藏 100 个工具，先让 5 个工具每天产出</h2><p>我见过很多人做 AI 工具表。</p><p>写作工具 17 个。</p><p>绘图工具 23 个。</p><p>视频工具 15 个。</p><p>效率工具 41 个。</p><p>看起来很勤奋。</p><p>但一个月后你问他：哪一个工具每天真的帮你产出？</p><p>他可能答不上来。</p><p>这不是工具问题，是工作流问题。</p><p>真正有用的不是“我知道很多 AI 工具”。</p><p>真正有用的是：</p><p>每天早上，AI 帮你整理信息。</p><p>写作时，AI 帮你搭结构、找漏洞、改表达。</p><p>做研究时，AI 帮你扫资料、提炼观点、列反方证据。</p><p>写代码时，AI 帮你读仓库、改 bug、补测试。</p><p>做销售时，AI 帮你分析客户、打磨话术、复盘跟进。</p><p>做客服时，AI 帮你总结问题、沉淀 FAQ、发现高频需求。</p><p>你不需要 100 个工具。</p><p>你需要 5 个工具，每天稳定替你产出。</p><p>这就是个人 AI 工作流。</p><p>它不是炫技。</p><p>它应该像水电煤一样，安静地嵌进你的工作里。</p><h2 id="但个人-Agent，别急着全盘托付"><a href="#但个人-Agent，别急着全盘托付" class="headerlink" title="但个人 Agent，别急着全盘托付"></a>但个人 Agent，别急着全盘托付</h2><p>讲到这里，我也想泼一点冷水。</p><p>AI 越强，越不能乱给权限。</p><p>尤其是个人 Agent。</p><p>邮箱、网盘、通讯录、账号、支付、公司文件、家庭隐私，这些东西不是玩具。</p><p>很多人一听“全自动 Agent”，就兴奋得想把所有入口都接上。</p><p>我反而建议慢一点。</p><p>先让它处理低风险任务。</p><p>比如整理公开资料、生成草稿、总结会议、管理非敏感待办。</p><p>再逐步给它更多权限。</p><p>能只读，就先只读。</p><p>能审批后执行，就不要直接执行。</p><p>能分账号，就不要混用主账号。</p><p>能记录日志，就一定要记录日志。</p><p>这不是保守。</p><p>这是基本的权限管理。</p><p>AI 越像一个能干活的人，你越要像管理一个真实同事一样管理它：</p><p>给边界。</p><p>给任务。</p><p>给权限。</p><p>给复盘。</p><p>不要一上来就把人生钥匙串丢过去。</p><p><img src="https://r2.weifamily.cn/obsidian/20260511094818638.webp"></p><h2 id="真正的分水岭，是“结果”"><a href="#真正的分水岭，是“结果”" class="headerlink" title="真正的分水岭，是“结果”"></a>真正的分水岭，是“结果”</h2><p>所以我现在越来越同意一句话：</p><p>不会用 AI 的人，未必马上被淘汰。</p><p>但会用 AI 做出结果的人，正在获得一种不太公平的杠杆。</p><p>这个杠杆不是“知道更多工具”。</p><p>不是“收藏更多 prompt”。</p><p>也不是“每天转发 AI 新闻”。</p><p>而是你能更快地把一个东西做出来。</p><p>一篇文章。</p><p>一个页面。</p><p>一个脚本。</p><p>一个内部系统。</p><p>一个销售流程。</p><p>一个自动化日报。</p><p>一个能真实帮你省时间的小工具。</p><p>只要它能跑起来，能被使用，能产生结果，就和单纯聊天不一样。</p><p>别焦虑。</p><p>焦虑没有复利。</p><p>围观也没有复利。</p><p>真正有复利的是动手。</p><p>今天就用 AI 做一个小东西。</p><p>越小越好。</p><p>小到你今晚能完成。</p><p>比如：</p><p>把你每天重复复制粘贴的内容，做成一个自动化脚本。</p><p>把你常写的日报，做成一个固定工作流。</p><p>把你脑子里的产品想法，做成一个可以点击的前端页面。</p><p>把你客户沟通里的高频问题，整理成一个可搜索的知识库。</p><p>别再问“我该学哪个 AI 工具”。</p><p>先问：</p><p><strong>我能不能在今天，用 AI 做出一个真实可用的结果？</strong></p><p>这个问题，比任何 prompt 都重要。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+          <category> 个人成长 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI工作流 </tag>
+            
+            <tag> Codex </tag>
+            
+            <tag> Claude Code </tag>
+            
+            <tag> GPT-5.5 Pro </tag>
+            
+            <tag> AI编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>马斯克庭审再爆猛料：情人被指潜伏OpenAI，短信揭开挖人内幕</title>
       <link href="/undefined/musk-openai-trial-shivon-zilis-insider-recruiting/"/>
       <url>/undefined/musk-openai-trial-shivon-zilis-insider-recruiting/</url>
@@ -806,11 +841,11 @@
       
         <tags>
             
-            <tag> OpenAI </tag>
-            
             <tag> AI投资 </tag>
             
             <tag> 英伟达 </tag>
+            
+            <tag> OpenAI </tag>
             
             <tag> 微软 </tag>
             
