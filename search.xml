@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>马斯克投降？AI战争的胜负手，已经从GPU变成电和轨道</title>
+      <link href="/undefined/musk-surrender-ai-war-compute-power-orbit/"/>
+      <url>/undefined/musk-surrender-ai-war-compute-power-orbit/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>5 月 6 日，我看到 Anthropic 和 SpaceX 的新闻时，第一反应不是兴奋，是有点后背发凉。</p><p>Anthropic 宣布使用 SpaceX Colossus 1 的全部算力：超过 300MW 电力，超过 220000 张 NVIDIA GPU，一个月内接入 Claude。同一天，马斯克说 xAI 不再作为独立公司存在，并入 SpaceXAI。</p><p>所以问题来了：<strong>马斯克这是投降了吗？</strong></p><p>表面看，确实像。Colossus 1 原本是 xAI 和 Grok 的肌肉展示，现在却成了 Claude 的弹药库。但我觉得没这么简单。马斯克不是退出 AI，而是把模型、卫星、Starlink、发射能力和未来太空数据中心放到同一张牌桌上。</p><p><img src="https://r2.weifamily.cn/obsidian/20260512100829591.webp"></p><p>真正可怕的是 Anthropic。</p><p>它现在至少有五条腿：Amazon 给最高 5GW 算力和企业入口；Google、Broadcom 给 TPU 和云；Microsoft、NVIDIA 给 Azure 和芯片生态；Fluidstack 帮它卡位美国本土 AI 基础设施；SpaceX 给现成的电、机房、冷却和 GPU。</p><p>这已经不是普通融资，而是在重画西方 AI 基础设施地图。</p><p>OpenAI 当然还很强。但 AI 战争正在从“谁模型更强”，切到“谁能持续供给模型能力”。OpenAI 最大的一条腿是 Microsoft Azure，很粗，但终究是一条腿。Anthropic 则像一张网，把对手、金主、云厂商、芯片商和太空公司都网进来了。</p><p><img src="https://r2.weifamily.cn/obsidian/20260512100843837.webp"></p><p>这件事真正的信号是：AI 产业最稀缺的资源，正在从 GPU 变成电。</p><p>你有钱，不代表明天能建 1GW 数据中心；你有 GPU，不代表有地方插。Colossus 1 值钱，是因为它不是 PPT 里的未来产能，而是已经接电、装机、冷却、能跑起来的现实产能。</p><p>以后 AI 公司的单位，不只是 token，而是兆瓦。</p><p>再往后看，还有轨道算力。NVIDIA 已经发布面向轨道数据中心的 Space-1 Vera Rubin Module。SpaceX 有发射能力、Starlink 和低轨网络。如果 AI 算力真的往太空走，Anthropic 买到的可能是一张未来入场券。</p><p><img src="https://r2.weifamily.cn/obsidian/20260512100857055.webp"></p><p>所以我不会简单说“马斯克投降了”。</p><p>更准确的说法是：xAI 独立模型公司的打法受挫，马斯克换成 SpaceX 的基础设施牌；而 Anthropic 把几乎所有关键玩家都变成了自己版图的一部分。</p><p>以后再看 AI 新闻，我会先问三个字：</p><p><strong>电、地、轨。</strong></p><p>谁回答得出来，谁才有资格继续打下一局。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> OpenAI </tag>
+            
+            <tag> xAI </tag>
+            
+            <tag> Anthropic </tag>
+            
+            <tag> SpaceX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最危险的不是不会用 AI，而是你以为自己已经会了</title>
       <link href="/undefined/ai-danger-thinking-you-already-know-it/"/>
       <url>/undefined/ai-danger-thinking-you-already-know-it/</url>
@@ -59,9 +90,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> Sam Altman </tag>
-            
             <tag> 马斯克 </tag>
+            
+            <tag> Sam Altman </tag>
             
             <tag> Shivon Zilis </tag>
             
@@ -94,9 +125,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> Sam Altman </tag>
-            
             <tag> 马斯克 </tag>
+            
+            <tag> Sam Altman </tag>
             
             <tag> 人工智能 </tag>
             
@@ -808,13 +839,13 @@
             
             <tag> 马斯克 </tag>
             
-            <tag> 太空数据中心 </tag>
-            
-            <tag> Optimus </tag>
-            
             <tag> 人工智能 </tag>
             
             <tag> SpaceX </tag>
+            
+            <tag> 太空数据中心 </tag>
+            
+            <tag> Optimus </tag>
             
             <tag> 科技趋势 </tag>
             
@@ -2713,9 +2744,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
         </tags>
       
@@ -2765,9 +2796,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
             <tag> 仙侠 </tag>
             
@@ -3004,9 +3035,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
         </tags>
       
@@ -3135,9 +3166,9 @@
       
         <tags>
             
-            <tag> Midjourney </tag>
-            
             <tag> 龙珠 </tag>
+            
+            <tag> Midjourney </tag>
             
         </tags>
       
