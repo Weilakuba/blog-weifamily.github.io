@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>SpaceX IPO前夜扔出AI1卫星：免费太阳能+真空散热，真的能打破AI电力和散热天花板？</title>
+      <link href="/undefined/spacex-ai1-satellite-orbital-ai-data-center/"/>
+      <url>/undefined/spacex-ai1-satellite-orbital-ai-data-center/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>SpaceX 在 IPO 前夜公布了 AI1 卫星视频。</p><p>视频里，Elon Musk 亲自出镜讲解了这颗专门用于 AI 计算的轨道卫星。它不负责提供互联网，也不做导航，唯一任务就是在太空中运行 AI 负载。</p><p>我刷到这个视频的时候，第一反应是“卧槽，这也太离谱了吧”。把数据中心直接搬到太空去？听起来像科幻大片。</p><p>但当我认真看了规格说明和背后的逻辑后，却发现这事儿没那么简单。</p><p>SpaceX 给出的核心理由直击当前 AI 行业最现实的痛点：地球上的数据中心正在撞上电力、土地和冷却三重物理天花板。它们需要惊人的电力来驱动 GPU，还要消耗大量水资源来散热，同时还要面对电网扩容慢、选址难的现实限制。</p><p>而在轨道上，太阳几乎永不落下，太阳能可以近乎免费且持续获取；真空环境里，热量不需要水泵和空调，只需要展开大面积的辐射器，就能直接把热量辐射到宇宙中去。</p><p>这个想法听起来疯狂，却精准卡住了 AI 算力扩张的两大瓶颈——电力和散热。</p><p><img src="https://r2.weifamily.cn/obsidian/20260610095008987.webp"></p><h2 id="地球上的隐形墙"><a href="#地球上的隐形墙" class="headerlink" title="地球上的隐形墙"></a>地球上的隐形墙</h2><p>先说说我为什么会觉得“该死，终于有人把这个事摆到台面上了”。</p><p>过去两年，AI 训练和推理的规模像疯了一样往上窜。新闻里经常出现：</p><ul><li>数据中心要消耗一个中型城市级别的电力；</li><li>有些地方因为数据中心选址，居民抗议、电网扩容排队几年；</li><li>冷却要用大量水，干旱地区直接被骂；</li><li>土地、变压器、输电线路，全都成了瓶颈。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260610095041460.webp"></p><p>我不是电力工程师，但这些报道看得多了，就产生一种直觉：<strong>AI 的天花板，可能先卡在物理世界，而不是算法或芯片</strong>。</p><p>核电重启给微软、谷歌签长期购电协议、海底数据中心概念、液冷各种新方案……各种解法都在讨论。但核心问题没变：地球的电网、土地、水资源，是有限的，而且分配起来政治和工程成本极高。</p><h2 id="他们到底“官宣”了什么"><a href="#他们到底“官宣”了什么" class="headerlink" title="他们到底“官宣”了什么"></a>他们到底“官宣”了什么</h2><p>根据 SpaceX 自己放的视频更新（6 月 8 日左右，在 IPO 前夜）和大量跟进讨论，AI1 是第一代概念：</p><p><strong>核心规格（公开信息汇总）：</strong></p><ul><li><strong>算力</strong>：平均 120kW，峰值 150kW 负载，大致相当于地面一个 Nvidia GB300 机架的计算能力。</li><li><strong>能源</strong>：150kW 太阳能阵列，翼展约 70 米（比波音 747 还宽），使用 SpaceX 在德州 Bastrop 自产太阳能技术。</li><li><strong>散热</strong>：110 平方米可展开液冷辐射面板 + 冗余泵回路 + 防微流星设计。</li><li><strong>轨道</strong>：约 600km 低地球轨道。</li><li><strong>通信</strong>：激光链路（和 Starlink 类似，用于星间或与地面&#x2F;星座联网）。</li><li><strong>设计哲学</strong>：Elon Musk 本人说，“比 Starlink 卫星简单多了”。去掉复杂的相控阵天线，主要就是“一大堆太阳能电池板 + 散热器 + 一些激光链路”。很多技术复用 Starlink V3。</li></ul><p>计划更夸张：</p><ul><li>FCC 已申请最多 <strong>100 万颗</strong> 这样的 AI 卫星。</li><li>在 Bastrop 建 Gigasat 工厂（1100 万平方英尺），未来还有更大的 Terafab。</li><li>目标是把“轨道算力”做成 SpaceX 新的增长曲线，和 Starlink、发射服务并列。</li></ul><p>更早前 Elon 就说过，SpaceX 已经在地面为 Anthropic、xAI 等提供大规模 AI 计算服务，未来“尤其是轨道数据中心”会把规模做得极大。</p><p>IPO 估值目标接近 1.75 万亿美元，这个故事显然是重要叙事支柱。</p><h2 id="最让我“惊艳”又“冷静”下来的点"><a href="#最让我“惊艳”又“冷静”下来的点" class="headerlink" title="最让我“惊艳”又“冷静”下来的点"></a>最让我“惊艳”又“冷静”下来的点</h2><p>我承认，第一遍看完规格的时候，有那么几秒钟真的被震撼到了。</p><p><strong>免费的能源 + 被动的散热 + 可复用的发射能力</strong>，这三件事叠在一起，理论上确实绕开了地球上最头疼的三个约束。把一颗卫星想象成“太空里的一个机架”，然后用激光把几千上万颗连成网，概念上自洽。</p><p>但刷完评论区和一些分析帖（包括 Stratechery、Tom’s Hardware 以及大量专业回复），我迅速冷静下来。</p><p><strong>几个真实存在的硬骨头：</strong></p><ol><li><p><strong>散热没那么容易</strong><br>真空里唯一散热方式就是辐射。ISS 散 70kW 热量就要几百平方米辐射面。AI1 宣称 110 平米搞定 120-150kW，听起来激进。液体回路在太空中长期可靠性（泄漏、泵故障、热循环）也是大问题。很多人直言：“你以为的‘just radiate heat’其实是航天里最难的工程之一。”</p></li><li><p><strong>规模上完全不是一个量级</strong><br>一颗 AI1 才 0.12MW 左右。一个地面 1GW 级 hyperscale 数据中心，需要几千到上万颗这样的卫星。即使 Starship 未来能一次送几十颗，发射次数和成本依然惊人。乐观派说长期发射成本会极低，悲观派说“launch cost alone 可能还是地面 DC 的好几倍”。</p></li><li><p><strong>延迟问题限制了用处</strong><br>光速到地面就有固定延迟，星间还要组网。对实时用户推理（chat、agent 即时响应）不友好。更适合长时间训练任务、后台批量处理、或者“agentic inference”这种可以容忍等待的 workload。不是所有 AI 都适合上天。</p></li><li><p><strong>其他现实风险</strong><br>辐射对电子器件的影响、卫星寿命（LEO 阻力，几年后大概率烧毁或主动离轨）、空间碎片、地面天文观测受影响、芯片供应（SpaceX 自己也在 IPO 文件里提过目前芯片不够）……这些都不是 PPT 能解决的。</p></li></ol><p><img src="https://r2.weifamily.cn/obsidian/20260610095105117.webp"></p><p>我不是在黑这个项目。只是觉得，作为一个“聪明但很忙”的读者（或者写作者），我最怕两种东西：一种是完全不提缺点的纯吹；另一种是听到“物理定律”就直接否定一切创新。</p><p>SpaceX 的优势在于，他们不是 PPT 党。他们有 Starship（如果成功，发射成本会继续断崖式下降）、有全球最大星座的运营经验、有垂直整合能力。把这些能力复用到“轨道机架”上，确实有可能在 5-10 年后成为现实的补充方案，而不是完全的替代。</p><h2 id="我的真实判断"><a href="#我的真实判断" class="headerlink" title="我的真实判断"></a>我的真实判断</h2><p>看完所有信息后，我现在的看法是：</p><p><strong>这不是银弹，但是一条值得认真投入的平行路径。</strong></p><p>地球上的数据中心短期内依然会是主力。电网扩容、核电重启、先进冷却、地方妥协，这些都会继续发生。</p><p>但当算力需求继续以指数级增长，当“要不要再批一个 GW 级项目”变成政治和社区难题时，轨道算力就能成为“边际增量”的重要来源。尤其是那些对延迟不敏感、可以批量调度、愿意为“几乎无限能源”支付溢价的训练和 agent 任务。</p><p>更重要的是，它改变了叙事。</p><p>SpaceX 不再只是一家火箭公司。它在说：<strong>我要把 AI 时代的基础设施（能源 + 网络 + 计算）垂直打通，而且一部分放到地球之外。</strong></p><p>这个野心配得上它在 IPO 时讲的巨大 TAM。即使最终只实现 10%，对整个产业的影响也可能是结构性的。</p><hr><p>我刷完那个视频和一堆讨论后，最大的感受其实不是“AI 要起飞了”，而是<strong>物理世界对数字未来的约束，比我们想象得更真实，也更顽固</strong>。</p><p>算法可以继续 scaling，芯片可以继续迭代，但电从哪里来？热往哪里去？这些问题不会因为我们喊“AGI 来了”就自动消失。</p><p>SpaceX 用一种极端的方式，把这个问题扔到了太空中。</p><p>我不会现在就断言它一定成功——航天历史上有太多“听起来合理、实际极难”的项目。但我也不会因为“听起来像科幻”就直接嘲笑。</p><p>因为过去十年，SpaceX 已经多次把“不可能”变成了“又一次成功”。</p><p>AI 的未来，不只写在模型参数里，也写在太阳能电池板、辐射器、激光链路和可重复使用火箭的发射记录上。</p><p>而我们这些普通人，能做的，大概就是继续保持好奇，同时保持一点健康的怀疑。</p><p>毕竟，真正的进步，从来不是靠一句“genuinely insane”就能实现的。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> SpaceX </category>
+          
+          <category> AI </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> SpaceX </tag>
+            
+            <tag> 卫星 </tag>
+            
+            <tag> 算力 </tag>
+            
+            <tag> 能源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpaceX即将上市创下2万亿美金市值，最大的受益人其实是她</title>
       <link href="/undefined/spaceX-gwynne-shotwell-behind-elon-musk/"/>
       <url>/undefined/spaceX-gwynne-shotwell-behind-elon-musk/</url>
@@ -49,9 +84,9 @@
             
             <tag> xAI </tag>
             
-            <tag> Anthropic </tag>
-            
             <tag> SpaceX </tag>
+            
+            <tag> Anthropic </tag>
             
         </tags>
       
@@ -864,13 +899,13 @@
             
             <tag> 马斯克 </tag>
             
-            <tag> SpaceX </tag>
+            <tag> 人工智能 </tag>
             
             <tag> 太空数据中心 </tag>
             
             <tag> Optimus </tag>
             
-            <tag> 人工智能 </tag>
+            <tag> SpaceX </tag>
             
             <tag> 科技趋势 </tag>
             
