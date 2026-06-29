@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Cybercab：第一辆真正为自动驾驶而生的汽车</title>
+      <link href="/undefined/cybercab-first-native-autonomous-car/"/>
+      <url>/undefined/cybercab-first-native-autonomous-car/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>我第一次看到 Cybercab 时，注意力也被那两个最显眼的东西吸走了：<strong>没有方向盘，没有踏板。</strong></p><p>但说实话，我当时并没有特别兴奋。把方向盘拆掉，不代表自动驾驶已经成立；一辆展车在封闭场地绕几圈，也不能证明它能处理真实世界的混乱。</p><p>真正让我改变看法的，是 Tesla 最近发布的一份文件。</p><p>它不讲愿景，不讲未来，也不讲“颠覆”。它写的是：消防员怎么识别 Cybercab，警察怎么让它靠边，事故后如何开门，车辆失联怎么办，拖车时为什么四个轮子都不能着地。</p><p>这是一份 29 页的《Cybercab 第一响应人员互动方案》，版本日期是 2026 年 6 月 22 日。</p><p><img src="https://r2.weifamily.cn/obsidian/20260629101725426.png"></p><p>我看完后突然意识到：<strong>Cybercab 最重要的地方，根本不是没有方向盘，而是它第一次把“车里没有司机”当成了所有设计的起点。</strong></p><h2 id="过去的自动驾驶，本质上还是“替人开车”"><a href="#过去的自动驾驶，本质上还是“替人开车”" class="headerlink" title="过去的自动驾驶，本质上还是“替人开车”"></a>过去的自动驾驶，本质上还是“替人开车”</h2><p>今天大多数自动驾驶汽车，底层仍是一辆给人开的车。</p><p>方向盘、刹车、后视镜、驾驶位都保留着，只是在上面增加摄像头、激光雷达、计算平台和软件。Waymo 使用改装后的量产车，Tesla 目前在美国运营的 Robotaxi 也仍以 Model Y 为主。</p><p>这种路线很合理：成熟、合规、容易快速部署。但它有一个隐含前提——<strong>车首先服务司机，然后才兼容机器。</strong></p><p>Cybercab 把顺序彻底反了过来。</p><p>它只有两个座位，通常没有方向盘、油门和刹车，没有外后视镜；车门通过 B 柱按钮开启，车内主要交互集中在一块横向屏幕上。测试车辆如果装有方向盘和踏板，官方文件反而明确把它归为只能运行 SAE L2 的工程车；真正投入 Robotaxi 服务的版本则是 L4。</p><p><img src="https://r2.weifamily.cn/obsidian/20260629102036359.png"></p><p>这不是删掉几个零件，而是换了“默认用户”：过去汽车的第一用户是司机，Cybercab 的第一用户是乘客，真正的驾驶者是自动驾驶系统。</p><h2 id="一辆原生自动驾驶汽车，必须自己善后"><a href="#一辆原生自动驾驶汽车，必须自己善后" class="headerlink" title="一辆原生自动驾驶汽车，必须自己善后"></a>一辆原生自动驾驶汽车，必须自己善后</h2><p>自动驾驶最难的从来不是在正常道路上往前开，而是遇到不正常的事怎么办。</p><p>救护车从后方接近时，它要识别警灯和警笛，减速、让行并寻找安全位置停车；被警车持续跟随时，它会靠边、驻车、退出自动驾驶，并主动接通 Tesla Robotaxi Support。</p><p><img src="https://r2.weifamily.cn/obsidian/20260629102237495.png"></p><p>道路发生事故，现场人员可以要求 Tesla 在事发点周围约 1000 英尺建立临时地理围栏，让其他 Robotaxi 绕开。车辆发生碰撞或气囊弹出后，会尝试停车、解锁车门、快速闪烁双闪；如果气囊已经展开，还会自动降下车窗并建立双向通话。</p><p>更有意思的是，Cybercab 不只是会“听”警察的指令。它能识别清晰的手势，也能沿着锥桶划出的临时路线移动。车辆堵在危险位置时，经过身份确认的第一响应人员还可以通过车载控制界面，把它短距离移走。</p><p>这些细节看起来琐碎，却比一段漂亮的无人驾驶视频更有分量。</p><p>因为它说明 Tesla 已经开始回答一个真正困难的问题：<strong>当司机不存在，过去由司机承担的责任由谁接走？</strong></p><p>答案不是一颗更强的芯片，而是一整套系统：车端感知、远程支持、道路救援、事故数据、地理围栏、人工接管流程，以及消防和警方能够理解的统一信号。</p><h2 id="“原生”的含义，是整套系统都不再等待人类兜底"><a href="#“原生”的含义，是整套系统都不再等待人类兜底" class="headerlink" title="“原生”的含义，是整套系统都不再等待人类兜底"></a>“原生”的含义，是整套系统都不再等待人类兜底</h2><p>官方文件对 Cybercab 的运行范围写得很具体：高速公路、城市道路、乡村道路、停车场、充电站、洗车房和停车楼；白天夜晚都能运行，也能应对轻度和中度的雨、雾、雪。</p><p>接完一单后，它可以继续巡游，也可以自己去停车、充电或清洁。电量不足时，它不会再接新订单；连接或硬件异常时，它会快速闪烁双闪，并尝试停到最近的安全位置。</p><p>连碰撞安全也开始围绕“纯乘客舱”重新设计。相关官方资料显示，Cybercab 至少配置 10 个气囊，还有在特定行人碰撞中主动抬升、降低伤害的主动式引擎盖。它不是一台只会自动转方向盘的机器，而是一辆必须独立完成运营闭环的汽车。</p><p>这才是我愿意把 Cybercab 称为“第一辆原生自动驾驶汽车”的原因。</p><p>我说的“第一”，不是按概念车发布时间排世界第一。Zoox 的专用 Robotaxi、已经终止项目的 Cruise Origin，都更早做过无方向盘、无踏板的设计。忽略它们，不诚实。</p><p>Cybercab 真正特殊的地方在于，它把这种设计带进了传统汽车公司的量产逻辑：Tesla 在 2026 年第一季度报告中已把 Cybercab 列为得州工厂“试生产”，并计划在年内启动规模生产。它看起来仍像一辆汽车，有明确的两座空间和行李厢，却不再为“偶尔由人接管”保留整套驾驶硬件。</p><p><strong>它不是最早出现的无人驾驶舱，却可能是第一辆试图以汽车工业的规模，把“无人驾驶舱”变成街头常见车辆的产品。</strong></p><h2 id="但现在还远远不是胜利时刻"><a href="#但现在还远远不是胜利时刻" class="headerlink" title="但现在还远远不是胜利时刻"></a>但现在还远远不是胜利时刻</h2><p>我对 Cybercab 兴奋，也保留三个问号。</p><p>第一，它的能力有明确边界。官方文件说，洪水、暴雨、冰雪路面和飓风级大风都不在当前适用范围内。极端天气突发时，车辆的策略是靠边停车并等待救援。这很诚实，也提醒我们：L4 不是“任何地方、任何天气都能开”。</p><p>第二，所谓“无人”仍需要大量人。远程支持人员要处理失联、事故、身份验证和现场沟通，快速响应团队要回收故障车辆。Cybercab 消失的是车内司机，不是整条服务链上的人。</p><p>第三，法规仍在追赶产品。就在 6 月 25 日，美国 NHTSA 才启动新一轮规则修订，拟取消专为自动驾驶系统设计的车辆必须安装人工刹车踏板的要求。没有方向盘和踏板，既是工程问题，也是认证问题。</p><p>而且，一份应急响应文件只能证明 Tesla 在认真准备，不能证明 Cybercab 已经大规模、安全地跑在开放道路上。Tesla 官网目前仍写着，现有 Robotaxi 服务从 Model Y 开始，Cybercab 将在未来提供服务。</p><h2 id="汽车终于不再围绕司机旋转"><a href="#汽车终于不再围绕司机旋转" class="headerlink" title="汽车终于不再围绕司机旋转"></a>汽车终于不再围绕司机旋转</h2><p>一百多年来，汽车的所有核心设计都围绕驾驶者展开：座椅朝向、视野、仪表、踏板、方向盘，甚至车身比例，都在服务一个坐在前排控制机器的人。</p><p>自动驾驶过去做的，是让机器学会使用这套为人类准备的系统。</p><p>Cybercab 做的则更激进：<strong>既然机器已经开车，为什么汽车还要继续长成司机熟悉的样子？</strong></p><p>所以，那份枯燥的应急文件比发布会更让我兴奋。它意味着 Cybercab 正从舞台中央的概念车，变成一个需要被警察叫停、被消防员破拆、被拖车运走的现实物体。</p><p>真正的新物种，不是永远不出错。</p><p>而是出错以后，整个世界终于知道该怎么和它相处。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Cybercab </tag>
+            
+            <tag> Tesla </tag>
+            
+            <tag> Robotaxi </tag>
+            
+            <tag> 自动驾驶 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SpaceX IPO前夜扔出AI1卫星：免费太阳能+真空散热，真的能打破AI电力和散热天花板？</title>
       <link href="/undefined/spacex-ai1-satellite-orbital-ai-data-center/"/>
       <url>/undefined/spacex-ai1-satellite-orbital-ai-data-center/</url>
@@ -899,11 +924,11 @@
             
             <tag> 马斯克 </tag>
             
-            <tag> 人工智能 </tag>
-            
             <tag> 太空数据中心 </tag>
             
             <tag> Optimus </tag>
+            
+            <tag> 人工智能 </tag>
             
             <tag> SpaceX </tag>
             
@@ -1444,9 +1469,9 @@
       
         <tags>
             
-            <tag> 特斯拉 </tag>
-            
             <tag> 自动驾驶 </tag>
+            
+            <tag> 特斯拉 </tag>
             
         </tags>
       
