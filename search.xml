@@ -8,7 +8,7 @@
       <link href="/undefined/apple-openai-trade-secrets-lawsuit-hardware-war/"/>
       <url>/undefined/apple-openai-trade-secrets-lawsuit-hardware-war/</url>
       
-        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>2026 年 1 月 22 日，Chang Liu 离开了工作八年的 Apple。</p><p>按照常规，他该交还电脑、参加离职面谈，再签一份保密义务提醒。可 Apple 后来在起诉书里说，发给他的消息没有得到回应，至少还有一台公司电脑没有归还。</p><p>几小时后，一条消息出现在仍留在 Apple 的工程师 Yu-Ting “Alyssa” Peng 的工作电脑上。</p><blockquote><p>“我还有另一台电脑。”</p></blockquote><p>如果 Apple 的指控属实，这不是一句普通的离职交接疏漏，而是一场硅谷硬件战争的开场白。</p><p>半年后，Apple 把 Chang Liu、OpenAI 硬件负责人 Tang Yew Tan、OpenAI 及其收购的 io Products 一起告上美国加州北区联邦法院。41 页起诉状里，未归还的电脑、意外存活的访问权限、上千页工程资料、带去面试的真实零件和供应商的金属加工工艺，被串成了一条令人不安的线索。</p><p>这条线的另一端，是 OpenAI 想要造出的下一代 AI 设备。</p><h2 id="一台没有归还的电脑"><a href="#一台没有归还的电脑" class="headerlink" title="一台没有归还的电脑"></a>一台没有归还的电脑</h2><p>Chang Liu 不是一个站在聚光灯下的人。</p><p>根据 Apple 的起诉状，他曾担任 iPhone 产品线的高级系统电气工程师，在 Apple 工作超过八年，接触过高度敏感的产品开发项目。2026 年 1 月，他转入 OpenAI，成为技术团队成员。</p><p>Apple 称，Liu 离职后仍与 Peng 频繁联系。Peng 当时还在 Apple，直到 4 月 16 日才离职加入 OpenAI。就在 Liu 离开 Apple 的当天，他说自己还留着“另一台电脑”，计划当晚用它访问 Apple 信息，与 Peng 讨论。</p><p>起诉书还称，Liu 离职后曾使用 Peng 已通过 Apple 网络认证的工作电脑。换句话说，人已经离开，设备与访问路径却没有完全断开。</p><p>真正的转折发生在 2 月 9 日前后。</p><p>Apple 在起诉状中说，Liu 尝试进入公司的网络存储——一个保存机密工程文件、项目文档和技术资料的云端文件库。他意外发现，由于一个此前未知的认证漏洞，自己的访问权限仍然有效。</p><p>按照 Apple 的叙述，他没有报告漏洞，而是给 Peng 发去一句带着笑意的话：自己居然还能访问那个网络存储，“LOL”“太好笑了”。Peng 的回复只有一句：“我准备好了。”</p><p>需要强调的是：这些内容目前来自 Apple 的单方起诉材料。案件刚刚进入诉讼程序，法院尚未对指控作出事实认定，Liu 和 Peng 的完整说法也未见公开。</p><h2 id="“太好笑了”之后，几十份文件被下载"><a href="#“太好笑了”之后，几十份文件被下载" class="headerlink" title="“太好笑了”之后，几十份文件被下载"></a>“太好笑了”之后，几十份文件被下载</h2><p><img src="https://r2.weifamily.cn/obsidian/20260713111259266.webp"></p><p>在 Apple 描述的版本里，那次意外登录很快从漏洞发现变成了持续数周的文件访问。</p><p>Apple 指控 Liu 在已经受雇于 OpenAI 的情况下，从内部存储中挑选并下载了几十份机密文件，包括技术演示文稿、电子表格、PDF 和书面工作成果。其中一套资料汇编超过一千页，记录了他和其他工程师在 Apple 的工作细节，不少页面明确标有保密字样。</p><p>最具体的一份材料，与 MLB 有关。这里的 MLB 不是棒球联盟，而是 multi-layer 或 main logic board，也就是 Apple 硬件里的多层板或主逻辑板。</p><p>起诉书称，这份演示材料不只展示主板长什么样，还包含制造流程、测试步骤、测试数据如何读取，以及不同设备能够诊断哪些故障。它的价值不在某一张电路图，而在多年生产过程中积累的“怎么测、怎么看、哪里最容易失败”。</p><p>对想从零开始做硬件的团队来说，这种知识尤其昂贵。成品可以被拆解，参数可以被测量，但失败过哪些方案、供应商怎样配合、量产时哪个环节最容易出问题，往往无法靠逆向工程得到。</p><p>Apple 还称，Liu 把内部文件链接发给 Peng，告诉她应该查看哪些项目文件夹、工程文档和技术数据；在 Peng 准备 OpenAI 面试时，又指导她复习哪些未发布项目的机密材料。</p><p>起诉书记录的另一个细节是，Liu 据称教 Peng 如何复制文件以“避免惹上安全团队的麻烦”，并提议改用 LINE Messenger 私下交流，以降低被发现的风险。</p><p>可戏剧性在于，Apple 表示，其调查线索恰恰来自公司设备和系统中留下的消息与记录。</p><p>一名做了多年电气工程的工程师，或许熟悉电流如何在主板上留下信号，却没能让数字世界里的路径完全消失。</p><h2 id="Apple-说，这不只是一个工程师的故事"><a href="#Apple-说，这不只是一个工程师的故事" class="headerlink" title="Apple 说，这不只是一个工程师的故事"></a>Apple 说，这不只是一个工程师的故事</h2><p>如果起诉状只写到这里，这会是一宗典型的员工离职与商业秘密纠纷。</p><p>但 Apple 把矛头指向了更高的位置：OpenAI 首席硬件官 Tang Tan。</p><p>Tan 在 Apple 工作了 24 年，最后担任 iPhone 与 Apple Watch 产品设计副总裁。2024 年，他与多位前 Apple 高管共同创建 io Products；2025 年 5 月，OpenAI 宣布以接近 65 亿美元的交易收购 io，并将团队并入自己的硬件计划。</p><p>在 Apple 的叙述中，Tan 不只是带走了长期积累的职业经验。Apple 指控他在离职前把供应商信息和行业内部摘要发到自己的邮箱；在 OpenAI 面试 Apple 员工时，使用 Apple 内部项目代号追问未发布产品的进展。</p><p>更惊人的指控出现在面试环节。</p><p>Apple 称，候选人被要求准备“技术深潜”演示，带上 CAD 或设计资料、原型，甚至将电池、系统级封装、主逻辑板、屏蔽件、外壳和不同颜色的背玻璃等“真实零件”作为道具，进行“show and tell”。起诉书引述一名候选人的疑问：他甚至不知道这些东西可以从办公室带出来。</p><p>Apple 还声称，一份标有“Need to Know”的内部离职管理文件在 OpenAI 招聘链条中流转。它原本描述 Apple 在员工离职时会采取哪些安全检查，却被用来让即将离职者提前知道该如何应对流程。</p><p>在供应链一端，指控同样严重。Apple 称，OpenAI 或 io 找到 Apple 的长期合作伙伴，让对方为其执行一套专有的多步骤金属表面处理工艺，并使合作伙伴误以为得到了 Apple 的许可；OpenAI 还用只有内部人士熟悉的术语，向另一家负责电源和电池制造的 Apple 供应商追问特定组件。</p><p>从个人电脑、招聘面试到供应商网络，Apple 试图向法院证明的，不是几次孤立违规，而是一套“系统性获取”商业秘密的模式。</p><h2 id="为什么-Apple-此刻选择开战"><a href="#为什么-Apple-此刻选择开战" class="headerlink" title="为什么 Apple 此刻选择开战"></a>为什么 Apple 此刻选择开战</h2><p>这场诉讼发生在一段异常微妙的关系中。</p><p>Apple 与 OpenAI 并非一直站在对立面。2024 年，双方合作把 ChatGPT 接入 Apple Intelligence。Apple 在起诉状中专门说明，这份商业合作协议不是本案争议对象。</p><p>与此同时，OpenAI 正试图从软件走向消费硬件。它买下 Jony Ive 参与创办的 io，吸收来自 Apple 的设计与工程人才，并与 Foxconn、Luxshare、Goertek 等制造伙伴建立联系。Apple 在起诉书中声称，已有超过 400 名前 Apple 员工在 OpenAI 工作。</p><p>人才流动本身当然不违法。工程师可以带走能力、判断和经验，却不能带走受保护的文件、原型和商业秘密。真正难以划线的是，顶尖硬件组织的竞争力，本来就同时存在于人的大脑、公司的文档和供应链关系里。</p><p>这也是 Apple 为什么把诉讼写成一场生存边界之争。</p><p>AI 公司的第一场竞赛，是模型、算力与数据；当它们开始制造现实世界里的设备，竞赛就进入第二层：材料、结构、功耗、测试、良率、成本、交付和供应商协同。</p><p>一个模型可以通过发布新版本迅速迭代，一台消费电子产品却要通过成千上万次看不见的失败，才能稳定地出现在货架上。Apple 真正担心的，或许不是 OpenAI 学会画一块主板，而是对方绕过几十年的试错成本，直接拿到一张通往量产的地图。</p><h2 id="双方现在各自说了什么"><a href="#双方现在各自说了什么" class="headerlink" title="双方现在各自说了什么"></a>双方现在各自说了什么</h2><p>Apple 在 7 月 10 日提交的诉状中提出多项商业秘密侵占与违约主张，并要求陪审团审理。它希望法院禁止被告继续持有、使用或披露 Apple 的商业秘密，要求返还相关资料、保全证据，并赔偿损失和不当得利。诉状也提出惩罚性赔偿请求。</p><p>OpenAI 的公开回应很短。其发言人 Drew Pusateri 表示，公司“对其他公司的商业秘密没有兴趣”，仍专注于打造能够赋能全球用户的创新技术。Apple 则表示，保护团队成果与知识产权是公司极其严肃对待的事情。</p><p>截至本文写作时，公开报道尚未显示法院已经就 Apple 的核心指控作出裁决。起诉状是故事的一方陈述，不是判决书；后续答辩、证据开示和法庭审理，可能支持、修正，也可能推翻其中部分叙述。</p><p>但无论案件最终如何收场，它已经提前揭示了一件事：AI 硬件时代的战争，不会只发生在发布会和产品评测里。</p><p>它还会发生在离职清单、访问日志、招聘面试、供应商车间，以及一句自以为不会被留下的“LOL”里。</p><p>那台没有归还的电脑，最终是否真的装着通往 OpenAI 硬件未来的捷径，要由证据和法院来回答。</p><p>而整个硅谷都已经听见了警报声。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+        <content type="html"><![CDATA[<p>2026 年 1 月 22 日，Chang Liu 离开了工作八年的 Apple。</p><p>按照常规，他该交还电脑、参加离职面谈，再签一份保密义务提醒。可 Apple 后来在起诉书里说，发给他的消息没有得到回应，至少还有一台公司电脑没有归还。</p><p>几小时后，一条消息出现在仍留在 Apple 的工程师 Yu-Ting “Alyssa” Peng 的工作电脑上。</p><blockquote><p>“我还有另一台电脑。”</p></blockquote><p>如果 Apple 的指控属实，这不是一句普通的离职交接疏漏，而是一场硅谷硬件战争的开场白。</p><p>半年后，Apple 把 Chang Liu、OpenAI 硬件负责人 Tang Yew Tan、OpenAI 及其收购的 io Products 一起告上美国加州北区联邦法院。41 页起诉状里，未归还的电脑、意外存活的访问权限、上千页工程资料、带去面试的真实零件和供应商的金属加工工艺，被串成了一条令人不安的线索。</p><p>这条线的另一端，是 OpenAI 想要造出的下一代 AI 设备。</p><h2 id="一台没有归还的电脑"><a href="#一台没有归还的电脑" class="headerlink" title="一台没有归还的电脑"></a>一台没有归还的电脑</h2><p>Chang Liu 不是一个站在聚光灯下的人。</p><p>根据 Apple 的起诉状，他曾担任 iPhone 产品线的高级系统电气工程师，在 Apple 工作超过八年，接触过高度敏感的产品开发项目。2026 年 1 月，他转入 OpenAI，成为技术团队成员。</p><p>Apple 称，Liu 离职后仍与 Peng 频繁联系。Peng 当时还在 Apple，直到 4 月 16 日才离职加入 OpenAI。就在 Liu 离开 Apple 的当天，他说自己还留着“另一台电脑”，计划当晚用它访问 Apple 信息，与 Peng 讨论。</p><p>起诉书还称，Liu 离职后曾使用 Peng 已通过 Apple 网络认证的工作电脑。换句话说，人已经离开，设备与访问路径却没有完全断开。</p><p>真正的转折发生在 2 月 9 日前后。</p><p>Apple 在起诉状中说，Liu 尝试进入公司的网络存储——一个保存机密工程文件、项目文档和技术资料的云端文件库。他意外发现，由于一个此前未知的认证漏洞，自己的访问权限仍然有效。</p><p>按照 Apple 的叙述，他没有报告漏洞，而是给 Peng 发去一句带着笑意的话：自己居然还能访问那个网络存储，“LOL”“太好笑了”。Peng 的回复只有一句：“我准备好了。”</p><p>需要强调的是：这些内容目前来自 Apple 的单方起诉材料。案件刚刚进入诉讼程序，法院尚未对指控作出事实认定，Liu 和 Peng 的完整说法也未见公开。</p><h2 id="“太好笑了”之后，几十份文件被下载"><a href="#“太好笑了”之后，几十份文件被下载" class="headerlink" title="“太好笑了”之后，几十份文件被下载"></a>“太好笑了”之后，几十份文件被下载</h2><p><img src="https://r2.weifamily.cn/obsidian/20260713111259266.webp"></p><p>在 Apple 描述的版本里，那次意外登录很快从漏洞发现变成了持续数周的文件访问。</p><p>Apple 指控 Liu 在已经受雇于 OpenAI 的情况下，从内部存储中挑选并下载了几十份机密文件，包括技术演示文稿、电子表格、PDF 和书面工作成果。其中一套资料汇编超过一千页，记录了他和其他工程师在 Apple 的工作细节，不少页面明确标有保密字样。</p><p>最具体的一份材料，与 MLB 有关。这里的 MLB 不是棒球联盟，而是 multi-layer 或 main logic board，也就是 Apple 硬件里的多层板或主逻辑板。</p><p>起诉书称，这份演示材料不只展示主板长什么样，还包含制造流程、测试步骤、测试数据如何读取，以及不同设备能够诊断哪些故障。它的价值不在某一张电路图，而在多年生产过程中积累的“怎么测、怎么看、哪里最容易失败”。</p><p>对想从零开始做硬件的团队来说，这种知识尤其昂贵。成品可以被拆解，参数可以被测量，但失败过哪些方案、供应商怎样配合、量产时哪个环节最容易出问题，往往无法靠逆向工程得到。</p><p>Apple 还称，Liu 把内部文件链接发给 Peng，告诉她应该查看哪些项目文件夹、工程文档和技术数据；在 Peng 准备 OpenAI 面试时，又指导她复习哪些未发布项目的机密材料。</p><p>起诉书记录的另一个细节是，Liu 据称教 Peng 如何复制文件以“避免惹上安全团队的麻烦”，并提议改用 LINE Messenger 私下交流，以降低被发现的风险。</p><p>可戏剧性在于，Apple 表示，其调查线索恰恰来自公司设备和系统中留下的消息与记录。</p><p>一名做了多年电气工程的工程师，或许熟悉电流如何在主板上留下信号，却没能让数字世界里的路径完全消失。</p><h2 id="Apple-说，这不只是一个工程师的故事"><a href="#Apple-说，这不只是一个工程师的故事" class="headerlink" title="Apple 说，这不只是一个工程师的故事"></a>Apple 说，这不只是一个工程师的故事</h2><p>如果起诉状只写到这里，这会是一宗典型的员工离职与商业秘密纠纷。</p><p>但 Apple 把矛头指向了更高的位置：OpenAI 首席硬件官 Tang Tan。</p><p>Tan 在 Apple 工作了 24 年，最后担任 iPhone 与 Apple Watch 产品设计副总裁。2024 年，他与多位前 Apple 高管共同创建 io Products；2025 年 5 月，OpenAI 宣布以接近 65 亿美元的交易收购 io，并将团队并入自己的硬件计划。</p><p>在 Apple 的叙述中，Tan 不只是带走了长期积累的职业经验。Apple 指控他在离职前把供应商信息和行业内部摘要发到自己的邮箱；在 OpenAI 面试 Apple 员工时，使用 Apple 内部项目代号追问未发布产品的进展。</p><p>更惊人的指控出现在面试环节。</p><p>Apple 称，候选人被要求准备“技术深潜”演示，带上 CAD 或设计资料、原型，甚至将电池、系统级封装、主逻辑板、屏蔽件、外壳和不同颜色的背玻璃等“真实零件”作为道具，进行“show and tell”。起诉书引述一名候选人的疑问：他甚至不知道这些东西可以从办公室带出来。</p><p>Apple 还声称，一份标有“Need to Know”的内部离职管理文件在 OpenAI 招聘链条中流转。它原本描述 Apple 在员工离职时会采取哪些安全检查，却被用来让即将离职者提前知道该如何应对流程。</p><p>在供应链一端，指控同样严重。Apple 称，OpenAI 或 io 找到 Apple 的长期合作伙伴，让对方为其执行一套专有的多步骤金属表面处理工艺，并使合作伙伴误以为得到了 Apple 的许可；OpenAI 还用只有内部人士熟悉的术语，向另一家负责电源和电池制造的 Apple 供应商追问特定组件。</p><p>从个人电脑、招聘面试到供应商网络，Apple 试图向法院证明的，不是几次孤立违规，而是一套“系统性获取”商业秘密的模式。</p><h2 id="为什么-Apple-此刻选择开战"><a href="#为什么-Apple-此刻选择开战" class="headerlink" title="为什么 Apple 此刻选择开战"></a>为什么 Apple 此刻选择开战</h2><p>这场诉讼发生在一段异常微妙的关系中。</p><p>Apple 与 OpenAI 并非一直站在对立面。2024 年，双方合作把 ChatGPT 接入 Apple Intelligence。Apple 在起诉状中专门说明，这份商业合作协议不是本案争议对象。</p><p>与此同时，OpenAI 正试图从软件走向消费硬件。它买下 Jony Ive 参与创办的 io，吸收来自 Apple 的设计与工程人才，并与 Foxconn、Luxshare、Goertek 等制造伙伴建立联系。Apple 在起诉书中声称，已有超过 400 名前 Apple 员工在 OpenAI 工作。</p><p>人才流动本身当然不违法。工程师可以带走能力、判断和经验，却不能带走受保护的文件、原型和商业秘密。真正难以划线的是，顶尖硬件组织的竞争力，本来就同时存在于人的大脑、公司的文档和供应链关系里。</p><p>这也是 Apple 为什么把诉讼写成一场生存边界之争。</p><p>AI 公司的第一场竞赛，是模型、算力与数据；当它们开始制造现实世界里的设备，竞赛就进入第二层：材料、结构、功耗、测试、良率、成本、交付和供应商协同。</p><p>一个模型可以通过发布新版本迅速迭代，一台消费电子产品却要通过成千上万次看不见的失败，才能稳定地出现在货架上。Apple 真正担心的，或许不是 OpenAI 学会画一块主板，而是对方绕过几十年的试错成本，直接拿到一张通往量产的地图。</p><h2 id="双方现在各自说了什么"><a href="#双方现在各自说了什么" class="headerlink" title="双方现在各自说了什么"></a>双方现在各自说了什么</h2><p>Apple 在 7 月 10 日提交的诉状中提出多项商业秘密侵占与违约主张，并要求陪审团审理。它希望法院禁止被告继续持有、使用或披露 Apple 的商业秘密，要求返还相关资料、保全证据，并赔偿损失和不当得利。诉状也提出惩罚性赔偿请求。</p><p>OpenAI 的公开回应很短。其发言人 Drew Pusateri 表示，公司“对其他公司的商业秘密没有兴趣”，仍专注于打造能够赋能全球用户的创新技术。Apple 则表示，保护团队成果与知识产权是公司极其严肃对待的事情。</p><p>截至本文写作时，公开报道尚未显示法院已经就 Apple 的核心指控作出裁决。起诉状是故事的一方陈述，不是判决书；后续答辩、证据开示和法庭审理，可能支持、修正，也可能推翻其中部分叙述。</p><p>但无论案件最终如何收场，它已经提前揭示了一件事：AI 硬件时代的战争，不会只发生在发布会和产品评测里。</p><p>它还会发生在离职清单、访问日志、招聘面试、供应商车间，以及一句自以为不会被留下的“LOL”里。</p><p>那台没有归还的电脑，最终是否真的装着通往 OpenAI 硬件未来的捷径，要由证据和法院来回答。</p><p>而整个硅谷都已经听见了警报声。</p>]]></content>
       
       
       <categories>
@@ -836,9 +836,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1438,9 +1438,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1465,9 +1465,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1492,9 +1492,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1519,9 +1519,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1600,9 +1600,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1627,9 +1627,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -1681,9 +1681,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
@@ -3089,9 +3089,9 @@
       
         <tags>
             
-            <tag> iPhone </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> iPhone </tag>
             
         </tags>
       
