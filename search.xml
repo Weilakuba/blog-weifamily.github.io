@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>特斯拉发布会还没开，45辆没方向盘的车已经有牌了</title>
+      <link href="/undefined/tesla-cybercab-texas-plates/"/>
+      <url>/undefined/tesla-cybercab-texas-plates/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>周四晚上，很多人会守着 Tesla 的直播。海报已经写好了：仅限受邀，奥斯汀，体验所谓的 Full Autonomy。我本来也打算到点再看，把这篇留到发布会后再写。</p><p><img src="https://r2.weifamily.cn/obsidian/20260901150012181.webp"></p><p>结果 8 月 31 号深夜，我先看见一张表。</p><p><img src="https://r2.weifamily.cn/obsidian/20260901145658963.webp"></p><p>不是渲染图，不是那条被拍烂的 RGB 灯带，是德州车管所公开系统里的查询结果。Tesla Robotaxi, LLC 名下，多出一串 2026 款 Cybercab。VIN 前缀是 <strong>5YJA</strong>，跟已经在跑的 Model Y Robotaxi 前缀 <strong>7SAYG</strong> 不是同一路货。两座。没有方向盘，没有踏板。</p><p>今天是 9 月 1 号，周二。发布会要到 <strong>9 月 3 号周四</strong> 才开。舞台还没亮，名录已经改完了。</p><p>我第一反应其实不太体面：又来了，发布会前放风。Tesla 这套节奏我太熟了，先把情绪拉满，细节留给直播。第二反应才正经一点。我去翻了 Teslarati、Not a Tesla App，还有那些专门刮 TxMCCS 公开库的社区跟踪账号。Sawyer Merritt 在 X 上也跟了这条。</p><h2 id="数字比海报诚实。"><a href="#数字比海报诚实。" class="headerlink" title="数字比海报诚实。"></a>数字比海报诚实。</h2><p>同一天，这张表先出现 <strong>7</strong> 辆，过了几个小时变成 <strong>45</strong>。Teslarati 写的是加了 38 辆，总数 45。Sawyer Merritt 跟社区跟踪账号截的是同一套公开库。我没在奥斯汀，更没进过 Giga Texas 的车间，这些数字我只敢说是从公开记录和上述报道里看到的。可 7 跳到 45，发生在同一天，不像走秀前摆几辆样车那么简单。摆样车不需要一口气改名录。改名录，是打算让这些车以商业身份存在。</p><p>VIN 前缀这种东西，正常人扫一眼就过去。我盯着 5YJA，是因为它把故事说死了。如果名录里新加的还是 7SAYG，那只是 Model Y 车队再扩一截，新闻价值有，但硬件故事没变。5YJA 出现的意思是：两座、没方向盘、没踏板的那台车，已经不是概念片里的道具，是可以写进德州商业车辆名单的量产件。</p><p>Model Y 那一列本来就已经是几百辆的量级。Teslarati 在 Cybercab 还是 7 辆的那个快照里，写过授权总数 276，其中 269 辆 Model Y。后来 Cybercab 涨到 45，我没有再看到一个我敢直接引用的新总数，所以我不加。只说这一句就够：<strong>已经在商业名单里跑了很久的，是改过的 Model Y；第一次真正为 Robotaxi 造的硬件，是这批 5YJA。</strong></p><p>很多人会把周四当成起点。我越翻越觉得，起点不在直播间。</p><p>德州参议院法案 <strong>Senate Bill 2807</strong> 今年 5 月下旬生效。商业 SAE Level 4 在德州走的是自我认证：运营商到 TxMCCS 备案，声明自己达到 Level 4，买好保险，维护一份有效车辆名单。没有戏剧性听证会，没有联邦那套旷日持久的审批戏。你自己签字，你自己把车列上去，出了事你自己扛。Tesla 几个月前已经替 Model Y Robotaxi 走完这套流程。那些车已经在奥斯汀、达拉斯、休斯敦等地拉过付费乘客。奥斯汀的无监督运营，Not a Tesla App 写成去年夏天的 beta，Teslarati 相关报道写的是 2025 年 6 月小范围开城。具体哪一天、哪几条街，各家口径不完全一样，我懒得在这儿对账。有一点是清楚的：Model Y 先把法律门打开了。Cybercab 做的事，是挤进同一扇门。</p><p>这才是我所谓的节点。不是有人站上舞台，是 <strong>没有方向盘的量产车，第一次出现在德州商业 Robotaxi 名录里。</strong></p><p><img src="https://r2.weifamily.cn/obsidian/20260901150033906.webp"></p><p>街拍我早就看过。Not a Tesla App 的 Nehal Malik 31 号写过，Tesla 员工已经在 Giga Texas 坐了好几周 Cybercab。奥斯汀市区也有人拍到量产车，前面那条 RGB 灯带，还有分屏 UI。Teslarati 补了一句我很在意的话：更早的一些样车，为了采集数据，还临时留过驾驶控件；登记进去的，是做完的无方向盘方案。</p><p>这三件事经常被混成一件。员工在工厂里坐，是内部测试。市区里被人拍到，是路试。进 TxMCCS，是商业身份。前两件我当热闹看，第三件才让我坐直。车可以先在街上跑给你看，不等于它已经有资格以 Robotaxi 的身份拉客。资格写在名录里。名录这回写的是 5YJA，不是 7SAYG。</p><p>我没坐过。视频里看过，街拍里看过，员工体验我只看得到别人转述。所以我不敢写手感如何，更不敢假装自己在车里跟工程师聊过。我能确定的只有名录本身：Tesla Robotaxi, LLC，45 行，5YJA，两座，没方向盘。</p><h2 id="然后必须把冷水泼清楚。"><a href="#然后必须把冷水泼清楚。" class="headerlink" title="然后必须把冷水泼清楚。"></a>然后必须把冷水泼清楚。</h2><p><strong>登记不等于已经开始对外收费。</strong> Not a Tesla App 和 Teslarati 都强调了这一点。它是法律前提，不是 Tesla App 里突然多出一个 Cybercab 按钮。周四到场的人，外界猜测、报道推测，多半能坐上演示。那是记者的预期，不是 Tesla 的确认。我不会把“演示”写成“开城”。开城是乘客打开 App、付钱、车来了。演示是受邀的人被请上车。中间还隔着一层，公开记录没说这层什么时候拆掉。</p><p>TechTimes 报道称，Waymo 在德州登记了 736 辆 Robotaxi。45 对着 736，不好看。我把这个数字放在这儿，不是为了帮谁吵架。想吵架的人，用车队规模就能把 Tesla 按在地上。我想说的是另一件事：Tesla 这次塞进名录的，不是又一批卸掉方向盘贴纸的 Model Y，是专门为这件事造的车。法律身份先对齐，硬件再换代。发布会负责让人兴奋，备案负责让车合法上路。兴奋可以等周四，上路这件事，纸面工作已经做了。</p><h2 id="我自己也觉得有点拧。"><a href="#我自己也觉得有点拧。" class="headerlink" title="我自己也觉得有点拧。"></a>我自己也觉得有点拧。</h2><p>跟着 Tesla 看了这么久，身体还是会往直播间靠。灯光、两座舱、那句 experience the future of full autonomy，邀请函发给部分 Robotaxi 乘客和其他客人，官方说会直播。这些都是仪式。仪式有用，它给一个日期，让所有人同时抬头。可仪式最擅长的，是把已经发生的事，重新演成即将发生。我们这种人吃这套。我自己也吃。所以我才要在周二把这张表先写下来，免得周四一激动，又把顺序记反。</p><p>我昨晚把那张表截下来，又看了一眼 VIN。5YJA。四个字母加一个数字，普通人不该对它兴奋。我承认我有点不正常。可我宁可兴奋这个，也不想把情绪全交给周四晚上那两小时。直播会很好看。好看归好看，它解释不了为什么这批车能出现在商业名录里。解释权在 Senate Bill 2807，在 TxMCCS，在 Tesla Robotaxi, LLC 那一栏已经改过的名单。</p><p>周四我会看。你会看。评论区会有人说“终于来了”，也会有人说“不就是发布会吗”。两边都对，也都不准。来的不是一场秀的开始，是一份已经写进 TxMCCS 的名单。至于那 45 辆什么时候真正出现在你手机的叫车页面上，公开记录没写。没写的事，我就不编。周四受邀的人会不会坐上演示，普通付费乘客什么时候能在 App 里叫到，是两道题。公开记录只帮我答了前提：车已经有合法身份了。</p><p>我们还是会去看那场秀。这没办法。只是下一次再有人问我 Robotaxi 进展到哪了，我大概会先问：名录里有几行，VIN 是哪几个字母。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tesla </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Tesla </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Cybercab发布会倒计时：特斯拉真正要证明的不是新车，而是商业闭环</title>
       <link href="/undefined/tesla-cybercab-launch-event-robotaxi-business-questions/"/>
       <url>/undefined/tesla-cybercab-launch-event-robotaxi-business-questions/</url>
