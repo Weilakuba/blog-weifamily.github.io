@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.weifamily.cn/undefined/tesla-cybercab-first-again/</loc>
+    
+    <lastmod>2026-09-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/undefined/openai-gpt6-astra-agi-era/</loc>
     
     <lastmod>2026-09-04</lastmod>
@@ -1297,6 +1306,13 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/AI/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/AI%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1332,13 +1348,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/AI/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/Apple/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1361,34 +1370,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/Siri/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Clawdbot/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Mac-mini/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1424,6 +1405,34 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/Clawdbot/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/Mac-mini/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1466,13 +1475,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/Others/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1535,6 +1537,20 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/tags/%E4%BB%BB%E5%8A%A1%E5%88%87%E6%8D%A2/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1577,13 +1593,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%89%B9%E6%96%AF%E6%8B%89/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1619,20 +1628,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%85%A7%E7%89%87/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/tags/Apple-Photos/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/Apple-Intelligence/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1648,6 +1643,20 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/WWDC-2026/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E7%85%A7%E7%89%87/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/Apple-Photos/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1794,13 +1803,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/tags/%E7%A7%91%E6%8A%80%E8%AF%89%E8%AE%BC/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/tags/Shivon-Zilis/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1809,6 +1811,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/tags/AI%E8%AF%89%E8%AE%BC/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/tags/%E7%A7%91%E6%8A%80%E8%AF%89%E8%AE%BC/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2027,13 +2036,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2041,7 +2043,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://blog.weifamily.cn/categories/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2055,7 +2057,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
+    <loc>https://blog.weifamily.cn/categories/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2069,14 +2071,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E7%A7%91%E6%8A%80%E5%95%86%E4%B8%9A/</loc>
+    <loc>https://blog.weifamily.cn/categories/AI%E7%BB%98%E5%9B%BE/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
+    <loc>https://blog.weifamily.cn/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E7%A7%91%E6%8A%80%E5%95%86%E4%B8%9A/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2090,13 +2092,6 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E8%8B%B9%E6%9E%9C%E7%94%9F%E6%80%81/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.weifamily.cn/categories/Apple/iOS/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2104,7 +2099,7 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/%E8%8B%B9%E6%9E%9C%E7%94%9F%E6%80%81/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/</loc>
+    <loc>https://blog.weifamily.cn/categories/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2125,6 +2120,13 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/categories/%E8%8B%B9%E6%9E%9C%E7%94%9F%E6%80%81/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/categories/%E8%8B%B1%E4%BC%9F%E8%BE%BE/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2133,6 +2135,13 @@
   
   <url>
     <loc>https://blog.weifamily.cn/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%95%86%E4%B8%9A%E6%B4%9E%E5%AF%9F/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.weifamily.cn/categories/%E8%8B%B9%E6%9E%9C%E7%94%9F%E6%80%81/%E4%BA%A7%E5%93%81%E4%BD%93%E9%AA%8C/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2195,6 +2204,13 @@
   </url>
   
   <url>
+    <loc>https://blog.weifamily.cn/categories/SpaceX/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.weifamily.cn/categories/%E7%A7%91%E6%8A%80%E5%95%86%E4%B8%9A/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -2216,14 +2232,14 @@
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/SpaceX/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
+    <loc>https://blog.weifamily.cn/categories/AI/%E7%89%B9%E6%96%AF%E6%8B%89/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.weifamily.cn/categories/AI/%E7%89%B9%E6%96%AF%E6%8B%89/%E9%A9%AC%E6%96%AF%E5%85%8B/</loc>
+    <loc>https://blog.weifamily.cn/categories/SpaceX/%E9%A9%AC%E6%96%AF%E5%85%8B/AI/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2245,13 +2261,6 @@
   
   <url>
     <loc>https://blog.weifamily.cn/categories/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2026-09-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.weifamily.cn/categories/SpaceX/%E9%A9%AC%E6%96%AF%E5%85%8B/AI/</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
