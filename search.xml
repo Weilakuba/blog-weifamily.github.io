@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>tesla-cybercab-nhtsa-audit</title>
+      <link href="/undefined/tesla-cybercab-nhtsa-audit-1/"/>
+      <url>/undefined/tesla-cybercab-nhtsa-audit-1/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>9 月 3 日，特斯拉在奥斯汀将无方向盘的 Cybercab 接入 Robotaxi 商业载客。同一天，美国国家公路交通安全管理局（NHTSA）对其开立审计查询 <strong>AQ26002</strong>，覆盖约 <strong>1000</strong> 辆 Cybercab。</p><p><img src="https://r2.weifamily.cn/obsidian/20260906203127677.webp"></p><h2 id="审计对象：自我认证，不是事故调查"><a href="#审计对象：自我认证，不是事故调查" class="headerlink" title="审计对象：自我认证，不是事故调查"></a>审计对象：自我认证，不是事故调查</h2><p>美国乘用车通行路径是厂商 <strong>自我认证</strong>：声明符合适用的联邦机动车安全标准（FMVSS），事后由 NHTSA 抽查或立案。AQ26002 查的是特斯拉认定合规所依据的流程与技术材料。</p><p>Cybercab 没有永久安装的方向盘、刹车&#x2F;油门踏板与后视镜。大量 FMVSS 条文以「有人驾驶」为默认前提。特斯拉向监管方通报：车辆符合所有适用标准，并将逐步扩大车辆与城市范围。NHTSA 明确要核验的一点是：特斯拉在多大程度上依赖「部分 FMVSS 对本车不适用」这一判断。The Verge 指出，公开信息未见特斯拉事先申请与 Zoox 同路径的正式豁免。</p><p><img src="https://r2.weifamily.cn/obsidian/20260906203155562.webp"></p><p>该审计不是召回令，也不是停售令。它质疑的是认证逻辑是否站得住。</p><h2 id="两个数字不要混读"><a href="#两个数字不要混读" class="headerlink" title="两个数字不要混读"></a>两个数字不要混读</h2><ul><li><strong>约 1000 辆</strong>：NHTSA 审计池的估计规模。</li><li><strong>约 45 辆 Cybercab &#x2F; 约 420 辆德州登记自动驾驶车</strong>：CNBC 援引截至 9 月 4 日上午的德州公开记录。</li></ul><p>调查池 ≠ 当前在营规模。小规模部署足以触发联邦审计；联邦审计也不等于全国铺开。</p><p>NHTSA 局长 Jonathan Morrison 声明称：支持自动驾驶安全发展，但须确保相关法律得到遵守，创新与安全监管需平衡。</p><h2 id="Zoox-先例：可跑，不等于可收费"><a href="#Zoox-先例：可跑，不等于可收费" class="headerlink" title="Zoox 先例：可跑，不等于可收费"></a>Zoox 先例：可跑，不等于可收费</h2><p>The Verge 对照亚马逊旗下 Zoox：无方向盘方案自我认证后同样被 NHTSA 调查；调查期间车辆可继续运行，但长期仅限演示、不得收费，直至 2026 年 7 月获准——前后约两年。</p><p>公开报道未写明 Cybercab 在 AQ26002 期间必须停止收费。先例只说明：自我认证被联邦盯上后，商业权利可能被时间表改写。是否复制 Zoox 路径，以后续监管文件为准。</p><h2 id="同一天：产品线与联邦线"><a href="#同一天：产品线与联邦线" class="headerlink" title="同一天：产品线与联邦线"></a>同一天：产品线与联邦线</h2><p>产品侧：邀约活动、无对外直播；Robotaxi App 在奥斯汀提供 Cybercab（2 座）与 Model Y（4 座）选项。</p><p>监管侧：州层面，德州商业 Level 4 依 SB 2807 等框架走运营商自我认证；联邦层面，AQ26002 盯 FMVSS 适用性。两条线并行，标准不同。</p><p><img src="https://r2.weifamily.cn/obsidian/20260906203248110.webp"></p><p>Electrek 还将本案与 NHTSA 对约 320 万辆消费级 FSD 车辆的既有调查并提。需区分：后者是缺陷&#x2F;安全表现路径；AQ26002 文本指向认证过程，不宜直接并案解读。</p><hr><p>真正麻烦的，不是 Cybercab 没有方向盘，而是规则仍按「车上有人」写成，特斯拉却用自我认证一步跨过去。州门先开、联邦门后验：奥斯汀可以先收钱，华盛顿可以后算账。Zoox 已经证明，「能上路」和「能收费」中间可以隔两年。</p><p>若 AQ26002 最后只补材料、不碰商业权限，等于默认这条捷径可复制；若反过来限制收费或逼走豁免，无方向盘 Robotaxi 的时间表就要重写。两种结局，哪一种更接近你认为该有的监管？</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 特斯拉 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 特斯拉 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>汽车史上第一次，特斯拉的再一次</title>
       <link href="/undefined/tesla-cybercab-first-again/"/>
       <url>/undefined/tesla-cybercab-first-again/</url>
@@ -434,9 +459,9 @@
             
             <tag> xAI </tag>
             
-            <tag> SpaceX </tag>
-            
             <tag> Anthropic </tag>
+            
+            <tag> SpaceX </tag>
             
         </tags>
       
@@ -500,9 +525,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> Sam Altman </tag>
-            
             <tag> 马斯克 </tag>
+            
+            <tag> Sam Altman </tag>
             
             <tag> Shivon Zilis </tag>
             
@@ -535,9 +560,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> Sam Altman </tag>
-            
             <tag> 马斯克 </tag>
+            
+            <tag> Sam Altman </tag>
             
             <tag> 人工智能 </tag>
             
@@ -1249,13 +1274,13 @@
             
             <tag> 马斯克 </tag>
             
-            <tag> 太空数据中心 </tag>
-            
-            <tag> Optimus </tag>
-            
             <tag> 人工智能 </tag>
             
             <tag> SpaceX </tag>
+            
+            <tag> 太空数据中心 </tag>
+            
+            <tag> Optimus </tag>
             
             <tag> 科技趋势 </tag>
             
