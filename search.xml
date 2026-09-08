@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Apple Watch Series 12 代码里漏出四件事：Readiness、力量训练、新光感、128GB</title>
+      <link href="/undefined/apple-watch-series-12-four-features-leak/"/>
+      <url>/undefined/apple-watch-series-12-four-features-leak/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>Apple Watch 记录了那么多身体数据，能不能再往前走一步，告诉你今天适不适合练、上一次力量训练到底练了多少？</p><p><img src="https://r2.weifamily.cn/obsidian/20260908134659292.webp"></p><p>据 MacRumors 报道，<strong>watchOS 27 和 iOS 27 的测试版代码</strong>里出现了几处新线索，涉及独立的 Readiness 应用、更细的力量训练记录、新光学传感器，以及可能翻倍的存储容量。这些变化，让此前关于 <strong>Apple Watch Series 12 和 Ultra 4 将侧重健康与健身功能</strong>的爆料，有了更具体的看点。</p><h3 id="一、Readiness：今天适不适合练，手表能给个参考吗？"><a href="#一、Readiness：今天适不适合练，手表能给个参考吗？" class="headerlink" title="一、Readiness：今天适不适合练，手表能给个参考吗？"></a>一、Readiness：今天适不适合练，手表能给个参考吗？</h3><p>这次最让人好奇的，是一个内部名称为 <strong>Readiness</strong> 的独立 Watch 应用。它与现有的 **Vitals（生命体征）**分开出现，从代码来看，并不像是简单改了个名字。</p><p>它在系统里的位置也挺有意思：</p><ul><li>在 watchOS 27 的默认主屏布局里，它紧挨着 **Workout（体能训练）**应用，排在后面；</li><li>iOS 27 的 Watch 配套应用中，主屏排布逻辑也引用了它。</li></ul><p>结合名字和排列位置，它可能与训练准备度、身体恢复状态有关。比如，今天适合加点强度，还是应该缓一缓？这类判断，比单独看几项身体指标更贴近日常训练的需要。</p><h3 id="二、力量训练，可能终于能记得更细了"><a href="#二、力量训练，可能终于能记得更细了" class="headerlink" title="二、力量训练，可能终于能记得更细了"></a>二、力量训练，可能终于能记得更细了</h3><p>另一处变化，藏在健康相关的数据结构里。代码新增或扩展了力量训练的记录字段，包括：</p><ul><li>组数（sets）</li><li>次数（reps）</li><li>重量</li><li>器械</li><li>训练侧别（左侧或右侧）</li><li>时长</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260908134728334.webp"></p><p>对练力量的人来说，这些细节才是回顾一次训练时真正想看的：做了几组、每组几次、用了多大重量，下次又该怎么调整。</p><p>这至少说明，苹果正在为更详细的力量训练记录打基础。但有了存储字段，并不等于手表就能自动识别动作、数次数。最终怎么记录、在哪里查看，还要等具体功能公布。</p><h3 id="三、新光学传感器线索：重点可能是测得更稳"><a href="#三、新光学传感器线索：重点可能是测得更稳" class="headerlink" title="三、新光学传感器线索：重点可能是测得更稳"></a>三、新光学传感器线索：重点可能是测得更稳</h3><p>硬件方面，代码出现了一个新的光学传感器系列代号：<strong>Sunstone4p0</strong>。相关描述提到了两点：</p><ul><li>更低噪声系数；</li><li>根据佩戴手腕和朝向选择通道。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260908134716979.webp"></p><p>这些描述指向一种可能：下一代光学传感器会针对不同佩戴情况做调整，让心率等光学测量在信号较弱时也能更稳定。</p><h3 id="四、存储可能翻倍，来到-128GB"><a href="#四、存储可能翻倍，来到-128GB" class="headerlink" title="四、存储可能翻倍，来到 128GB"></a>四、存储可能翻倍，来到 128GB</h3><p>最后一条线索比较直观：与 <strong>T8320</strong> 芯片关联的 NAND 存储配置文件，显示 Series 12 和 Ultra 4 可能提供 <strong>128GB</strong> 存储。如果落地，相比上一代的 <strong>64GB</strong>，容量将翻倍。</p><p>对习惯在手表里下载音乐、播客或离线地图的人来说，多一些空间总是方便的。</p><hr><p>四条线索里，我更期待 Readiness 和力量训练记录。传感器与容量的升级固然有用，但如果手表能把身体数据解释得更明白，也能把每次训练记得更完整，它对日常锻炼的帮助就会实在得多。</p><p>现在的悬念是：苹果会把这些基础做成多好用的功能，又有多少旧款 Apple Watch 能一起用上。比起代码里多了几个名字，这才是发布时最值得留意的部分。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Apple </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>tesla-cybercab-nhtsa-audit</title>
       <link href="/undefined/tesla-cybercab-nhtsa-audit-1/"/>
       <url>/undefined/tesla-cybercab-nhtsa-audit-1/</url>
@@ -459,9 +484,9 @@
             
             <tag> xAI </tag>
             
-            <tag> Anthropic </tag>
-            
             <tag> SpaceX </tag>
+            
+            <tag> Anthropic </tag>
             
         </tags>
       
@@ -1274,13 +1299,13 @@
             
             <tag> 马斯克 </tag>
             
-            <tag> 人工智能 </tag>
-            
-            <tag> SpaceX </tag>
-            
             <tag> 太空数据中心 </tag>
             
             <tag> Optimus </tag>
+            
+            <tag> 人工智能 </tag>
+            
+            <tag> SpaceX </tag>
             
             <tag> 科技趋势 </tag>
             
