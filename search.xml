@@ -4,7 +4,220 @@
   
     
     <entry>
-      <title>tesla-cybercab-nhtsa-audit</title>
+      <title>拿金标胸带实测 Apple Watch S12：骑行封神、举铁翻车，跑步居然还被 S11 反杀了？</title>
+      <link href="/undefined/apple-watch-s12-heart-rate-accuracy-test/"/>
+      <url>/undefined/apple-watch-s12-heart-rate-accuracy-test/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>每年苹果发布会把「最准确」三个字挂在嘴边，我基本都当耳旁风。稍微玩点运动的人心里都有数：手表测心率，本质上就是隔着皮肉靠绿光猜脉搏——你卧推一抓杠、跑步一甩臂，曲线分分钟能飘到爪哇国去。</p><p>所以我一直盯着硬核博主 The Quantified Scientist（Rob ter Horst）的测试。他不听发布会吹水，直接把 <strong>Apple Watch Series 12</strong> 戴上手，另一边套上业内心率金标 <strong>Polar H10 胸带</strong>，同一个人、同一副肉身、同场高强度对照，硬碰硬看数据。</p><p><img src="https://r2.weifamily.cn/obsidian/20260919124635699.webp"></p><p>先给赶时间的各位抛结论：<strong>日常工况和室内骑行，S12 表现强得离谱；但一碰举铁和高心率跑步，光电传感器的老毛病依然藏不住。更打脸的是——横向对比下来，它不仅没能拉开代际差距，在个别场景下甚至被上一代 Series 11 反杀了。</strong></p><h3 id="硬件底座大换血：全天-5-秒一测，这次图的不是运动"><a href="#硬件底座大换血：全天-5-秒一测，这次图的不是运动" class="headerlink" title="硬件底座大换血：全天 5 秒一测，这次图的不是运动"></a>硬件底座大换血：全天 5 秒一测，这次图的不是运动</h3><p>这次 Series 12 把心率传感器模块彻底重构了（用的是和 Ultra 4 同款的 Health Sensing System）。官方技术规格里有句很实在的话：换上了发光面积更大、功耗更低的绿光 LED，<strong>哪怕你没开运动记录，手表在后台也会大约每 5 秒采集一次心率</strong>。</p><p><img src="https://r2.weifamily.cn/obsidian/20260919124646537.webp"></p><p>很多人觉得「采样变密」感知不强，但在我看来，这才是它真正的底层转向：<strong>苹果不再只指望你在健身房打卡的那一小时，而是试图把这块表变成捕捉你全天生理底噪的雷达。</strong></p><p>你提着菜爬楼、下午灌了一大杯冰美式心悸、或者周一开会被老板点名的一哆嗦——这些碎片化的心率起伏，过去全被跳过了，现在都会被忠实记录下来。像苹果后来主推的精力状态（Readiness）、生命体征（Vitals）和全天消耗，底层全靠这层底噪喂数据。底噪要是漏成筛子，上层算法打出来的分数再漂亮也是空中楼阁。</p><h3 id="对撞胸带：骑行贴地飞，跑步凑合用，举铁依然是「照妖镜」"><a href="#对撞胸带：骑行贴地飞，跑步凑合用，举铁依然是「照妖镜」" class="headerlink" title="对撞胸带：骑行贴地飞，跑步凑合用，举铁依然是「照妖镜」"></a>对撞胸带：骑行贴地飞，跑步凑合用，举铁依然是「照妖镜」</h3><p>Rob 戴着 S12 和 Polar H10 跑了三项核心运动，出来的皮尔逊相关系数（越接近 1 说明与心率带越吻合）非常耐人寻味：</p><ul><li><strong>室内骑行（相关性约 1.0）</strong>：两条心率曲线几乎严丝合缝地重叠在了一起。这完全属于腕表光电传感器的「舒适区」——双手搭在车把上相对静止，手腕没有剧烈震荡，血流信号干净得像教科书。</li><li><strong>户外跑步（相关性约 0.98）</strong>：日常慢跑、匀速有氧毫无压力；但在冲刺或高心率间歇时，能看到明显的微小偏离和延迟。平时跑个五公里打卡绰绰有余，但如果你要掐着心率区间跑严苛的间歇课，千万别把它当唯一判官。</li><li><strong>力量训练&#x2F;举铁（相关性约 0.97）</strong>：三项里的最低分。也是所有腕式光电的物理火葬场——手掌死死抓紧杠铃哑铃、小臂肌肉充血紧绷、手腕反复受力弯折，光电传感器和毛细血管之间被挤压得几乎读不出规律反射。虽然他评价说在测过的上百款穿戴设备里，S12 的力量表现已经能挤进前 15%（压过了 85% 的竞品），但在大重量力竭组时，它依然会出现「你整个人都快爆缸了，表上心率还慢吞吞慢慢爬」的滞后感。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260919124658255.webp"></p><p>数据背后的逻辑很残酷：<strong>稳态有氧大家都是神仙；只要碰上震动冲击或者握力充血，物理极限立刻教做人。</strong></p><h3 id="纵向对比上一代：不仅没拉开差距，跑步甚至被-S11-倒打一耙"><a href="#纵向对比上一代：不仅没拉开差距，跑步甚至被-S11-倒打一耙" class="headerlink" title="纵向对比上一代：不仅没拉开差距，跑步甚至被 S11 倒打一耙"></a>纵向对比上一代：不仅没拉开差距，跑步甚至被 S11 倒打一耙</h3><p>最耐人寻味、甚至让准备掏钱升级的人倒吸一口凉气的，是他把 S12 和 Series 11 放在同口径下的长线对比：</p><p><strong>两代手表的整体心率表现几乎打了个平手；而在跑步场景下，老款 S11 在他手里的准确度甚至略微反超了 S12。</strong></p><p>Rob 给出的解释相当克制：硬件刚换新架构，苹果的滤波和去噪算法大概率还在磨合期。但翻译成人话，买表的人必须搞清楚两件事：</p><ol><li><strong>别做「换代心率就能秒天秒地」的美梦</strong>。如果你手里戴着 S11，单为了运动心率更准而升级，这笔预算基本等于打水漂。  </li><li><strong>新硬件的红利不在「运动瞬时峰值」，而在「全天候密集采样」</strong>。多出来的算力和硬件底色，是给后续系统里的全天精力管理、心率变异性分析铺路的，而不是让你在操场上多抠出 0.01 的相关性。</li></ol><p>至于苹果官方宣称的「上千人临床级对照测试」，屁股决定脑袋，厂商报告自然挑最好看的讲。第三方的单人盲测样本量虽然小，但胜在工况足够赤裸、不留情面。两边对照着看，你才不会被厂商的宣传话术牵着鼻子走。</p><h3 id="顺带聊句步数：别较真，日常够用就行"><a href="#顺带聊句步数：别较真，日常够用就行" class="headerlink" title="顺带聊句步数：别较真，日常够用就行"></a>顺带聊句步数：别较真，日常够用就行</h3><p>在同一个视频里，他还肉眼手动盲数了大约 5000 步进行比对。S12 的计步基本能紧咬实际步数，偶尔遇到手部琐碎动作会有轻微多记。大家日常刷刷微信步数完全够用，真没必要为了每天差的那几十步跟自己较劲。</p><hr><p>看完这一轮硬碰硬，我自己的核心判断非常明确：</p><p>Apple Watch Series 12 这颗新传感器，<strong>真正做实的是「全天 5 秒采样的底噪厚度」以及「稳态有氧的近乎免检」</strong>。至于高强度的无氧举铁和高配速间歇，那是目前人类腕式光学传感器的物理天花板，苹果再怎么用芯片算，也变不出魔法。</p><ul><li><strong>如果你是严肃训练狂魔</strong>：死抠百米冲刺心率、掐着几秒做组间恢复，老老实实买根几百块的心率胸带，它永远是比任何智能手表都诚实的老伙计。</li><li><strong>如果你是日常健康生活派</strong>：更关心熬夜、咖啡、开会高压对身体的暗中消耗，想让手表的精力洞察真正算得准，那这套 5 秒一测的新硬件，确实比在运动时多抠 0.01 的准确率实在得多。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260919124717360.webp"></p><p>如果你也正在观望 Series 12，你更看重的是全天候的生理状态追踪，还是训练时手腕上那条不能有一丝差错的心率曲线？</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Apple </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>更衣室刚拧成一股绳，穆里尼奥就在德比前拉响了警报</title>
+      <link href="/undefined/mourinho-derby-dressing-room-alarm/"/>
+      <url>/undefined/mourinho-derby-dressing-room-alarm/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>西甲第 7 轮的马德里德比已经近在眼前。按赛程安排，皇马将在本周日（9 月 20 日）奔赴大都会球场（利雅得航空大都会球场），客场挑战老对手马德里竞技。</p><p><img src="https://r2.weifamily.cn/obsidian/20260918134611388.webp"></p><p>穆里尼奥重掌皇马教鞭后，外界普遍认为他交出的最关键答卷，是<strong>把此前暗流涌动的更衣室重新拧成了一股绳</strong>——贝林厄姆找回了侵略性，维尼修斯在防守端倾注了更多精力，迪奥曼德、怀森、居勒尔这些年轻面孔也迅速融入，哪怕是替补席上的卡洛斯·埃斯皮，也屡屡化身奇兵救主。更衣室上下对穆帅的信任毫无疑问已经立住了。</p><p>但在兵发大都会球场之前，穆里尼奥却在巴尔德贝巴斯训练基地拉响了防空警报。他要在更衣室内部重点敲打的，是全队近来悄悄滋生的一股危险习惯。</p><p>西班牙《阿斯报》用了一个很精妙的西语词来形容穆帅痛批的这种心态：<strong>「facilitismo」</strong>（由 fácil&#x2F;轻松 引申而来）；进球网（Goal）则将其翻译为 <strong>「easy solutions」</strong>（想当然的轻松解法，或是见好就收式的惰性）。</p><p>翻译虽有不同，指向的却是同一个致命破绽：<strong>比分领先后就以为大局已定，该痛下杀手时不斩尽杀绝，反而追求轻松踢法，结果亲手把比赛的主导权给滑走了。</strong></p><h3 id="前车之鉴：国米与埃尔切的险胜，不是每次都有运气兜底"><a href="#前车之鉴：国米与埃尔切的险胜，不是每次都有运气兜底" class="headerlink" title="前车之鉴：国米与埃尔切的险胜，不是每次都有运气兜底"></a>前车之鉴：国米与埃尔切的险胜，不是每次都有运气兜底</h3><p>穆里尼奥不是无病呻吟，这股松劲在皇马最近的比赛里已经露出了狰狞的苗头。</p><p><img src="https://r2.weifamily.cn/obsidian/20260918134623276.webp"></p><p>欧冠逆转国际米兰踢得心惊肉跳，联赛拿下巴列卡诺也见端倪；而几天前客场 3–2 险胜埃尔切，更是把这种毛病暴露得淋漓尽致。</p><p>那场比赛，皇马在上半场顺风顺水建立起 2–0 领先。穆帅在半场时甚至觉得，只要保持强度，下半场完全能踢成 3–0、4–0 甚至 5–0 收场。然而下半场皇马却突然降速，在门前频频浪费终结机会，比赛节奏不知不觉就掉进了对方的步调里。保级区的埃尔切趁机连追两球扳成 2–2，逼得穆里尼奥在最后时刻赌徒式换上 6 名偏进攻球员，全靠卡洛斯·埃斯皮在第 91 分钟门前抢点绝杀，才狼狈带走三分。</p><p>赛后在马丁内斯·瓦莱罗球场的新闻发布厅里，穆里尼奥脸上看不到半点绝杀的兴奋，只有毫不掩饰的火气：</p><blockquote><p>「问题在我看来非常清楚……有些比赛看起来好像已经结束了，但其实根本没有。我们本来有三、四、五次机会早早把比赛彻底杀死，但我们没有做到。……一切看起来很容易的时候，你就会开始走神，让事情从你手里溜走。好像全队都掉进了一种怪圈：『好吧，我们没进第三个、第四个球收掉悬念，但反正比赛已经拿下了。』这种感觉，就是从轻松滑向彻底失控。」</p></blockquote><p>穆里尼奥接着强调，他从来不排斥进攻进球，<strong>但他真正痴迷的是对比赛全流程的绝对掌控</strong>。</p><p>「问题的关键不在于丢球本身，而在于你亲手把控制权送给了对方。」在埃尔切连扳两球的那段时间，皇马丢掉的不只是领先优势，更是全场的主动权。</p><h3 id="大都会球场没有容错率：坏毛病必须彻底掐死"><a href="#大都会球场没有容错率：坏毛病必须彻底掐死" class="headerlink" title="大都会球场没有容错率：坏毛病必须彻底掐死"></a>大都会球场没有容错率：坏毛病必须彻底掐死</h3><p>有人或许会说，到了大都会球场，面对西蒙尼麾下那支如同狼群般搏杀的马竞，全场上万主场球迷的刺耳嘘声足以把所有人的神经拉满，皇马怎么可能还敢在场上「打瞌睡」？</p><p>确实，马德里德比窒息的对抗强度，天然会把球员逼进高度紧绷的状态，类似埃尔切下半场那种全员梦游的松懈，不大可能在大都会球场原样重演。</p><p>但穆里尼奥的眼光显然不止看这一场德比。</p><p>他要敲打的，是这种自满和松懈的<strong>思维惯性</strong>。在漫长而残酷的争冠长跑里，你可以因为实力差距赢下埃尔切，可以靠替补奇兵在最后 1 分钟完成绝杀救场；但你不能指望每一次落入险境时，幸运女神都会眷顾皇马。如果领先后习惯性「留力」、无法在对手起势前痛下杀手，那么在欧冠淘汰赛或西甲争冠关键战中，只要对手咬上一口，付出的代价就是丢掉整季的心血。</p><p><img src="https://r2.weifamily.cn/obsidian/20260918134640068.webp"></p><p>更何况，面对马德里竞技这种专抓致命失误的死敌，只要皇马在前场挥霍两三次机会，回过头来很可能就会被马竞的反击一击毙命。</p><hr><p>把一支星光璀璨的皇马拧成一条心，穆里尼奥只用了几周；但要想把「自满与轻松主义」从球员的骨子里彻底剔除，需要的则是每一次犯错后的当头棒喝。</p><p>德比不仅是对联赛榜首三分的争夺，更是对穆帅这套战术纪律与心理防线的终极大考。</p><p>周日的大都会球场，你觉得皇马能在重压之下展现出斩尽杀绝的统治力，还是会随着体能和换人，再次暴露出习惯性松劲的隐患？</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 穆里尼奥 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 穆里尼奥 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>星舰最早9月22日挑战首次入轨，26颗星链V3随行</title>
+      <link href="/undefined/starship-flight-14-first-orbit/"/>
+      <url>/undefined/starship-flight-14-first-orbit/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>这一次，关注星舰的朋友可能得分两段看任务进展：晚上等它升空，第二天清晨再等它回来。</p><p><img src="https://r2.weifamily.cn/obsidian/20260917140744557.webp"></p><p>SpaceX 把星舰第 14 次飞行（Flight 14）的目标日期定在了 <strong>2026 年 9 月 22 日</strong>。按目前公布的安排，发射窗口从北京时间 <strong>20:15</strong> 开启，持续约 75 分钟，发射地点仍是得克萨斯州的星际基地 Starbase。</p><p>不过，日历上先记“最早”，别急着写“确定”。任务安排仍以获得监管批准为前提，天气和发射前的准备也可能让时间调整。</p><p>这次让我格外期待的，是任务清单上的两个目标：<strong>星舰首次尝试入轨，以及把 26 颗星链 V3 卫星部署进星座。</strong> 如果顺利完成，星舰接下来能做的事，就会明显多起来。</p><h2 id="飞了13次，为什么这次才叫首次入轨？"><a href="#飞了13次，为什么这次才叫首次入轨？" class="headerlink" title="飞了13次，为什么这次才叫首次入轨？"></a>飞了13次，为什么这次才叫首次入轨？</h2><p>看到“首次入轨”，不熟悉星舰的朋友可能会有点疑惑：之前不是早就飞到太空了吗？</p><p><img src="https://r2.weifamily.cn/obsidian/20260917141111443.webp"></p><p>飞到太空和进入轨道，确实是两回事。入轨除了需要高度，还要有足够的水平速度，让飞行器持续绕着地球运行。</p><p>此前 13 次飞行采用的都是亚轨道轨迹。这样的任务设计，本来就没有打算让星舰留在轨道上绕地球飞行。它会沿着预定轨迹返回大气层，落向目标海域。</p><p>所以，不能简单把前面的试飞理解成“想入轨却没成功”，更不能说它们只是彩排。发动机、级间分离、在太空中的工作状态、再入防热，每一项都要靠飞行一点点验证。</p><p>Flight 14 准备在这些积累之上，尝试一套更完整的轨道任务流程。</p><h2 id="绕地球6圈，近十小时后再回来"><a href="#绕地球6圈，近十小时后再回来" class="headerlink" title="绕地球6圈，近十小时后再回来"></a>绕地球6圈，近十小时后再回来</h2><p>星舰上面级计划进入约 <strong>275 公里</strong>高的轨道，绕地球飞行约 <strong>6 圈</strong>，在起飞近 <strong>10 小时</strong>后，于智利以西的太平洋溅落。</p><p>如果正好在北京时间 22 日 20:15 起飞，按这个时长估算，返回就要等到 <strong>23 日早晨 6 点多</strong>。这只是方便关注任务的时间参考，实际进程还要看当天安排。</p><p>相比此前大约一个多小时的亚轨道飞行，这次任务明显长了许多。看完起飞和分离，后面还有部署卫星、在轨运行、离轨点火和再入，不能像往常那样很快等到结尾。</p><p>任务说明中还有一个我很在意的细节：飞控团队要先确认，执行后续离轨点火所需的关键硬件具备足够冗余，才会让星舰实施入轨点火。</p><p>这意味着，能否按计划回来，是决定是否入轨的重要条件。主动离轨、把返回位置控制在预定海域，本身就是这次需要验证的能力。</p><h2 id="26颗星链V3，让这趟飞行多了一份分量"><a href="#26颗星链V3，让这趟飞行多了一份分量" class="headerlink" title="26颗星链V3，让这趟飞行多了一份分量"></a>26颗星链V3，让这趟飞行多了一份分量</h2><p>除了飞行时间变长，载荷也值得看。</p><p>SpaceX 计划在这次任务中部署 <strong>26 颗星链 V3 卫星</strong>。V3 是面向星舰发射设计的新一代星链卫星；按当前任务计划，这将是星舰首次把它们部署进星链星座。</p><p>在我看来，这个目标和首次入轨一样重要。星舰要成为经常执行任务的运载工具，就需要把载荷可靠地送到该去的地方。Flight 14 让这件事有了一份具体清单：26 颗卫星能否顺利释放，进入后续工作流程，都值得跟进。</p><p>这批卫星的通信容量也很亮眼：按 SpaceX 公布的口径，单颗 V3 可贡献约 1 Tbps，26 颗合计约 26 Tbps。但这是厂商给出的容量指标，不能直接理解成普通用户的网速会按相同比例上涨。</p><p>我反而更期待一个小细节：<strong>其中 3 颗卫星装有相机，计划在部署后拍摄星舰的隔热瓦。</strong></p><p><img src="https://r2.weifamily.cn/obsidian/20260917141046125.webp"></p><p>卫星离开星舰后，再回头帮它检查防热系统，这个安排很有意思。对工程团队来说，这些照片能补充观察视角；对看任务的人来说，也可能提供难得的星舰在轨影像。当然，能否拍到、会公开多少，还得等实际执行。</p><h2 id="这次没有“筷子夹火箭”，也足够值得看"><a href="#这次没有“筷子夹火箭”，也足够值得看" class="headerlink" title="这次没有“筷子夹火箭”，也足够值得看"></a>这次没有“筷子夹火箭”，也足够值得看</h2><p>如果你最期待的是发射塔伸出机械臂接住火箭，这一趟需要换个关注点。</p><p><img src="https://r2.weifamily.cn/obsidian/20260917140903718.webp"></p><p>按照目前方案，超重型助推器计划在起飞约 <strong>7 分钟</strong>后于墨西哥湾溅落，星舰上面级则在完成轨道任务后返回太平洋。<strong>两级都不安排发射塔捕获。</strong></p><p>星舰上面级的塔架回收、轨道加注，也都不在本次任务清单上。这些仍是后续的重要关卡，尤其是轨道加注，关系到未来更远的任务。</p><p>少了塔架捕获那一下的视觉冲击，Flight 14 的技术看点仍然很足。能不能入轨，能不能把卫星送出去，长时间飞行后还能不能完成离轨点火、扛过再入，哪一步都值得认真看。</p><p>我会把期待放在这些具体环节上。首次入轨即使成功，也还不能等同于“完全、快速复用已经实现”；但它会让后面的验证有一个更扎实的起点。</p><h2 id="这次我最想等到的，是最后的返回消息"><a href="#这次我最想等到的，是最后的返回消息" class="headerlink" title="这次我最想等到的，是最后的返回消息"></a>这次我最想等到的，是最后的返回消息</h2><p>星舰升空的场面当然震撼。不过，Flight 14 真正让我想一直跟下去的，是起飞之后那近十个小时。</p><p>等它进入轨道，等卫星一颗颗部署，再等离轨点火和返回。只有把这些环节连起来，才能看清这趟任务到底完成了多少，又给下一次留下了什么问题。</p><p>如果 9 月 22 日的窗口推迟，遗憾归遗憾，也只能继续等准备完成。对一趟目标这么多的飞行来说，把状态确认好，比赶上某一天更重要。</p><p>希望这一次，我们能在晚上看到星舰飞向轨道，也能在第二天清晨等到它按计划返回的消息。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> SpaceX </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SpaceX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>iOS 27.2测试版健康App大改：你的“健康年龄”是多少？</title>
+      <link href="/undefined/ios-27-2-health-app/"/>
+      <url>/undefined/ios-27-2-health-app/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>每天戴着 Apple Watch，步数、心率、睡眠记了一大堆。可真要问一句：最近的身体状态到底怎么样？打开健康 App，往往还得自己对着图表琢磨。</p><p>苹果这次想把这些数据讲得更明白一些。</p><p><img src="https://r2.weifamily.cn/obsidian/20260917104857430.webp"></p><p>在 iOS 27.2 首个开发者测试版中，九月发布会上亮相的新版健康 App 已经开放测试。其中最容易让人好奇的功能，叫 <strong>“健康年龄”（Health Age）</strong>：结合运动、睡眠等数据，看看你的健康指标与实际年龄相比，处在什么水平。</p><p>不过，先别急着为了它升级。<strong>新版健康 App 虽然进入了 iOS 27.2 测试版，却不会随 iOS 27.2 正式版一起上线。</strong> 据报道，它仍计划在今年晚些时候推出，部分功能也会陆续开放。</p><h2 id="“健康年龄”，究竟在算什么？"><a href="#“健康年龄”，究竟在算什么？" class="headerlink" title="“健康年龄”，究竟在算什么？"></a>“健康年龄”，究竟在算什么？</h2><p>新版健康 App 增加了 Longevity 页面，重点展示长期健康状况，“健康年龄”就在这里。</p><p><img src="https://r2.weifamily.cn/obsidian/20260917104928168.webp"></p><p>它会综合活动量、最大摄氧量、睡眠等指标，帮助你了解这些数据与实际年龄的关系。这里的最大摄氧量，可以简单理解为反映心肺适能的一项指标。</p><p>这个功能最值得看的，其实是数字背后的变化：一段时间以来，哪些指标变好了，哪些仍需要留意。如果只盯着一个年龄数字，反而容易错过更有用的信息。</p><p>当然，“健康年龄”是基于相关指标得出的评估，不宜把它读成身体的“真实年龄”，更不能拿来推算自己能活多久。Longevity 这个名字听起来很宏大，日常使用时，关注自己的长期趋势更实在。</p><h2 id="今天该练，还是该歇？新版也想帮你理清楚"><a href="#今天该练，还是该歇？新版也想帮你理清楚" class="headerlink" title="今天该练，还是该歇？新版也想帮你理清楚"></a>今天该练，还是该歇？新版也想帮你理清楚</h2><p>另一个新页面叫 Insights，也就是“洞察”。它把近期的活动圆环、心率、睡眠评分和生命体征放到更显眼的位置，让你少翻几层菜单，就能看到最近的状态。</p><p><img src="https://r2.weifamily.cn/obsidian/20260917104948284.webp"></p><p>两页的分工很好理解：Insights 方便看眼前，Longevity 方便看长期。</p><p>如果使用 Apple Watch Series 12 或 Ultra 4，还能看到新的 Readiness 评分。它会结合近期活动、睡眠和体征，为今天的活动安排提供参考，比如适合多休息，还是可以增加一些运动量。</p><p>对平时习惯盯着圆环、想着“今天还差多少”的人来说，多一个恢复状态的参考，确实有吸引力。</p><p>苹果还计划在洞察页面提供个性化建议。不过，根据报道，这部分目前尚未加入。现在看到的新界面，还不是发布会上那套功能的完整样子。</p><h2 id="除了看图表，还能跟着手机做评估"><a href="#除了看图表，还能跟着手机做评估" class="headerlink" title="除了看图表，还能跟着手机做评估"></a>除了看图表，还能跟着手机做评估</h2><p>这次改版还有一个值得关注的方向：动作评估。</p><p>按照苹果公布的设计，用户可以跟随引导完成柔韧性、力量、平衡等测试，由 iPhone 的视觉分析和相应的传感数据辅助评估。它让健康 App 多了一种了解身体状态的方式，不必完全依赖日常自动记录。</p><p>这类功能能不能让人坚持用下去，很大程度上取决于细节：动作说明是否清楚，识别是否稳定，做完之后的结果又能不能看懂。发布会上的演示令人期待，但实际体验还需要等功能逐步完善后再判断。</p><p>化验数据也会进入这套体验。目前据报可以上传已有的化验结果；后续苹果还计划为美国用户提供 Quest Diagnostics 检测套餐，报道中的价格为 119 美元。直接购买检测等功能尚未完整开放，国内用户也不能照搬这套使用预期。</p><h2 id="能升级系统，不代表能用上全部功能"><a href="#能升级系统，不代表能用上全部功能" class="headerlink" title="能升级系统，不代表能用上全部功能"></a>能升级系统，不代表能用上全部功能</h2><p>这次最需要提前看清楚的，是设备和语言门槛。</p><p>根据<a href="https://www.apple.com/newsroom/2026/09/apple-advances-health-and-fitness-capabilities-using-apple-intelligence/">苹果官方说明</a>，新版健康 App 面向支持 Apple Intelligence 的设备。具体到不同功能，要求还不一样：</p><ul><li><strong>健康年龄需要 Apple Watch</strong>，不能只靠一部 iPhone。</li><li><strong>新的 Readiness 体验对应 Series 12 和 Ultra 4</strong>，不能因为旧表能升级系统，就默认也有这项功能。</li><li><strong>部分评估需要额外的心率数据设备</strong>，支持范围要按具体项目看。</li><li><strong>新版先从美式英语开始提供</strong>，其他语言与地区的可用性仍需留意后续安排。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260917105117173.webp"></p><p>因此，旧设备用户先确认自己想用的功能是否支持，会比急着装测试版更有用。新版有硬件要求，也不意味着旧版健康 App 原有的记录功能就不能用了。</p><h2 id="我更关心的，是它能不能把数据解释明白"><a href="#我更关心的，是它能不能把数据解释明白" class="headerlink" title="我更关心的，是它能不能把数据解释明白"></a>我更关心的，是它能不能把数据解释明白</h2><p>“健康年龄”很容易让人想点进去看一眼。但新鲜感过去后，能让人经常打开健康 App 的，还是它有没有帮自己看懂变化。</p><p>睡眠记录积累了几个月，运动也坚持了一阵，最后如果仍然只是多出几张图、几个分数，这次改版的价值就有限。反过来，如果它能解释清楚数据为什么变化，再给出具体、容易理解的建议，Apple Watch 长期记录下来的信息才更有用。</p><p>从目前的测试版来看，这个方向已经能看见了，完整体验还得再等等。对多数用户来说，眼下最值得关注的是后续功能完成度，以及自己的设备和地区能用到多少。</p><p>毕竟，看一眼“健康年龄”只需要几秒；让人看完之后知道接下来能做些什么，才是这次改版真正值得期待的地方。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Apple </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>没有方向盘的Cybercab凭什么能卖？特斯拉须在9月30日前答复监管</title>
+      <link href="/undefined/cybercab-nhtsa-special-order/"/>
+      <url>/undefined/cybercab-nhtsa-special-order/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>Cybercab 已经在奥斯汀开始收费载客，但这辆没有方向盘和踏板的车，究竟如何满足美国现行的汽车安全标准，特斯拉还得向监管部门解释清楚。</p><p><img src="https://r2.weifamily.cn/obsidian/20260916153131809.webp"></p><p>这次，答复有了明确期限。</p><p>据报道，美国国家公路交通安全管理局（NHTSA）要求特斯拉在 <strong>9 月 30 日前提交书面答复</strong>，说明 Cybercab 的合规依据。Electrek 称，该机构已于 9 月 10 日发出正式特别令（Special Order），要求负责人以宣誓方式签署答复。</p><p>对于特斯拉来说，接下来要拿出来的，是支持这辆车合法销售的具体依据。</p><h3 id="车已经上路，为什么还要查认证？"><a href="#车已经上路，为什么还要查认证？" class="headerlink" title="车已经上路，为什么还要查认证？"></a>车已经上路，为什么还要查认证？</h3><p>事情要从 9 月初说起。</p><p>9 月 3 日，特斯拉在奥斯汀小规模投放 Cybercab，开始商业载客。9 月 4 日，NHTSA 宣布启动编号为 AQ26002 的审计查询，核查特斯拉是根据哪些技术数据和程序，认定这款车符合联邦机动车安全标准（FMVSS）的。</p><p><img src="https://r2.weifamily.cn/obsidian/20260916153145445.webp"></p><p>这里容易有一个误解：汽车能在美国销售，并不意味着监管部门已经逐款审查、批准了它的设计。美国实行厂商自我认证制度，由车企声明产品符合适用标准，监管部门再进行监督和核查。</p><p>特斯拉的立场是，Cybercab 符合所有适用标准。NHTSA 要问的，恰恰是这里的“适用”二字：<strong>哪些标准适用于 Cybercab？如果特斯拉认为某些条款不适用，依据又是什么？</strong></p><p>NHTSA 在<a href="https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification">9 月 4 日的官方公告</a>中明确列出了这一调查重点。</p><h3 id="没有踏板，脚控制动的要求怎么办？"><a href="#没有踏板，脚控制动的要求怎么办？" class="headerlink" title="没有踏板，脚控制动的要求怎么办？"></a>没有踏板，脚控制动的要求怎么办？</h3><p>Cybercab 的设计特点，也是这次审查的难点：它没有永久安装的方向盘、刹车踏板、加速踏板和传统后视镜，而现有安全标准中，仍有一些条款是围绕人工驾驶制定的。</p><p>据 Electrek 对特别令的转述，NHTSA 提出了约 21 项具体要求，其中一个关键问题，就是制动。</p><p>原稿所引报道指出，FMVSS 第 135 号标准包含行车制动由脚控装置启动的要求。Cybercab 没有刹车踏板，特斯拉需要解释，它是如何满足相关要求，或者为什么认为这些要求不适用的。</p><p>监管方还追问了临时操控装置的问题：认证时，车辆是否装过供人使用的方向盘或其他设备？如果装过，这些设备是否构成认证依据？认证后再拆掉，又如何满足安全法的相关要求？</p><p>此外，NHTSA 还希望了解，乘员能否通过触摸屏控制车辆移动，以及车辆是否受到最高车速、运行区域、时段等限制。</p><p>这些问题都指向同一件事：特斯拉认证时依据的车辆状态，与实际投入运营时的状态，究竟是什么关系。</p><h3 id="规则正在改，但还不能提前按新规则办"><a href="#规则正在改，但还不能提前按新规则办" class="headerlink" title="规则正在改，但还不能提前按新规则办"></a>规则正在改，但还不能提前按新规则办</h3><p>无人驾驶汽车不需要人来踩刹车，为什么还要有脚控装置？从产品设计的角度，这个疑问并不难理解。</p><p>NHTSA 也在修改相关规则，试图让安全标准适应没有传统人工操控装置的车辆。但规则修订需要过程，提出修改方案，不等于新规已经生效。</p><p>该机构在 9 月 4 日公告中的态度很明确：<strong>在修订完成前，现有标准仍然有效。</strong></p><p>因此，特斯拉需要回答的是 Cybercab 如何符合当前要求。至于未来规则可能放宽到什么程度，还不能直接用来解释今天的认证。</p><h3 id="Zoox-已经拿到豁免，特斯拉走的是另一条路"><a href="#Zoox-已经拿到豁免，特斯拉走的是另一条路" class="headerlink" title="Zoox 已经拿到豁免，特斯拉走的是另一条路"></a>Zoox 已经拿到豁免，特斯拉走的是另一条路</h3><p>类似的车，并非没有进入商业运营的办法。</p><p><img src="https://r2.weifamily.cn/obsidian/20260916153306232.webp"></p><p>今年 7 月，NHTSA 批准了亚马逊旗下 Zoox 的临时豁免，允许其在附带监管条件的情况下开展商业部署，期限为两年，每年最多 2500 辆。这属于通常所说的 Part 555 豁免路径。相关安排可见<a href="https://www.nhtsa.gov/press-releases/cutting-red-tape-safely-fast-track-automated-vehicle">NHTSA 的官方公告</a>。</p><p>不过，把 Zoox 的经历概括成“先申请、再获批”，也不够完整。它此前同样因自我认证受到调查。NHTSA 在<a href="https://www.nhtsa.gov/press-releases/nhtsa-issues-first-ever-demonstration-exemption-american-built-automated-vehicles">2025 年的公告</a>中，就曾要求 Zoox 移除或遮盖车辆符合相关联邦安全标准的声明，并在给予演示用途豁免的同时结束那次调查。如今获准商业部署，是后续的另一阶段。</p><p>按照原稿所引报道，特斯拉目前没有取得 Cybercab 的 Part 555 豁免，而是主张车辆本身已经符合适用标准。</p><p>两条路径的区别在这里：获得豁免，可以在特定期限、数量和条件下部署未满足部分标准的车辆；选择自我认证，则需要为“已经合规”提供站得住脚的依据。</p><p>这也正是特别令要求特斯拉进一步说明的地方。</p><h3 id="9-月-30-日是答复期限，不是最终裁决日"><a href="#9-月-30-日是答复期限，不是最终裁决日" class="headerlink" title="9 月 30 日是答复期限，不是最终裁决日"></a>9 月 30 日是答复期限，不是最终裁决日</h3><p>与月初宣布启动审计相比，这次报道中的进展更具体：监管方列出了问题，要求正式答复，并给出了截止日期。</p><p><img src="https://r2.weifamily.cn/obsidian/20260916153333969.webp"></p><p>据 Electrek 对特别令的解读，未按要求完整、如实答复，可能面临最高约 1.39 亿美元的民事罚款。这里说的是潜在的处罚上限，不能理解成特斯拉已经收到这笔罚单。特别令全文尚未在本稿中直接核验，具体适用条件仍应以官方文件为准。</p><p>同样，要求说明合法销售依据，也不等于监管部门已经作出 Cybercab 违法销售的最终认定。</p><p>9 月 30 日之后，事情会不会转向补充材料、进一步调查，或要求特斯拉调整合规路径，还要看它提交什么，以及监管方是否接受这些解释。</p><p>对 Cybercab 来说，取消方向盘和踏板，是最容易让人记住的设计。现在，特斯拉需要把这个设计背后的合规问题回答完整。车已经开始载客，后续能否顺利扩大部署，这份答复值得继续关注。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 特斯拉 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 特斯拉 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>想用上 iOS 27 的 Siri AI？先过这四道关</title>
+      <link href="/undefined/ios-27-siri-ai-requirements/"/>
+      <url>/undefined/ios-27-siri-ai-requirements/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>我本来以为，升到 iOS 27，Siri 就能跟着变聪明。看完支持条件才发现，还真没这么简单：手机够不够新、系统用什么语言、人在什么地区，都可能让你用不上它。</p><p><img src="https://r2.weifamily.cn/obsidian/20260915101540055.webp"></p><p>如果你这次升级主要就是冲着 Siri AI 来的，尤其是人在中国大陆、平时用中文界面，建议先看看下面这四道关。免得等了半天更新，打开 Siri，发现期待的新功能根本没来。</p><p>以下要求来自对苹果公开说明的整理。</p><h2 id="第一关：设备得先支持-Apple-Intelligence"><a href="#第一关：设备得先支持-Apple-Intelligence" class="headerlink" title="第一关：设备得先支持 Apple Intelligence"></a>第一关：设备得先支持 Apple Intelligence</h2><p>能升级系统，不代表能用上 Siri AI。首先要看你的设备是否支持 Apple Intelligence：</p><ul><li><strong>iPhone</strong>：门槛从 iPhone 15 Pro 起，后续机型也要支持 Apple Intelligence。部分更进阶的能力，则需要 <strong>iPhone 17 Pro 或更新机型</strong>。</li><li><strong>Mac</strong>：所有搭载 Apple 芯片的 Mac 都支持。</li><li><strong>iPad</strong>：需要 A17 Pro 或更新芯片。</li><li><strong>Apple Watch</strong>：能运行 watchOS 27 的机型，都能用 Siri AI。</li><li><strong>Vision Pro</strong>：全系支持。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260915101655126.webp"></p><p><strong>Apple TV 和 HomePod 目前还不支持</strong>。也就是说，手机上的 Siri 即使升级了，客厅里的 HomePod 也暂时不会跟着变聪明。</p><p>如果你用的还是 iPhone 15、15 Plus，或者更老的机型，即便能升到 iOS 27，也用不上 Siri AI。这种情况就不用再到设置里翻开关了，问题出在硬件支持上。</p><h2 id="第二关：首发只支持英语"><a href="#第二关：首发只支持英语" class="headerlink" title="第二关：首发只支持英语"></a>第二关：首发只支持英语</h2><p>Siri AI 上线时，<strong>设备语言必须设为英语</strong>才能使用。习惯中文界面的用户，暂时还得等一等。</p><p>苹果表示，下个月会加入法语、日语、韩语、葡萄牙语和西班牙语。9to5Mac 推测，这批语言支持可能会随 <strong>iOS 27.1</strong> 一起到来，并预计该版本最迟在 <strong>10 月 23 日</strong>推出。具体时间仍要看苹果后续公布的安排。</p><p><img src="https://r2.weifamily.cn/obsidian/20260915101726847.webp"></p><p>但这份名单里，<strong>暂时没有中文</strong>。</p><p>当然，你也可以考虑把系统语言改成英语。不过，这一改影响的是整部设备的使用体验，菜单、设置都得重新适应。值不值得为了尝鲜做这个调整，要看你平时用英语是否顺手。而且，语言过关了，也不代表后面的地区限制就能绕过去。</p><h2 id="第三关：未满-13-岁用不了"><a href="#第三关：未满-13-岁用不了" class="headerlink" title="第三关：未满 13 岁用不了"></a>第三关：未满 13 岁用不了</h2><p>苹果明确规定，<strong>未满 13 岁的用户无法使用 Siri AI</strong>，家长同意也不例外。</p><p><img src="https://r2.weifamily.cn/obsidian/20260915101715142.webp"></p><p>如果你是打算给孩子的设备升级，想让他们试试新的 Siri，这一点需要提前留意。设备和语言都符合要求，也不会因此放开年龄限制。</p><h2 id="第四关：欧盟和中国大陆暂时用不上"><a href="#第四关：欧盟和中国大陆暂时用不上" class="headerlink" title="第四关：欧盟和中国大陆暂时用不上"></a>第四关：欧盟和中国大陆暂时用不上</h2><p>对中国大陆用户来说，前面几条看完，可能还在盘算要不要换手机、改语言。可真正卡住大多数人的，是这一条：<strong>Siri AI 暂不在欧盟和中国大陆提供。</strong></p><p>按苹果的说法：</p><ul><li><strong>欧盟</strong>：仍在寻找既能推出功能，又能保障用户隐私与安全的办法。</li><li><strong>中国大陆</strong>：在满足监管要求之前，Siri AI 以及其他新的 Apple Intelligence 功能都不会上线。</li></ul><p>所以，哪怕手机是新款，系统语言也改成了英语，地区限制依然可能让你用不上。遇到这种情况，先别怀疑自己漏了哪个设置。至于具体如何判定可用地区，还要以苹果在当地公布的说明为准。</p><h2 id="我自己怎么看"><a href="#我自己怎么看" class="headerlink" title="我自己怎么看"></a>我自己怎么看</h2><p>看完这些条件，我对第一时间升级的期待倒是放平了。新 Siri 确实让人想试，但<strong>升到 iOS 27 和用上 Siri AI，是两回事</strong>。</p><p>如果 Siri AI 是你这次升级最在意的功能，更新前先确认四件事：</p><ol><li>设备是否支持，想用的进阶功能有没有更高的硬件要求？</li><li>能不能接受暂时使用英语界面？</li><li>使用者是否已满 13 岁？</li><li>是否符合苹果的地区可用条件？</li></ol><p>只要有一条没过，就别抱着「更新完马上试新 Siri」的期待去升级。你当然可以为了 iOS 27 的其他功能更新，但如果只为 Siri AI 而来，等语言和地区支持更完善后再考虑，也不迟。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Apple </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Anthropic研究员辞职：公司对齐负责人说灭绝风险超过10%</title>
+      <link href="/undefined/anthropic-coxon-hubinger-doom/"/>
+      <url>/undefined/anthropic-coxon-hubinger-doom/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>一名 AI 研究员辞职，公开指责自己待过的两家公司「拿我们的命在赌」。更引人注意的是，随后回应他的 Anthropic 对齐科学负责人，并没有否认他对风险的担忧。</p><p>9 月 9 日，曾在 OpenAI、Anthropic 从事预训练研究的 <strong>Jacob Coxon</strong> 在 X 发布长帖宣布辞职。他认为，两家公司都在不负责任地奔向能够自我改进的超级智能。</p><p><img src="https://r2.weifamily.cn/obsidian/20260910145032994.webp"></p><p>几小时后，Anthropic 对齐科学负责人 <strong>Evan Hubinger</strong> 跟帖回应。他表示，自己确实认真看待 AI 可能导致人类灭绝的风险；按他的个人判断，未来十年内，这一概率<strong>超过 10%</strong>。他同时承认，Anthropic 虽然在努力，但还没有解决超级智能对齐的方案，也不能说已经走在一条明确可行的路上。</p><p><img src="https://r2.weifamily.cn/obsidian/20260910144955722.webp"></p><p>Coxon 的帖子浏览量超过 7000 万。不过，讨论这些表述时，有一个区别需要先说清楚：<strong>这是当事人的公开观点，其中的概率是个人判断，不是 Anthropic 发布的正式风险评估。</strong></p><h3 id="他为什么决定离开？"><a href="#他为什么决定离开？" class="headerlink" title="他为什么决定离开？"></a>他为什么决定离开？</h3><p>Coxon 过去近三年都在 OpenAI 和 Anthropic 做预训练相关工作。按照媒体转述，他对这项技术的判断相当激进：未来的系统可能拥有突破计算机系统防线、迅速改变研究领域，以及获取现实权力和资源的能力。</p><p>这些是他对未来的预判，并非现有模型已经具备的能力清单。但在他看来，实验室里有些人确实相信，本十年结束前，AI 就可能带来人类灭绝的风险。这种担忧并不只是对外说说。</p><p>于是，他提出了一个很难绕开的问题：<strong>既然相信后果可能如此严重，为什么还要继续加速？</strong></p><p>Coxon 对两家公司的批评有所不同。他认为，OpenAI 的许多人并没有真正把这种文明层面的风险放进自己的决策里；Anthropic 理解风险，却陷入了另一种逻辑：因为不相信其他公司会负责任，所以必须由自己先做出来。</p><p>照这个思路，每家公司都能找到继续向前冲的理由，停下来的理由反而越来越少。</p><p>他也把问题抛给了仍在实验室工作的研究者：在还不理解这些系统如何运作时，是否应该继续用强化学习推动超级智能？面对「反正总有人会做」的说法，是接受它，还是要求先满足更严格的安全条件？</p><p>Coxon 并没有完全放弃协调的可能。他把 Hugging Face 等相关事件视为警讯，认为这或许能促使美国实验室就研发速度达成约定。必要时，他也主张考虑代价更大的措施，包括暂时禁止继续提升模型能力。</p><p>据 TechCrunch 报道，Anthropic 当时尚未回应就此次辞职提出的置评请求。</p><h3 id="比辞职帖更值得细读的，是-Hubinger-的回应"><a href="#比辞职帖更值得细读的，是-Hubinger-的回应" class="headerlink" title="比辞职帖更值得细读的，是 Hubinger 的回应"></a>比辞职帖更值得细读的，是 Hubinger 的回应</h3><p>Hubinger 的回应，让这场讨论多了一层分量：一位仍在 Anthropic 负责对齐研究的人，公开承认了自己对风险的担忧，也承认了现有方案的不足。</p><p>所谓「对齐」，简单说，就是让 AI 的行为符合人类的意图和安全要求，尤其是在它的能力远超人类时，仍然能够受到可靠约束。</p><p>Hubinger 的表述里，有三件事需要放在一起看。</p><p>首先，<strong>「未来十年超过 10%」是他的个人估计</strong>。这个数字很醒目，但它并不是经过统一方法计算、得到行业认可的结论，更不能直接代表整家公司或所有研究者的看法。</p><p>其次，他区分了现有模型与未来的超级智能。他认为现有模型的风险较低，真正担心的是能够不断改进自身能力的系统，也就是「递归自我改进」。他担忧这种变化可能比人们预想的来得更快。</p><p>最后，他承认超级智能的对齐问题仍未解决。从事安全研究，与已经拥有一套足以应对超级智能的安全方案，中间还有很大距离。</p><p>他此前签署的「Pacing the Frontier」等公开信，也表达过类似主张：美国政府应当拥有必要的工具，在需要时主动放缓自动化 AI 研发的前沿进展。</p><h3 id="担心失控的人，正在要求放慢速度"><a href="#担心失控的人，正在要求放慢速度" class="headerlink" title="担心失控的人，正在要求放慢速度"></a>担心失控的人，正在要求放慢速度</h3><p>这场争论也有更大的背景。按照相关报道，OpenAI 系统攻入 Hugging Face 的事件，以及 Anthropic 第三方评测环境意外开放公网的事件，都被带进了近期的安全讨论。Coxon 将这类事件视为需要认真对待的预警。</p><p>与此同时，OpenAI 首席科学家 <strong>Jakub Pachocki</strong> 也公开表达了对继续全速扩展模型的担忧。他认为，目前没有一家实验室的对齐与监控能力已经充分到位，并希望自愿减速和国际协调成为更常见的做法。</p><p>政策层面也出现了相关提案。媒体报道提到，美国参议员 Bernie Sanders、众议员 Greg Casar 等提出了 <em>Ban Artificial Superintelligence Act</em>，英国工党议员 Alex Sobel 也提出了相关安全法案。安全非营利组织 ControlAI 的 Connor Leahy 则把递归自我改进视为最可能失去控制的关键环节。这里说的是提案与公开主张，并不意味着相关限制已经生效。</p><p>但另一边，以递归自我改进为卖点的创业公司仍在融资。有人要求先停下来确认安全，也有人继续投入资金，争取更早实现它。双方分歧最终落在同一个问题上：面对尚不确定、却可能极其严重的后果，研发应该推进到哪一步？</p><h3 id="「超过-10-」，究竟该怎么理解？"><a href="#「超过-10-」，究竟该怎么理解？" class="headerlink" title="「超过 10%」，究竟该怎么理解？"></a>「超过 10%」，究竟该怎么理解？</h3><p>这个数字很容易单独成为标题，但只记住数字，反而会漏掉 Hubinger 真正表达的困境：他认为风险值得认真对待，而解决风险的方案尚未准备好。</p><p>AI 圈里有时会用 <strong>p(doom)</strong> 来表示一个人对 AI 导致灾难性结局的主观概率判断。这类估计依赖各自的假设，不能像天气预报里的降雨概率那样直接使用。Hubinger 的判断值得关注，是因为他的研究职责与这个问题密切相关；这并不意味着他的估计因此就成了定论。</p><p>同样，把他的发言理解成「现在的模型随时会毁灭人类」，也偏离了他的原意。他讨论的是未来超级智能，尤其是递归自我改进可能带来的风险。</p><hr><p>读完这场讨论，我更在意的是那个始终没有得到充分回答的问题：如果研究者自己都认为后果可能如此严重，什么情况下，他们愿意真正按下暂停键？</p><p>Coxon 的选择是辞职，并公开要求改变研发条件。Hubinger 的回应则让人看到，留在公司继续做安全研究的人，也可能对现状抱有很深的不安。</p><p>承认风险，是讨论的开始。接下来更值得追问的是：实验室会设定哪些不能跨过的界限，由谁来判断是否越界，以及触及界限后，能不能真的停下来。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>特斯拉Cybercab产线目标：10秒一辆，极限喊到5秒</title>
+      <link href="/undefined/tesla-cybercab-unboxed-10-seconds/"/>
+      <url>/undefined/tesla-cybercab-unboxed-10-seconds/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>10 秒下线一辆车，已经很快了。特斯拉给 Cybercab 设想的更远目标，是把这个间隔再压到 5 秒。</p><p>先别把它理解成「一辆车从零造好只要 10 秒」。这里说的是产线节拍：当生产线连续运转时，平均隔多久能有一辆车下线。即便如此，这个目标也足够让人好奇——特斯拉准备怎么做到？</p><p>9 月 8 日，特斯拉 Robotaxi 官方账号发布了一段 Cybercab <strong>「开箱制造」（Unboxed Process）</strong> 的 4K 工艺视频。官方给出的思路很直接：让不同模块同时组装，最后再合成整车，以此简化自动化流程，并将产线占地缩小约一半，为扩大产能腾出空间。</p><p>特斯拉把它称为「一个多世纪以来汽车制造的第一次真正革命」。这个评价够大胆，但能不能担得起，还得看实际生产表现。</p><h3 id="10-秒一辆，甚至-5-秒一辆，是什么概念？"><a href="#10-秒一辆，甚至-5-秒一辆，是什么概念？" class="headerlink" title="10 秒一辆，甚至 5 秒一辆，是什么概念？"></a>10 秒一辆，甚至 5 秒一辆，是什么概念？</h3><p>下面列出了一组对比：</p><table><thead><tr><th>参照</th><th>节拍量级</th><th>如何理解</th></tr></thead><tbody><tr><td>传统汽车总装</td><td>约 30–60 秒&#x2F;辆</td><td>行业参照区间</td></tr><tr><td>特斯拉 Model Y（上海最快产线）</td><td>约 34–35 秒&#x2F;辆</td><td>特斯拉当前最快产线</td></tr><tr><td>Cybercab 设计目标</td><td><strong>约 10 秒&#x2F;辆</strong></td><td>目标节拍，非已验证的量产成绩</td></tr><tr><td>更远的极限目标</td><td><strong>约 5 秒&#x2F;辆</strong></td><td>长期设想，非当前量产承诺</td></tr></tbody></table><p>如果用表中的 Model Y 节拍来算，10 秒一辆，意味着单位时间的产出约为它的 3–4 倍；如果做到 5 秒，则约为 6–7 倍。</p><p>马斯克此前在 2025 年股东会等公开场合，也谈过类似方向：希望 Cybercab 的制造更接近大批量消费电子生产，最终把节拍压到 10 秒以内，甚至讨论过 5 秒的可能性。</p><p>这些数字描述的是特斯拉想达到的生产效率。至于「一条线年产数百万辆」的说法，还取决于每天开工多久、设备停机多少、良品率能否稳定，以及零部件能不能及时供应。<strong>目标节拍可以用来估算理论产能，却不能直接当成实际年产量。</strong></p><h3 id="「开箱制造」，到底改了哪一步？"><a href="#「开箱制造」，到底改了哪一步？" class="headerlink" title="「开箱制造」，到底改了哪一步？"></a>「开箱制造」，到底改了哪一步？</h3><p>传统总装有点像先把房子盖好，再往里搬家具：车身先成形，后续再把线束、座椅和内饰等装进去。工人和设备需要在有限的空间里操作，各工位也要相互配合，某个环节出了问题，就可能影响后面的生产。</p><p>「开箱制造」的思路，是把更多装配工作放到车身合拢之前。</p><p>按照特斯拉此前介绍的方向，车辆会拆成约 <strong>5–6 个大模块</strong>，例如前后部件、左右侧围，以及预装座椅和内饰的结构电池底板。各个模块可以同时组装，完成后再由机械臂进行最后的合拢。</p><p><img src="https://r2.weifamily.cn/obsidian/20260909093554860.jpg"></p><p>这样一来，原本要伸进车身内部完成的部分操作，可以在更开阔的位置进行。不同模块也能同步推进，不必都挤在同一条装配顺序上。</p><p><img src="https://r2.weifamily.cn/obsidian/20260909093706875.jpg"></p><p>视频中还展示了一体压铸、外板注塑带漆等工艺方向：前者尝试减少零件和连接步骤，后者则希望减少对传统涂装流程的依赖。这些做法都围绕同一个问题：能不能少一些工序、少占一些空间，同时把车造得更快？</p><h3 id="视频展示了工艺，但还没证明-10-秒节拍"><a href="#视频展示了工艺，但还没证明-10-秒节拍" class="headerlink" title="视频展示了工艺，但还没证明 10 秒节拍"></a>视频展示了工艺，但还没证明 10 秒节拍</h3><p>这次视频里，可以看到机器人参与底盘、车身和内饰装配，也有人与设备在同一条线上作业，最后整车从线尾驶出。相比单纯的动画演示，这些画面让「开箱制造」具体了不少。</p><p>但视频没有给出可核验的连续生产节拍，也不足以判断产线能否长时间稳定运行在 10 秒一辆的水平。<strong>看到了装配过程，与确认量产效率，是两回事。</strong></p><p>占地和成本数据也要注意口径。官方文案说的是产线占地约减半；工厂占地减少约 <strong>40%–50%</strong>、人工成本降低约 <strong>30%</strong> 的估算。两者看起来接近，但「产线占地」和「整个工厂占地」并不是同一个范围，不能直接画等号。</p><p>这些效率和降本目标最终能兑现多少，还需要后续更完整的生产数据来说明。</p><h3 id="造得快之后，还要看能不能跑起来"><a href="#造得快之后，还要看能不能跑起来" class="headerlink" title="造得快之后，还要看能不能跑起来"></a>造得快之后，还要看能不能跑起来</h3><p>同期关于 Cybercab 在奥斯汀接入付费 Robotaxi、NHTSA 对自我认证开展审计（AQ26002）的消息，也引发了关注。具体进展需要以各自的官方披露为准，而它们关乎的是另一个问题：车造出来之后，能以多大规模投入运营？</p><p><img src="https://r2.weifamily.cn/obsidian/20260909093749270.webp"></p><p>对 Robotaxi 来说，制造效率当然重要。车能不能以足够低的成本、大批量生产，直接影响车队扩张的速度。但车造出来之后，自动驾驶系统能否可靠运行、运营是否满足监管要求，同样决定着业务能做多大。</p><p>所以，产线进展值得看，运营进展也值得看。前者的突破，并不会自动解决后者的问题。</p><hr><p>我更想知道的，是这套工艺能不能持续、稳定地跑起来。</p><p>10 秒甚至 5 秒的数字很抢眼，但如果质量、供应和设备稳定性跟不上，再漂亮的节拍也很难变成真正的交付能力。反过来，如果特斯拉能把这些环节都磨合好，「开箱制造」就可能实实在在地改变造车成本。</p><p>这段视频让我们看到了它打算怎么造。接下来，就等实际产量和成本来回答：这条路到底能走多快。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 特斯拉 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 特斯拉 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Apple Watch Series 12 代码里漏出四件事：Readiness、力量训练、新光感、128GB</title>
+      <link href="/undefined/apple-watch-series-12-four-features-leak/"/>
+      <url>/undefined/apple-watch-series-12-four-features-leak/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>Apple Watch 记录了那么多身体数据，能不能再往前走一步，告诉你今天适不适合练、上一次力量训练到底练了多少？</p><p><img src="https://r2.weifamily.cn/obsidian/20260908134659292.webp"></p><p>据 MacRumors 报道，<strong>watchOS 27 和 iOS 27 的测试版代码</strong>里出现了几处新线索，涉及独立的 Readiness 应用、更细的力量训练记录、新光学传感器，以及可能翻倍的存储容量。这些变化，让此前关于 <strong>Apple Watch Series 12 和 Ultra 4 将侧重健康与健身功能</strong>的爆料，有了更具体的看点。</p><h3 id="一、Readiness：今天适不适合练，手表能给个参考吗？"><a href="#一、Readiness：今天适不适合练，手表能给个参考吗？" class="headerlink" title="一、Readiness：今天适不适合练，手表能给个参考吗？"></a>一、Readiness：今天适不适合练，手表能给个参考吗？</h3><p>这次最让人好奇的，是一个内部名称为 <strong>Readiness</strong> 的独立 Watch 应用。它与现有的 **Vitals（生命体征）**分开出现，从代码来看，并不像是简单改了个名字。</p><p>它在系统里的位置也挺有意思：</p><ul><li>在 watchOS 27 的默认主屏布局里，它紧挨着 **Workout（体能训练）**应用，排在后面；</li><li>iOS 27 的 Watch 配套应用中，主屏排布逻辑也引用了它。</li></ul><p>结合名字和排列位置，它可能与训练准备度、身体恢复状态有关。比如，今天适合加点强度，还是应该缓一缓？这类判断，比单独看几项身体指标更贴近日常训练的需要。</p><h3 id="二、力量训练，可能终于能记得更细了"><a href="#二、力量训练，可能终于能记得更细了" class="headerlink" title="二、力量训练，可能终于能记得更细了"></a>二、力量训练，可能终于能记得更细了</h3><p>另一处变化，藏在健康相关的数据结构里。代码新增或扩展了力量训练的记录字段，包括：</p><ul><li>组数（sets）</li><li>次数（reps）</li><li>重量</li><li>器械</li><li>训练侧别（左侧或右侧）</li><li>时长</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260908134728334.webp"></p><p>对练力量的人来说，这些细节才是回顾一次训练时真正想看的：做了几组、每组几次、用了多大重量，下次又该怎么调整。</p><p>这至少说明，苹果正在为更详细的力量训练记录打基础。但有了存储字段，并不等于手表就能自动识别动作、数次数。最终怎么记录、在哪里查看，还要等具体功能公布。</p><h3 id="三、新光学传感器线索：重点可能是测得更稳"><a href="#三、新光学传感器线索：重点可能是测得更稳" class="headerlink" title="三、新光学传感器线索：重点可能是测得更稳"></a>三、新光学传感器线索：重点可能是测得更稳</h3><p>硬件方面，代码出现了一个新的光学传感器系列代号：<strong>Sunstone4p0</strong>。相关描述提到了两点：</p><ul><li>更低噪声系数；</li><li>根据佩戴手腕和朝向选择通道。</li></ul><p><img src="https://r2.weifamily.cn/obsidian/20260908134716979.webp"></p><p>这些描述指向一种可能：下一代光学传感器会针对不同佩戴情况做调整，让心率等光学测量在信号较弱时也能更稳定。</p><h3 id="四、存储可能翻倍，来到-128GB"><a href="#四、存储可能翻倍，来到-128GB" class="headerlink" title="四、存储可能翻倍，来到 128GB"></a>四、存储可能翻倍，来到 128GB</h3><p>最后一条线索比较直观：与 <strong>T8320</strong> 芯片关联的 NAND 存储配置文件，显示 Series 12 和 Ultra 4 可能提供 <strong>128GB</strong> 存储。如果落地，相比上一代的 <strong>64GB</strong>，容量将翻倍。</p><p>对习惯在手表里下载音乐、播客或离线地图的人来说，多一些空间总是方便的。</p><hr><p>四条线索里，我更期待 Readiness 和力量训练记录。传感器与容量的升级固然有用，但如果手表能把身体数据解释得更明白，也能把每次训练记得更完整，它对日常锻炼的帮助就会实在得多。</p><p>现在的悬念是：苹果会把这些基础做成多好用的功能，又有多少旧款 Apple Watch 能一起用上。比起代码里多了几个名字，这才是发布时最值得留意的部分。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Apple </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Apple </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>特斯拉Cybercab刚拉客，联邦安全署就来查认证</title>
       <link href="/undefined/tesla-cybercab-nhtsa-audit-1/"/>
       <url>/undefined/tesla-cybercab-nhtsa-audit-1/</url>
       
@@ -241,9 +454,9 @@
       
         <tags>
             
-            <tag> 马斯克 </tag>
-            
             <tag> 特斯拉 </tag>
+            
+            <tag> 马斯克 </tag>
             
         </tags>
       
@@ -293,9 +506,9 @@
       
         <tags>
             
-            <tag> OpenAI </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> OpenAI </tag>
             
         </tags>
       
@@ -525,9 +738,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> 马斯克 </tag>
-            
             <tag> Sam Altman </tag>
+            
+            <tag> 马斯克 </tag>
             
             <tag> Shivon Zilis </tag>
             
@@ -560,9 +773,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> 马斯克 </tag>
-            
             <tag> Sam Altman </tag>
+            
+            <tag> 马斯克 </tag>
             
             <tag> 人工智能 </tag>
             
@@ -941,9 +1154,9 @@
       
         <tags>
             
-            <tag> 马斯克 </tag>
-            
             <tag> 特斯拉 </tag>
+            
+            <tag> 马斯克 </tag>
             
             <tag> Terafab </tag>
             
@@ -976,9 +1189,9 @@
       
         <tags>
             
-            <tag> 马斯克 </tag>
-            
             <tag> 特斯拉 </tag>
+            
+            <tag> 马斯克 </tag>
             
             <tag> AI芯片 </tag>
             
