@@ -1,0 +1,473 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境 | Wei Family LLC</title><meta name="keywords" content="小米MiMo,MiMo-V2.6,开源大模型,Artificial Analysis,智能指数,强化学习,Hugging Face,MIT许可证,RSI,Agent"><meta name="author" content="Wei Family LLC"><meta name="copyright" content="Wei Family LLC"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境"><meta name="application-name" content="小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境"><meta property="og:url" content="https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/index.html"><meta property="og:site_name" content="Wei Family LLC"><meta property="og:description" content="小米正式开源MiMo-V2.6，旗舰Pro在第三方AA智能指数斩获46分，位居同档开源第一。深入拆解1.02T稀疏MoE架构、6天262万美元Live RL账本，以及真正颠覆行业的7000+强化学习任务环境开源价值。"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://r2.weifamily.cn/obsidian/20260923101837547.webp"><meta property="article:author" content="Wei Family LLC"><meta property="article:tag" content="[&quot;Wei Family LLC&quot;,&quot;AI思维车间&quot;]"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://r2.weifamily.cn/obsidian/20260923101837547.webp"><meta name="description" content="小米正式开源MiMo-V2.6，旗舰Pro在第三方AA智能指数斩获46分，位居同档开源第一。深入拆解1.02T稀疏MoE架构、6天262万美元Live RL账本，以及真正颠覆行业的7000+强化学习任务环境开源价值。"><link rel="shortcut icon" href="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png"><link rel="canonical" href="https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="codeva-uEBmfp28zo"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-4611485386553827',
+  enable_page_level_ads: 'true'
+});</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png"},
+  postHeadAiDescription: undefined,
+  diytitle: undefined,
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: false,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: Wei Family LLC","link":"链接: ","source":"来源: Wei Family LLC","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Wei Family LLC',
+  title: '小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境',
+  postAI: '',
+  pageFillDescription: '先分清三层水位：哪些是客观事实哪些是厂商口径？, 架构与训练账本：6 天烧掉 262 万美元的实时强化学习, 1. 动静结合的模型架构, 2. 令人瞩目的 Live RL 训练账单, 为什么说 7000+ RL 环境比权重本身更值钱？, 商业与生态算盘：极致性价比与「人车家全生态」闭环, 跑分会被超越开源的诚意才会被铭记北京时间月日小米正式发布并开源了大模型系列在第三方权威评测平台公布的最新智能指数榜单上旗舰模型拿下了分的高分在同体量开源权重模型池中位居第一宣称超越了此前的开源顶流与社交媒体上瞬间被小米大模型封神雷军登顶全球开源榜的口号刷屏从手机家电到智能汽车小米每一次跨界总能引发巨大的舆论声量但作为一个理性的技术观察者在铺天盖地的欢呼声中我们需要先冷静下来剥离宣发水分看清楚三个核心问题这个开源第一到底有多少含金量小米是怎么训出这台机器的在分背后真正让行业震动的底牌究竟是什么先分清三层水位哪些是客观事实哪些是厂商口径围观大模型发布最忌讳的是把官方上的自测战报直接当成既成事实读懂必须严格区分三层信息水位水位层级核心内容属性与客观性第三方独立榜单智能指数为在开源权重同体量档对照池中位列上下文窗口总参数约激活参数约开源许可证为极为宽松的第三方独立可核验数据代表其在综合测试集涵盖科学推理等下的客观水准厂商官方宣称小米官方新闻稿宣称分超越与成为最强开源多数基准对标同智能水平下推理成本仅为海外的厂商官方立场对比基准与成本倍数多为实验室特定场景估算属宣发口径可下载交付物开源权重仓库包括公开技术报告训练框架源码及强化学习任务环境社区可复现产物代码与权重真实可查但实际跑分仍取决于部署与微调水平值得肯定的是小米在官方战报里并没有盲目自大在宣称开源领先的同时官方主动写明了与全球闭源霸主以及之间依然存在明显代差这种坦诚在当下浮躁的模型公关战中显得尤为难得架构与训练账本天烧掉万美元的实时强化学习很多人以为又是靠死堆预训练语料刷出来的但翻看技术报告就会发现小米这次的核心技术叙事已经彻底转向押注递归自我改进路径全面放大强化学习的算力杠杆动静结合的模型架构旗舰稀疏架构总参数约单次推理仅激活约原生支持文本图像音频视频全模态输入原生支持超长上下文高能效档针对生产部署优化总参数激活仅主打极低延迟与高性价比针对端侧与开发者轻量化场景的蒸馏小模型令人瞩目的训练账单官方罕见地公布了本轮强化学习演进的真实工程账本与各迭代步累计消耗约万条探索轨迹真实训练成本档花费约万美元档花费约万美元真实能力跃迁在最具实战检验力度的长程软件工程榜单上从跃升至从飙升至极致吞吐工程单步处理约个长难样本单步吞吐高达为了防止模型在海量自我探索中学坏团队采用了冻结设置组内相对奖励评分构建防护网等一系列高难度工程措施这组数字向行业释放了一个明确信号大模型能力的质变期正在从海量无监督预训练迅速转向大规模高难度可验证环境下的强化学习探索为什么说环境比权重本身更值钱过去两年很多大厂所谓的开源实际上是甩卖式开源开发者在上只能领到一个动辄几百的打包权重模型怎么做的奖励模型怎么打分的训练环境长什么样全被锁在保险柜里开发者只能用它做简单推理想深入研究或针对性迭代几乎无从下手而小米这次最大的功绩在于它打破了这种伪开源壁垒把整套后训练生态推到了阳光下高质量强化学习环境开源覆盖真实软件工程复现与修复安全漏洞渗透测试复杂前端设计与开发科研形式化证明等高价值领域端到端基础设施全盘公开开放基于和构建的完整训练框架轻量级评估套件让中小企业和高校实验室无需从零造轮子就能直接复现大规模强化学习训练流程这就好比别家只是送了你一辆调校好的成品赛车而小米不仅把赛车钥匙交出来还把生产流水线图纸风洞测试标准和条专业赛道一口气全打包送给了开源社区再加上完全允许商业化自托管的许可证对于苦于没有高质量强化学习训练环境的广大科研机构与工程团队来说这份资料的价值远超单次跑分的高低商业与生态算盘极致性价比与人车家全生态闭环秀肌肉的终点必然是商业变现与生态落地小米在产品化上的布局同样极其务实加量不加价的定价系列在性能大幅飞跃的前提下官方定价完全维持原价根据平台的监控口径其输入输出参考价仅为每百万几乎是海外对标模型价格的几十分之一推理加速面向开发者和企业客户推出专用推理加速方案官方宣称最高可达倍延迟优化全场景具身与智能协同在官方演示中从游戏协作自动化建模到机械臂的物理仿真与无一不在对齐小米自身的人车家全生态战略对于小米而言大模型不是飘在云端的炫技玩具它是为数亿部智能手机数十万辆智能汽车海量设备乃至未来的具身智能机器人准备的统一底座大脑跑分会被超越开源的诚意才会被铭记在领域没有永远的第一今天的分明天就可能被友商刷新榜单的排位永远取决于评测版本对照池范围和时间节点但的意义在于它证明了中国科技巨头不仅能在消费硬件上做到极致同样有能力在大模型最硬核的强化学习与系统工程领域打出漂亮的一击更难得的是在闭源防守日趋严重的今天小米依然选择用最纯粹的协议把完整的技术报告训练框架与数千个复杂环境奉献给全球开发者热度退去之后级别的权重究竟有多少团队能够低成本部署在企业极其复杂的非标准化场景中模型的能力是否真如自测般稳健这些才是留在社区面前的真正考卷但无论如何这场属于开源社区的盛宴已经实实在在地开始了',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2026-09-26 18:59:46',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">Wei Family LLC</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 产品</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://www.aimindwork.com"><span> AI思维车间</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/wechat.jpg" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/wechat.jpg"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/zfb.jpg" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/zfb.jpg"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AGI/" style="font-size: 1.05rem;">AGI<sup>1</sup></a><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>17</sup></a><a href="/tags/AI%E5%AE%89%E5%85%A8/" style="font-size: 1.05rem;">AI安全<sup>1</sup></a><a href="/tags/AI%E5%B7%A5%E4%BD%9C%E6%B5%81/" style="font-size: 1.05rem;">AI工作流<sup>1</sup></a><a href="/tags/AI%E6%8A%95%E8%B5%84/" style="font-size: 1.05rem;">AI投资<sup>1</sup></a><a href="/tags/AI%E7%BC%96%E7%A8%8B/" style="font-size: 1.05rem;">AI编程<sup>1</sup></a><a href="/tags/Apple/" style="font-size: 1.05rem;">Apple<sup>24</sup></a><a href="/tags/Claude-Code/" style="font-size: 1.05rem;">Claude Code<sup>1</sup></a><a href="/tags/Clawdbot/" style="font-size: 1.05rem;">Clawdbot<sup>2</sup></a><a href="/tags/Codex/" style="font-size: 1.05rem;">Codex<sup>1</sup></a><a href="/tags/Cybercab/" style="font-size: 1.05rem;">Cybercab<sup>1</sup></a><a href="/tags/DC/" style="font-size: 1.05rem;">DC<sup>1</sup></a><a href="/tags/Elon-Musk/" style="font-size: 1.05rem;">Elon Musk<sup>1</sup></a><a href="/tags/GPT-5-5-Pro/" style="font-size: 1.05rem;">GPT-5.5 Pro<sup>1</sup></a><a href="/tags/Mac-mini/" style="font-size: 1.05rem;">Mac mini<sup>1</sup></a><a href="/tags/Midjourney/" style="font-size: 1.05rem;">Midjourney<sup>25</sup></a><a href="/tags/OpenAI/" style="font-size: 1.05rem;">OpenAI<sup>7</sup></a><a href="/tags/Others/" style="font-size: 1.05rem;">Others<sup>5</sup></a><a href="/tags/Robotaxi/" style="font-size: 1.05rem;">Robotaxi<sup>1</sup></a><a href="/tags/Sam-Altman/" style="font-size: 1.05rem;">Sam Altman<sup>3</sup></a><a href="/tags/Siri/" style="font-size: 1.05rem;">Siri<sup>2</sup></a><a href="/tags/Tesla/" style="font-size: 1.05rem;">Tesla<sup>5</sup></a><a href="/tags/iPhone/" style="font-size: 1.05rem;">iPhone<sup>28</sup></a><a href="/tags/xAI/" style="font-size: 1.05rem;">xAI<sup>2</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%B2%BB%E7%90%86/" style="font-size: 1.05rem;">人工智能治理<sup>1</sup></a><a href="/tags/%E4%BB%99%E4%BE%A0/" style="font-size: 1.05rem;">仙侠<sup>1</sup></a><a href="/tags/%E5%8F%A4%E9%A3%8E/" style="font-size: 1.05rem;">古风<sup>1</sup></a><a href="/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/" style="font-size: 1.05rem;">开源项目<sup>1</sup></a><a href="/tags/%E5%BE%AE%E8%BD%AF/" style="font-size: 1.05rem;">微软<sup>1</sup></a><a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" style="font-size: 1.05rem;">效率工具<sup>1</sup></a><a href="/tags/%E6%95%99%E8%82%B2/" style="font-size: 1.05rem;">教育<sup>1</sup></a><a href="/tags/%E7%89%B9%E6%96%AF%E6%8B%89/" style="font-size: 1.05rem;">特斯拉<sup>19</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E5%AE%98%E5%8F%B8/" style="font-size: 1.05rem;">科技官司<sup>1</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E8%82%A1/" style="font-size: 1.05rem;">科技股<sup>1</sup></a><a href="/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/" style="font-size: 1.05rem;">自动驾驶<sup>2</sup></a><a href="/tags/%E8%8B%B1%E4%BC%9F%E8%BE%BE/" style="font-size: 1.05rem;">英伟达<sup>3</sup></a><a href="/tags/%E8%8B%B9%E6%9E%9C/" style="font-size: 1.05rem;">苹果<sup>2</sup></a><a href="/tags/%E9%99%AA%E5%AE%A1%E5%9B%A2%E5%AE%A1%E5%88%A4/" style="font-size: 1.05rem;">陪审团审判<sup>1</sup></a><a href="/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/" style="font-size: 1.05rem;">马斯克<sup>18</sup></a><a href="/tags/%E9%BE%99%E7%8F%A0/" style="font-size: 1.05rem;">龙珠<sup>4</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/09/"><span class="card-archive-list-date">九月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">23</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/08/"><span class="card-archive-list-date">八月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/07/"><span class="card-archive-list-date">七月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/06/"><span class="card-archive-list-date">六月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/05/"><span class="card-archive-list-date">五月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/04/"><span class="card-archive-list-date">四月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">10</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/03/"><span class="card-archive-list-date">三月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/02/"><span class="card-archive-list-date">二月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">10</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI/" itemprop="url">AI</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/AI/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>AI</span></a></span></div></div><h1 class="post-title" itemprop="name headline">小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2026-09-23T02:19:41.000Z" title="发表于 2026-09-23 10:19:41">2026-09-23</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2026-09-26T10:59:46.467Z" title="更新于 2026-09-26 18:59:46">2026-09-26</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为Sheridan"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>Sheridan</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://r2.weifamily.cn/obsidian/20260923101837547.webp"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/"><header><a class="post-meta-categories" href="/categories/AI/" itemprop="url">AI</a><a href="/tags/AI/" tabindex="-1" itemprop="url">AI</a><h1 id="CrawlerTitle" itemprop="name headline">小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">Wei Family LLC</span><time itemprop="dateCreated datePublished" datetime="2026-09-23T02:19:41.000Z" title="发表于 2026-09-23 10:19:41">2026-09-23</time><time itemprop="dateCreated datePublished" datetime="2026-09-26T10:59:46.467Z" title="更新于 2026-09-26 18:59:46">2026-09-26</time></header><div style="text-align:center; margin:20px 0;">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"
+        crossorigin="anonymous"></script>
+    <!-- 博客文章内嵌入广告01 -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4611485386553827"
+        data-ad-slot="6802989139"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+
+<p>北京时间 9 月 22 日，小米正式发布并开源了 <strong>MiMo-V2.6</strong> 大模型系列。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260923101837547.webp"></p>
+<p>在第三方权威评测平台 <strong>Artificial Analysis</strong>（AA）公布的最新智能指数榜单上，旗舰模型 <strong>MiMo-V2.6-Pro</strong> 拿下了 <strong>46 分</strong>的高分，在同体量开源权重模型池中位居第一，宣称超越了此前的开源顶流 <strong>Kimi K3</strong> 与 <strong>Qwen3.8 Max</strong>。</p>
+<p>社交媒体上瞬间被「小米大模型封神」、「雷军登顶全球开源榜」的口号刷屏。从手机、家电到智能汽车，小米每一次跨界总能引发巨大的舆论声量。</p>
+<p>但作为一个理性的技术观察者，在铺天盖地的欢呼声中，我们需要先冷静下来剥离宣发水分，看清楚三个核心问题：<strong>这个「开源第一」到底有多少含金量？小米是怎么训出这台机器的？在 46 分背后，真正让行业震动的底牌究竟是什么？</strong></p>
+<hr>
+<h3 id="先分清三层水位：哪些是客观事实，哪些是厂商口径？"><a href="#先分清三层水位：哪些是客观事实，哪些是厂商口径？" class="headerlink" title="先分清三层水位：哪些是客观事实，哪些是厂商口径？"></a>先分清三层水位：哪些是客观事实，哪些是厂商口径？</h3><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260923101854953.png"></p>
+<p>围观大模型发布，最忌讳的是把官方 PPT 上的自测战报，直接当成既成事实。读懂 MiMo-V2.6，必须严格区分三层信息水位：</p>
+<table>
+<thead>
+<tr>
+<th align="left">水位层级</th>
+<th align="left">核心内容</th>
+<th align="left">属性与客观性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>第三方独立榜单</strong> (Artificial Analysis)</td>
+<td align="left">MiMo-V2.6-Pro 智能指数为 <strong>46</strong>；在「开源权重、同体量档」对照池中位列 <strong>#1 &#x2F; 114</strong>；上下文窗口 <strong>1M</strong>；总参数约 <strong>1.02T</strong>、激活参数约 <strong>42B</strong>；开源许可证为极为宽松的 <strong>MIT</strong>。</td>
+<td align="left"><strong>第三方独立可核验数据</strong>。代表其在 AA v4.3.2 综合测试集（涵盖 Coding、Agent、科学推理等）下的客观水准。</td>
+</tr>
+<tr>
+<td align="left"><strong>厂商官方宣称</strong> (小米官方新闻稿)</td>
+<td align="left">宣称 46 分「超越 Kimi K3 与 Qwen3.8 Max 成为最强开源」；多数 Agent 基准「对标 Claude Opus 5、GPT-5.6 Sol」；同智能水平下推理成本「仅为海外的 1&#x2F;20～1&#x2F;60」。</td>
+<td align="left"><strong>厂商官方立场</strong>。对比基准与成本倍数多为实验室特定场景估算，属宣发口径。</td>
+</tr>
+<tr>
+<td align="left"><strong>可下载交付物</strong> (Hugging Face &#x2F; GitHub)</td>
+<td align="left">开源权重仓库 <code>XiaomiMiMo/mimo-v26</code>：包括 Pro-RL、Flash-RL、Distill-Qwen-9B；公开技术报告、训练框架源码及 <strong>7000+</strong> 强化学习任务环境。</td>
+<td align="left"><strong>社区可复现产物</strong>。代码与权重真实可查，但实际跑分仍取决于部署与微调水平。</td>
+</tr>
+</tbody></table>
+<p>值得肯定的是，小米在官方战报里并没有盲目自大——在宣称开源领先的同时，<strong>官方主动写明了与全球闭源霸主 Claude Fable 5.1 以及 GPT-6 Astra 之间依然存在明显代差</strong>。这种坦诚，在当下浮躁的模型公关战中显得尤为难得。</p>
+<hr>
+<h3 id="架构与训练账本：6-天烧掉-262-万美元的“实时强化学习”"><a href="#架构与训练账本：6-天烧掉-262-万美元的“实时强化学习”" class="headerlink" title="架构与训练账本：6 天烧掉 262 万美元的“实时强化学习”"></a>架构与训练账本：6 天烧掉 262 万美元的“实时强化学习”</h3><p>很多人以为 MiMo-V2.6 又是靠死堆预训练语料刷出来的，但翻看技术报告就会发现，小米这次的核心技术叙事已经彻底转向：<strong>押注 RSI（递归自我改进，Recursive Self-Improvement）路径，全面放大强化学习（RL）的算力杠杆。</strong></p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260923101912827.webp"></p>
+<h4 id="1-动静结合的模型架构"><a href="#1-动静结合的模型架构" class="headerlink" title="1. 动静结合的模型架构"></a>1. 动静结合的模型架构</h4><ul>
+<li><strong>MiMo-V2.6-Pro-RL（旗舰）</strong>：稀疏 MoE 架构，<strong>总参数约 1.02T，单次推理仅激活约 42B</strong>。原生支持文本、图像、音频、视频全模态输入，原生支持 <strong>1M</strong> 超长上下文。</li>
+<li><strong>MiMo-V2.6-Flash-RL（高能效档）</strong>：针对生产部署优化，总参数 <strong>309B</strong>，激活仅 <strong>15B</strong>，主打极低延迟与高性价比。</li>
+<li><strong>MiMo-V2.6-Distill-Qwen-9B</strong>：针对端侧与开发者轻量化场景的蒸馏小模型。</li>
+</ul>
+<h4 id="2-令人瞩目的-Live-RL-训练账单"><a href="#2-令人瞩目的-Live-RL-训练账单" class="headerlink" title="2. 令人瞩目的 Live RL 训练账单"></a>2. 令人瞩目的 Live RL 训练账单</h4><p>官方罕见地公布了本轮强化学习演进的真实工程账本（Pro 与 Flash 各迭代 <strong>30 步</strong>，累计消耗约 <strong>75 万条探索轨迹</strong>）：</p>
+<ul>
+<li><strong>真实训练成本</strong>：Flash 档花费约 <strong>85 万美元</strong>，Pro 档花费约 <strong>262 万美元</strong>；</li>
+<li><strong>真实能力跃迁</strong>：在最具实战检验力度的长程软件工程榜单 <strong>DeepSWE v1.1</strong> 上，Flash 从 48.8 跃升至 <strong>65.7</strong>（+17），Pro 从 58.4 飙升至 <strong>72.6</strong>（+14）；</li>
+<li><strong>极致吞吐工程</strong>：单步处理约 1568 个长难样本、单步吞吐高达 <strong>3.5～3.7B tokens</strong>。为了防止模型在海量自我探索中“学坏”，团队采用了冻结 Router、设置组内相对奖励评分、构建 Reward Hacking 防护网等一系列高难度工程措施。</li>
+</ul>
+<p>这组数字向行业释放了一个明确信号：<strong>大模型能力的质变期，正在从“海量无监督预训练”迅速转向“大规模高难度可验证环境下的强化学习探索”。</strong></p>
+<hr>
+<h3 id="为什么说-7000-RL-环境比权重本身更值钱？"><a href="#为什么说-7000-RL-环境比权重本身更值钱？" class="headerlink" title="为什么说 7000+ RL 环境比权重本身更值钱？"></a>为什么说 7000+ RL 环境比权重本身更值钱？</h3><p>过去两年，很多大厂所谓的“开源”，实际上是“甩卖式开源”——开发者在 Hugging Face 上只能领到一个动辄几百 G 的打包权重（Weight Dump）。模型怎么做 RL 的？奖励模型怎么打分的？训练环境长什么样？全被锁在保险柜里。开发者只能用它做简单推理，想深入研究或针对性迭代几乎无从下手。</p>
+<p><strong>而小米这次最大的功绩，在于它打破了这种「伪开源」壁垒，把整套后训练生态推到了阳光下：</strong></p>
+<ol>
+<li><strong>7,000+ 高质量强化学习环境开源</strong>：覆盖真实软件工程（Issue 复现与修复）、安全漏洞渗透测试、复杂前端设计与开发、科研形式化证明等高价值领域；</li>
+<li><strong>端到端基础设施全盘公开</strong>：开放基于 verl、uni-agent 和 mini-swe-agent 构建的完整训练框架；</li>
+<li><strong>轻量级评估套件 mini-harness</strong>：让中小企业和高校实验室无需从零造轮子，就能直接复现大规模强化学习训练流程。</li>
+</ol>
+<p>这就好比别家只是送了你一辆调校好的成品赛车，而小米不仅把赛车钥匙交出来，还把<strong>生产流水线图纸、风洞测试标准和 7000 条专业赛道</strong>一口气全打包送给了开源社区。</p>
+<p>再加上完全允许商业化自托管的 <strong>MIT 许可证</strong>，对于苦于没有高质量强化学习训练环境的广大科研机构与工程团队来说，这份资料的价值远超单次跑分的高低。</p>
+<hr>
+<h3 id="商业与生态算盘：极致性价比与「人车家全生态」闭环"><a href="#商业与生态算盘：极致性价比与「人车家全生态」闭环" class="headerlink" title="商业与生态算盘：极致性价比与「人车家全生态」闭环"></a>商业与生态算盘：极致性价比与「人车家全生态」闭环</h3><p>秀肌肉的终点必然是商业变现与生态落地。小米在产品化上的布局同样极其务实：</p>
+<ul>
+<li><strong>加量不加价的 API 定价</strong>：V2.6 系列在性能大幅飞跃的前提下，官方 API 定价完全维持 V2.5 原价。根据 AA 平台的监控口径，其输入输出参考价仅为 <strong>$0.435 &#x2F; $0.87 每百万 tokens</strong>，几乎是海外对标模型价格的几十分之一；</li>
+<li><strong>UltraSpeed 推理加速</strong>：面向开发者和企业客户推出专用推理加速方案，官方宣称最高可达 <strong>20 倍</strong>延迟优化；</li>
+<li><strong>全场景具身与智能协同</strong>：在官方演示中，从 3D 游戏协作、Blender 自动化建模，到 Franka 机械臂的物理仿真与 Computer Use，无一不在对齐小米自身的「人车家全生态」战略。</li>
+</ul>
+<p>对于小米而言，大模型不是飘在云端的炫技玩具，它是为数亿部智能手机、数十万辆智能汽车、海量 IoT 设备乃至未来的具身智能机器人准备的统一底座大脑。</p>
+<hr>
+<h3 id="跑分会被超越，开源的诚意才会被铭记"><a href="#跑分会被超越，开源的诚意才会被铭记" class="headerlink" title="跑分会被超越，开源的诚意才会被铭记"></a>跑分会被超越，开源的诚意才会被铭记</h3><p>在 AI 领域，没有永远的「第一」。今天的 46 分明天就可能被友商刷新，榜单的排位永远取决于评测版本、对照池范围和时间节点。</p>
+<p>但 MiMo-V2.6 的意义在于：它证明了中国科技巨头不仅能在消费硬件上做到极致，同样有能力在大模型最硬核的强化学习与系统工程领域打出漂亮的一击；更难得的是，在闭源防守日趋严重的今天，小米依然选择用最纯粹的 <strong>MIT 协议</strong>，把完整的技术报告、训练框架与数千个复杂环境奉献给全球开发者。</p>
+<p>热度退去之后，1T 级别的 MoE 权重究竟有多少团队能够低成本部署？在企业极其复杂的非标准化场景中，模型的 Agent 能力是否真如自测般稳健？这些才是留在社区面前的真正考卷。</p>
+<p>但无论如何，这场属于开源社区的盛宴，已经实实在在地开始了。</p>
+<!-- <div class="video-container">
+[up主专用，视频内嵌代码贴在这]
+</div>
+
+<style>
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style> -->
+
+<div style="text-align:center; margin:20px 0;">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"
+        crossorigin="anonymous"></script>
+    <!-- 博客文章内嵌入广告02 -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4611485386553827"
+        data-ad-slot="7924499111"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div></article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">Wei Family LLC</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/')">小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/wechat.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/zfb.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/zfb.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境&amp;url=https://blog.weifamily.cn/undefined/xiaomi-mimo-v2-6-open-source/&amp;pic=https://r2.weifamily.cn/obsidian/20260923101837547.webp" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.weifamily.cn" target="_blank">Wei Family LLC</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/AI/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>AI<span class="tagsPageCount">17</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://r2.weifamily.cn/obsidian/20260924100307404.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/undefined/deepseek-unsc-ai-briefing/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260923095536518.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">DeepSeek 将赴联合国安理会吹风 AI 风险：中美顶尖模型同台，背后暗涌着什么？</div></div></a></div><div class="next-post pull-right"><a href="/undefined/musk-100-billion-humanoid-robots-optimus-progress/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260924094242701.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">马斯克预测 20 年后或有 1000 亿台人形机器人，Optimus 现在走到哪一步？</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/undefined/ai-moltbook-social-network-humans-readonly/" title="AI已经有了自己的推特，我们只能看不能说"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260201173905778.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-02-01</div><div class="title">AI已经有了自己的推特，我们只能看不能说</div></div></a></div><div><a href="/undefined/anthropic-mythos-security-breach-discord/" title="Anthropic 安全神话崩塌：一个Discord群众就把&quot;核武器&quot;偷走了"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260423132855439.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-04-23</div><div class="title">Anthropic 安全神话崩塌：一个Discord群众就把&quot;核武器&quot;偷走了</div></div></a></div><div><a href="/undefined/ai-native-talent-five-qualities-moonshot-ai/" title="AI时代，真正值钱的不是经验：月之暗面这套人才观，把我看醒了"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260719152432417.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-07-19</div><div class="title">AI时代，真正值钱的不是经验：月之暗面这套人才观，把我看醒了</div></div></a></div><div><a href="/undefined/apple-siri-ai-router-strategy/" title="苹果不卷大模型了：Siri变「AI路由器」，每年躺赚10亿"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260330183921458.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-03-30</div><div class="title">苹果不卷大模型了：Siri变「AI路由器」，每年躺赚10亿</div></div></a></div><div><a href="/undefined/chatgpt-ai-dog-cancer-vaccine/" title="你还有几个月可活：一位AI工程师如何用3个月，为爱犬砸开生门"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260315112955853.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-03-15</div><div class="title">你还有几个月可活：一位AI工程师如何用3个月，为爱犬砸开生门</div></div></a></div><div><a href="/undefined/clawdbot-mac-mini-ai-agent-guide/" title="硅谷二手Mac mini被抢疯了,背后推手竟是一只虚拟螃蟹"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260127095430807.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-01-27</div><div class="title">硅谷二手Mac mini被抢疯了,背后推手竟是一只虚拟螃蟹</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"></div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(https://bu.dusays.com/2023/05/13/645fa415e8694.png) center center / 100% no-repeat"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%88%E5%88%86%E6%B8%85%E4%B8%89%E5%B1%82%E6%B0%B4%E4%BD%8D%EF%BC%9A%E5%93%AA%E4%BA%9B%E6%98%AF%E5%AE%A2%E8%A7%82%E4%BA%8B%E5%AE%9E%EF%BC%8C%E5%93%AA%E4%BA%9B%E6%98%AF%E5%8E%82%E5%95%86%E5%8F%A3%E5%BE%84%EF%BC%9F"><span class="toc-text">先分清三层水位：哪些是客观事实，哪些是厂商口径？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9E%B6%E6%9E%84%E4%B8%8E%E8%AE%AD%E7%BB%83%E8%B4%A6%E6%9C%AC%EF%BC%9A6-%E5%A4%A9%E7%83%A7%E6%8E%89-262-%E4%B8%87%E7%BE%8E%E5%85%83%E7%9A%84%E2%80%9C%E5%AE%9E%E6%97%B6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E2%80%9D"><span class="toc-text">架构与训练账本：6 天烧掉 262 万美元的“实时强化学习”</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E5%8A%A8%E9%9D%99%E7%BB%93%E5%90%88%E7%9A%84%E6%A8%A1%E5%9E%8B%E6%9E%B6%E6%9E%84"><span class="toc-text">1. 动静结合的模型架构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E4%BB%A4%E4%BA%BA%E7%9E%A9%E7%9B%AE%E7%9A%84-Live-RL-%E8%AE%AD%E7%BB%83%E8%B4%A6%E5%8D%95"><span class="toc-text">2. 令人瞩目的 Live RL 训练账单</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4-7000-RL-%E7%8E%AF%E5%A2%83%E6%AF%94%E6%9D%83%E9%87%8D%E6%9C%AC%E8%BA%AB%E6%9B%B4%E5%80%BC%E9%92%B1%EF%BC%9F"><span class="toc-text">为什么说 7000+ RL 环境比权重本身更值钱？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%95%86%E4%B8%9A%E4%B8%8E%E7%94%9F%E6%80%81%E7%AE%97%E7%9B%98%EF%BC%9A%E6%9E%81%E8%87%B4%E6%80%A7%E4%BB%B7%E6%AF%94%E4%B8%8E%E3%80%8C%E4%BA%BA%E8%BD%A6%E5%AE%B6%E5%85%A8%E7%94%9F%E6%80%81%E3%80%8D%E9%97%AD%E7%8E%AF"><span class="toc-text">商业与生态算盘：极致性价比与「人车家全生态」闭环</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B7%91%E5%88%86%E4%BC%9A%E8%A2%AB%E8%B6%85%E8%B6%8A%EF%BC%8C%E5%BC%80%E6%BA%90%E7%9A%84%E8%AF%9A%E6%84%8F%E6%89%8D%E4%BC%9A%E8%A2%AB%E9%93%AD%E8%AE%B0"><span class="toc-text">跑分会被超越，开源的诚意才会被铭记</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/undefined/real-madrid-mourinho-perez-rift-succession/" title="real-madrid-mourinho-perez-rift-succession"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.090227.xyz/file/ae62475a131f3734a201c.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="real-madrid-mourinho-perez-rift-succession"/></a><div class="content"><a class="title" href="/undefined/real-madrid-mourinho-perez-rift-succession/" title="real-madrid-mourinho-perez-rift-succession">real-madrid-mourinho-perez-rift-succession</a><time datetime="2026-09-26T11:12:41.000Z" title="发表于 2026-09-26 19:12:41">2026-09-26</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/starship-flight-14-124m-stack-launch-readiness/" title="星舰已叠成约 124 米，Flight 14 离起飞还有多远？"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260924100307404.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="星舰已叠成约 124 米，Flight 14 离起飞还有多远？"/></a><div class="content"><a class="title" href="/undefined/starship-flight-14-124m-stack-launch-readiness/" title="星舰已叠成约 124 米，Flight 14 离起飞还有多远？">星舰已叠成约 124 米，Flight 14 离起飞还有多远？</a><time datetime="2026-09-24T02:04:01.000Z" title="发表于 2026-09-24 10:04:01">2026-09-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/musk-100-billion-humanoid-robots-optimus-progress/" title="马斯克预测 20 年后或有 1000 亿台人形机器人，Optimus 现在走到哪一步？"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260924094242701.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="马斯克预测 20 年后或有 1000 亿台人形机器人，Optimus 现在走到哪一步？"/></a><div class="content"><a class="title" href="/undefined/musk-100-billion-humanoid-robots-optimus-progress/" title="马斯克预测 20 年后或有 1000 亿台人形机器人，Optimus 现在走到哪一步？">马斯克预测 20 年后或有 1000 亿台人形机器人，Optimus 现在走到哪一步？</a><time datetime="2026-09-24T01:43:45.000Z" title="发表于 2026-09-24 09:43:45">2026-09-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/xiaomi-mimo-v2-6-open-source/" title="小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260923101837547.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境"/></a><div class="content"><a class="title" href="/undefined/xiaomi-mimo-v2-6-open-source/" title="小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境">小米开源 MiMo-V2.6 登顶榜首？比起 46 分的狂欢，更值得看的是那 7000 个强化学习环境</a><time datetime="2026-09-23T02:19:41.000Z" title="发表于 2026-09-23 10:19:41">2026-09-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/deepseek-unsc-ai-briefing/" title="DeepSeek 将赴联合国安理会吹风 AI 风险：中美顶尖模型同台，背后暗涌着什么？"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260923095536518.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="DeepSeek 将赴联合国安理会吹风 AI 风险：中美顶尖模型同台，背后暗涌着什么？"/></a><div class="content"><a class="title" href="/undefined/deepseek-unsc-ai-briefing/" title="DeepSeek 将赴联合国安理会吹风 AI 风险：中美顶尖模型同台，背后暗涌着什么？">DeepSeek 将赴联合国安理会吹风 AI 风险：中美顶尖模型同台，背后暗涌着什么？</a><time datetime="2026-09-23T01:58:29.000Z" title="发表于 2026-09-23 09:58:29">2026-09-23</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2026 By <a class="footer-bar-link" href="/" title="Wei Family LLC" target="_blank">Wei Family LLC</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">157</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">101</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">44</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 产品</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://www.aimindwork.com"><span> AI思维车间</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AGI/" style="font-size: 0.88rem;">AGI<sup>1</sup></a><a href="/tags/AI/" style="font-size: 0.88rem;">AI<sup>17</sup></a><a href="/tags/AI%E5%AE%89%E5%85%A8/" style="font-size: 0.88rem;">AI安全<sup>1</sup></a><a href="/tags/AI%E5%B7%A5%E4%BD%9C%E6%B5%81/" style="font-size: 0.88rem;">AI工作流<sup>1</sup></a><a href="/tags/AI%E6%8A%95%E8%B5%84/" style="font-size: 0.88rem;">AI投资<sup>1</sup></a><a href="/tags/AI%E7%BC%96%E7%A8%8B/" style="font-size: 0.88rem;">AI编程<sup>1</sup></a><a href="/tags/Apple/" style="font-size: 0.88rem;">Apple<sup>24</sup></a><a href="/tags/Claude-Code/" style="font-size: 0.88rem;">Claude Code<sup>1</sup></a><a href="/tags/Clawdbot/" style="font-size: 0.88rem;">Clawdbot<sup>2</sup></a><a href="/tags/Codex/" style="font-size: 0.88rem;">Codex<sup>1</sup></a><a href="/tags/Cybercab/" style="font-size: 0.88rem;">Cybercab<sup>1</sup></a><a href="/tags/DC/" style="font-size: 0.88rem;">DC<sup>1</sup></a><a href="/tags/Elon-Musk/" style="font-size: 0.88rem;">Elon Musk<sup>1</sup></a><a href="/tags/GPT-5-5-Pro/" style="font-size: 0.88rem;">GPT-5.5 Pro<sup>1</sup></a><a href="/tags/Mac-mini/" style="font-size: 0.88rem;">Mac mini<sup>1</sup></a><a href="/tags/Midjourney/" style="font-size: 0.88rem;">Midjourney<sup>25</sup></a><a href="/tags/OpenAI/" style="font-size: 0.88rem;">OpenAI<sup>7</sup></a><a href="/tags/Others/" style="font-size: 0.88rem;">Others<sup>5</sup></a><a href="/tags/Robotaxi/" style="font-size: 0.88rem;">Robotaxi<sup>1</sup></a><a href="/tags/Sam-Altman/" style="font-size: 0.88rem;">Sam Altman<sup>3</sup></a><a href="/tags/Siri/" style="font-size: 0.88rem;">Siri<sup>2</sup></a><a href="/tags/Tesla/" style="font-size: 0.88rem;">Tesla<sup>5</sup></a><a href="/tags/iPhone/" style="font-size: 0.88rem;">iPhone<sup>28</sup></a><a href="/tags/xAI/" style="font-size: 0.88rem;">xAI<sup>2</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%B2%BB%E7%90%86/" style="font-size: 0.88rem;">人工智能治理<sup>1</sup></a><a href="/tags/%E4%BB%99%E4%BE%A0/" style="font-size: 0.88rem;">仙侠<sup>1</sup></a><a href="/tags/%E5%8F%A4%E9%A3%8E/" style="font-size: 0.88rem;">古风<sup>1</sup></a><a href="/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/" style="font-size: 0.88rem;">开源项目<sup>1</sup></a><a href="/tags/%E5%BE%AE%E8%BD%AF/" style="font-size: 0.88rem;">微软<sup>1</sup></a><a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" style="font-size: 0.88rem;">效率工具<sup>1</sup></a><a href="/tags/%E6%95%99%E8%82%B2/" style="font-size: 0.88rem;">教育<sup>1</sup></a><a href="/tags/%E7%89%B9%E6%96%AF%E6%8B%89/" style="font-size: 0.88rem;">特斯拉<sup>19</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E5%AE%98%E5%8F%B8/" style="font-size: 0.88rem;">科技官司<sup>1</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E8%82%A1/" style="font-size: 0.88rem;">科技股<sup>1</sup></a><a href="/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/" style="font-size: 0.88rem;">自动驾驶<sup>2</sup></a><a href="/tags/%E8%8B%B1%E4%BC%9F%E8%BE%BE/" style="font-size: 0.88rem;">英伟达<sup>3</sup></a><a href="/tags/%E8%8B%B9%E6%9E%9C/" style="font-size: 0.88rem;">苹果<sup>2</sup></a><a href="/tags/%E9%99%AA%E5%AE%A1%E5%9B%A2%E5%AE%A1%E5%88%A4/" style="font-size: 0.88rem;">陪审团审判<sup>1</sup></a><a href="/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/" style="font-size: 0.88rem;">马斯克<sup>18</sup></a><a href="/tags/%E9%BE%99%E7%8F%A0/" style="font-size: 0.88rem;">龙珠<sup>4</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 Wei Family LLC 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
