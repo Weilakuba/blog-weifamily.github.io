@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>微软自家的 GitHub，把微软自家邮箱拉黑了</title>
+      <link href="/undefined/github-blocks-microsoft-outlook-hotmail-registration/"/>
+      <url>/undefined/github-blocks-microsoft-outlook-hotmail-registration/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>科技界今天爆出了一个堪称「大水冲了龙王庙」的魔幻名场面：</p><p><strong>微软旗下的代码托管平台 GitHub，把微软自家的 Outlook 和 Hotmail 邮箱给拉黑了。</strong></p><p><img src="https://r2.weifamily.cn/obsidian/20260928185235489.webp"></p><p>如果你今天手头刚好有个新项目想开个 GitHub 新账号，顺手填上自己的 <code>@outlook.com</code> 或 <code>@hotmail.com</code>，点击下一步时，大概率会收到一行鲜红刺眼的错误提示：</p><blockquote><p><strong>Email domain could not be verified</strong>（邮箱域名无法验证）</p></blockquote><p><img src="https://r2.weifamily.cn/obsidian/20260928185131550.webp"></p><p>页面直接卡死，无法继续。</p><p>很多人第一反应是：“肯定是 GitHub 又抽风了，或者是我的网络姿势不对。”</p><p>但这次真不是 Bug。<strong>GitHub 是微软全资收购的亲儿子，Outlook 和 Hotmail 是微软运营了几十年的门面服务——结果，自家的产品，硬生生把自家邮箱拒之门外了。</strong></p><hr><h3 id="不是系统抽风，是官方“痛下杀手”"><a href="#不是系统抽风，是官方“痛下杀手”" class="headerlink" title="不是系统抽风，是官方“痛下杀手”"></a>不是系统抽风，是官方“痛下杀手”</h3><p>根据科技媒体蓝点网的报道以及 GitHub 官方社区的最新反馈，这项限制并不是临时故障，而是 GitHub 风控团队主动上线的策略：</p><p><strong>GitHub 已正式暂停使用 <code>@outlook.com</code> 与 <code>@hotmail.com</code> 域名注册新账号。</strong></p><p>官方给出的理由相当直接且无奈：</p><blockquote><p>监测到与这两个邮箱域名相关的欺诈和滥用行为呈现**“持续性、有组织的”**特征。为了保障平台生态安全，决定暂停受理来自这些域名的注册申请。</p></blockquote><p>翻译成大白话就是：<strong>GitHub 被黑灰产的脚本小号薅得头皮发麻，防守成本彻底爆表，只能掏出大剪刀，先把自家大门给焊死了。</strong></p><p>更绝的是，GitHub 明确表示目前<strong>没有人工审核或白名单例外通道</strong>。不管你是名校计算机系学生、在职工程师，还是几十年的微软老粉，只要邮箱后缀带这俩，一律免谈。</p><hr><h3 id="为什么黑灰产独宠-Outlook-和-Hotmail？"><a href="#为什么黑灰产独宠-Outlook-和-Hotmail？" class="headerlink" title="为什么黑灰产独宠 Outlook 和 Hotmail？"></a>为什么黑灰产独宠 Outlook 和 Hotmail？</h3><p>很多人看到这里可能会纳闷：全球免费邮箱那么多，从 Gmail、Yahoo 到各种临时匿名邮，为什么偏偏是微软自家的邮箱被黑灰产盯上，甚至逼得 GitHub 六亲不认？</p><p>说到底，这是<strong>黑灰产套利空间与平台风控成本之间的一场博弈</strong>。</p><h4 id="1-极低注册门槛-vs-极高信誉权重（天然倒挂）"><a href="#1-极低注册门槛-vs-极高信誉权重（天然倒挂）" class="headerlink" title="1. 极低注册门槛 vs 极高信誉权重（天然倒挂）"></a>1. 极低注册门槛 vs 极高信誉权重（天然倒挂）</h4><p>在黑灰产眼里，一个完美的“肉鸡邮箱”需要满足两个条件：<strong>好拿到</strong>、<strong>好伪装</strong>。</p><ul><li><strong>Gmail</strong> 虽好，但近几年 Google 的设备指纹和手机号验证极其严苛，批量注册成本极高；</li><li><strong>临时邮箱或小众邮箱</strong> 门槛低，但各大平台的反垃圾系统早把它们列入了高危库，一注册就被秒封；</li><li><strong>Outlook 和 Hotmail 恰好卡在了完美的生态盲区</strong>：微软的注册风控在对抗专业脚本时相对宽松；同时，作为微软的招牌邮箱，它们在全球各大安全系统里的<strong>域名信誉评分（Domain Reputation）极高</strong>，天生自带“良民证”。</li></ul><p>这让微软邮箱成了全球黑产批量囤积小号时的首选硬通货。</p><h4 id="2-黑产拿-GitHub-小号到底在干什么？"><a href="#2-黑产拿-GitHub-小号到底在干什么？" class="headerlink" title="2. 黑产拿 GitHub 小号到底在干什么？"></a>2. 黑产拿 GitHub 小号到底在干什么？</h4><p>一个空壳 GitHub 账号能有什么用？在普通人眼里它只是个交代码的地方，但在黑产链条上，它浑身是宝：</p><ul><li><strong>薅免费算力（GitHub Actions）</strong>：利用 GitHub 免费提供的 CI&#x2F;CD 算力去跑挖矿程序、自动化代理或扫描脚本。一台机器不算什么，几万个账号日夜不停跑，平台每天都在白白烧钱；</li><li><strong>开源生态投毒与钓鱼</strong>：批量注册账号向知名开源项目提 PR、上传夹带私货的恶意 npm&#x2F;pip 包，或者在社区伪造虚假技术问题传播恶意链接；</li><li><strong>刷量与灰产营销</strong>：给某些项目刷 Star、刷 Followers，甚至滥用 GitHub Sponsors 洗钱或套现；</li><li><strong>薅 AI 试用福利</strong>：批量套取 Copilot 或学生包等开发者福利资源。</li></ul><p>当每天成千上万个由自动化脚本驱动的 Outlook 账号涌入注册通道时，GitHub 的行为分析系统已经很难在毫秒级内从泥沙中淘金。</p><p>继续放任，服务器算力和安全防线会被拖垮；<br>精细拦截，人工审核和算力成本高昂。<br><strong>最终，GitHub 的安全团队做了一个最粗暴、但也最立竿见影的技术决策：直接把域名封锁，物理止血。</strong></p><hr><h3 id="会不会影响到你？老用户与新用户的区别对待"><a href="#会不会影响到你？老用户与新用户的区别对待" class="headerlink" title="会不会影响到你？老用户与新用户的区别对待"></a>会不会影响到你？老用户与新用户的区别对待</h3><p>看到自家主力邮箱被拉黑，不少朋友开始担心自己的 GitHub 账号会不会遭殃。这里帮大家梳理了几个关键事实：</p><ul><li><strong>✅ 已经绑定的老账号不受任何影响</strong>：如果你的 GitHub 账号早就绑定了 Outlook 或 Hotmail，目前日常提交代码、登录、收发通知完全正常，不用慌着去换绑。</li><li><strong>❌ 仅针对新注册用户</strong>：只要你尝试用这两个后缀发起“Sign up”，就会触发拦截阻断。</li><li><strong>💡 迂回解决办法</strong>：目前如果有刚需注册新账号，建议直接更换其他主流邮箱服务（如 Gmail、Proton、公司&#x2F;学校域名），或者在注册页选择 <strong>Continue with Google</strong> &#x2F; <strong>Continue with Apple</strong> 第三方授权直接创建账号。</li><li><strong>⏳ 什么时候恢复？</strong> 官方并没有给出明确的时间表，仅表示“将持续评估如何在防止滥用的同时提供安全访问”。按照以往大厂的风控惯例，在黑灰产找到下一个接盘侠、或者微软两套产品线跑通新的底层信任机制之前，这种封禁很可能会维持相当一段时间。</li></ul><hr><h3 id="最扎心的地方：普通用户的“数字信誉”到底算谁的？"><a href="#最扎心的地方：普通用户的“数字信誉”到底算谁的？" class="headerlink" title="最扎心的地方：普通用户的“数字信誉”到底算谁的？"></a>最扎心的地方：普通用户的“数字信誉”到底算谁的？</h3><p>这起事件表面上看是一则科技冷知识、一出“微软左手打右手”的内部乌龙，但在戏谑之余，留给每个普通用户的感受却格外扎心。</p><p>我们生活在一个全面数字化的时代。你的邮箱不仅是一串字符，更是你在赛博世界里积攒了数年甚至数十年的一张“数字身份证”。</p><p>很多开发者从大学第一天写代码起，就用着同一个 Hotmail 或 Outlook 邮箱，记录着每一次提交、每一个项目。结果到了今天，就因为黑产脚本看中了这个域名的信誉好、薅的人太多，平台大手一挥：<strong>抱歉，这个后缀的人我信不过了。</strong></p><p><strong>黑灰产作恶，平台一刀切止血，最终买单的，却是老老实实守规矩的普通用户。</strong></p><p>更讽刺的是，这甚至发生在同一个母公司的屋檐下。微软花了上百亿美元收购 GitHub、整合生态，但在冷冰冰的风控策略和风险指标面前，不同业务线之间的信任成本依然脆弱得经不起黑产的冲击。</p><p>在自动化 Bot 和黑产大军越来越猖獗的今天，互联网正在变得越来越封闭，正常人证明自己是“一个活人”的门槛也正在变得越来越高。</p><p>如果连微软自己的核心产品，都不敢信任微软自己发出的邮箱，那我们在网络世界里的信誉，到底还能托付给谁？</p><hr><p>你日常还在用 Outlook 或 Hotmail 吗？对于 GitHub 这次宁可“背刺自家兄弟”也要一刀切的风控手段，你觉得是对是错？</p><p>欢迎在评论区聊聊你的看法。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 微软 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微软 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>曼联帅位暂无危机？罗马诺辟谣孔蒂传闻，但卡里克的蜜月期已经结束</title>
+      <link href="/undefined/man-utd-carrick-romano-no-contact-coaches/"/>
+      <url>/undefined/man-utd-carrick-romano-no-contact-coaches/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>9 月 27 日，知名转会记者罗马诺在其专栏中为曼联当下的帅位风波定调：截至目前，曼联<strong>没有接触任何其他主帅</strong>，也未与任何教练经纪人展开谈判，俱乐部高层态度“完全平静”；更重要的是，管理层确信<strong>绝大多数球员依然坚定支持卡里克</strong>。</p><p><img src="https://r2.weifamily.cn/obsidian/20260928152420872.jpg"></p><p>此前四天，意大利媒体曾爆料“曼联已初步接触孔蒂”，并称其为头号替代人选。罗马诺的辟谣，加上英国主流媒体的跟进，基本证实所谓的换帅传闻只是捕风捉影。然而，在老特拉福德表面的平静之下，暗流已然汹涌。</p><h3 id="危机正在蔓延：5-轮仅积-5-分，一周三战不胜"><a href="#危机正在蔓延：5-轮仅积-5-分，一周三战不胜" class="headerlink" title="危机正在蔓延：5 轮仅积 5 分，一周三战不胜"></a>危机正在蔓延：5 轮仅积 5 分，一周三战不胜</h3><p>外界之所以对卡里克的帅位产生动摇，根源在于曼联惨淡的赛季开局。</p><p>新赛季英超 5 轮战罢，曼联仅取得 1 胜 2 平 2 负积 5 分的成绩，滑落至积分榜第 12 位，已被领头羊曼城甩开整整 10 分。各项赛事 7 场比赛狂丢 11 球，仅有 1 场零封，防线千疮百孔。</p><p><img src="https://r2.weifamily.cn/obsidian/20260928152451553.jpg"></p><p>刚刚过去的这一周，更是让球队士气跌入谷底：</p><ul><li><strong>曼彻斯特德比</strong>：在福登早早染红下场的情况下，多打一人的曼联不仅未能破局，反而被哈兰德打入争议进球，0–1 饮恨。尽管裁判机构事后承认该进球越位犯规并向曼联致歉，但丢掉的 3 分已无法挽回；</li><li><strong>联赛杯崩盘</strong>：主场对阵布莱顿，曼联开场 10 分钟便两球领先，随后竟被连扳三球、2–3 惨遭逆转出局。这是曼联自 1976 年以来，半个世纪里首次在主场两球领先的情况下被翻盘；</li><li><strong>客平富勒姆</strong>：若非最后时刻库尼亚射门折射入网，曼联险些在克拉文农场全盘皆输。名宿加里·内维尔甚至直言，下半场开局的 15 分钟是他见过曼联“最糟糕的表现”。</li></ul><h3 id="高层的底气与更衣室的信任"><a href="#高层的底气与更衣室的信任" class="headerlink" title="高层的底气与更衣室的信任"></a>高层的底气与更衣室的信任</h3><p>既然战绩如此低迷，为何以贝拉达（CEO）和维尔科克斯（总监）为首的 INEOS 领导层仍能保持定力？</p><p>首先是<strong>上赛季积累的深厚信用</strong>。今年 1 月卡里克接替阿莫林救火时，带队打出 17 战 12 胜的惊艳表现，将球队硬生生抬进英超前三、重返欧冠。这份硬核成绩单让他在 5 月底获得了为期两年的正式合同，也让他拥有远高于前任阿莫林的“容错空间”。</p><p>其次是<strong>阵容重建的客观周期</strong>。曼联今夏在转会市场上斥资约 1.55 亿英镑，引进了安德烈·桑托斯、蒂莱曼斯和巴莱巴三位全新中场。高层深知整条中轴线推倒重来需要时间磨合，此时盲目归咎于教练并不客观。</p><p><img src="https://r2.weifamily.cn/obsidian/20260928152511638.jpg"></p><p>最关键的支撑，在于<strong>更衣室并未失控</strong>。不同于以往穆里尼奥、滕哈赫或阿莫林执教末期球员离心离德的局面，目前队内核心依然认可卡里克的战术设计。前锋库尼亚在富勒姆赛后便公开强调，球队上下“彼此深信不疑，清楚前进的方向”。</p><h3 id="伤病潮与十月魔鬼赛程的生死考验"><a href="#伤病潮与十月魔鬼赛程的生死考验" class="headerlink" title="伤病潮与十月魔鬼赛程的生死考验"></a>伤病潮与十月魔鬼赛程的生死考验</h3><p>然而，足球世界终究靠结果说话，高层的耐心绝非无底线。</p><p><img src="https://r2.weifamily.cn/obsidian/20260928152521658.jpg"></p><p>眼下的国家队比赛日不仅未能给卡里克带来喘息机会，反而带来了沉重的伤病潮：拉什福德（髋部）、梅努、塞斯科（胫部）与多尔古（腿筋）先后因伤退出国家队，队长 B 费更是连续数场带伤苦撑。</p><p>10 月中旬复赛后，卡里克将迎来决定命运的 9 天 3 战：</p><ol><li><strong>10 月 10 日 英超主场迎战热刺</strong>：对手 5 轮不胜垫底，必将全力死磕；</li><li><strong>10 月 13 日 欧冠客战马德里竞技</strong>：客场挑战西蒙尼的铁血防线；</li><li><strong>10 月 18 日 英超客战利兹联</strong>：面对开局 5 轮不败排名前五的死敌。</li></ol><p>在伤兵满营的情况下迎战三场硬仗，曼联已没有任何容错空间。意媒热炒的孔蒂或许只是空穴来风，但积分榜上的数字却无比冰冷。</p><p>卡里克究竟是一位运气欠佳的重建引路人，还是又一个陷入“高开低走”魔咒的索尔斯克亚？更衣室的力挺能否经得起残酷积分的考验？10 月的这 9 天，将给出最终的判决。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 曼联 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 曼联 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>皇马后院起火？加泰媒曝穆帅与老佛爷首度决裂，高层甚至暗谋“立储接班”！</title>
       <link href="/undefined/real-madrid-mourinho-perez-rift-succession/"/>
       <url>/undefined/real-madrid-mourinho-perez-rift-succession/</url>
