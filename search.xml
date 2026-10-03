@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>马斯克称 AI5 内存减半至72GB：带宽不变，性能就不变吗？</title>
+      <link href="/undefined/tesla-ai5-72gb-bandwidth-unchanged/"/>
+      <url>/undefined/tesla-ai5-72gb-bandwidth-unchanged/</url>
+      
+        <content type="html"><![CDATA[<div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告01 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="6802989139"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div><p>为了让 Optimus 人形机器人有足够的内存可用，特斯拉选择减少每套方案的内存容量。</p><p>北京时间2026年10月2日凌晨3时51分，埃隆·马斯克在 X 上回复网友称，AI5 的内存已经减半，调整后为72GB；AI6 的内存也做了削减，调整后为144GB。他说，这样做是为了满足 Optimus 生产所需的供给，同时大幅降低成本。</p><p><img src="https://r2.weifamily.cn/obsidian/20261003084051298.webp"></p><p>最让人好奇的是后半句：容量减少了，带宽保持不变，特斯拉认为对 Optimus 性能的影响可以忽略。</p><p>少装内存、降低成本，又不明显损失性能，这当然是个好消息。但它成立的条件是什么？带宽没变，能不能独自回答这个问题？</p><h3 id="先看清楚，这次公布了哪些数字"><a href="#先看清楚，这次公布了哪些数字" class="headerlink" title="先看清楚，这次公布了哪些数字"></a>先看清楚，这次公布了哪些数字</h3><p>消息来自马斯克对 @DirtyTesLa 的回复。他在同一条帖子里给出了两组调整后的容量：</p><table><thead><tr><th>芯片</th><th>帖子中的当前内存配置</th><th>削减幅度的表述</th></tr></thead><tbody><tr><td>AI5</td><td>72GB，LP5</td><td>内存减半</td></tr><tr><td>AI6</td><td>144GB，LP6</td><td>原文写作「1&#x2F;3」</td></tr></tbody></table><p>LP5、LP6 沿用帖子里的缩写。Wccftech 和 CryptoBriefing 将它们展开为 LPDDR5、LPDDR6，但原文没有进一步列出内存规格。</p><p>削减前的容量，需要区分原文信息和算术换算。</p><p>AI5 减半后是72GB，如果按这个比例准确计算，调整前就是144GB。这是从马斯克的话推出来的数字，帖子没有另行列出一份旧配置。</p><p>AI6 则多了一层前提。TeslaNorth 和 IT之家把「1&#x2F;3」理解为减少三分之一，也就是保留原来的三分之二。按这个读法，144GB ÷ 2&#x2F;3，得到的调整前容量是216GB。</p><p>因此，216GB 可以作为这套读法下的换算结果，引用时应交代前提。原文没有写出这个数字，也没有用「by」或「to」明确展开削减比例。</p><p><img src="https://r2.weifamily.cn/obsidian/20261003084204066.webp"><br>相比追溯旧容量，更值得关注的是马斯克明确给出的取舍：特斯拉愿意减少容量，换取更多供给和更低成本。</p><h3 id="为了生产，先把每台需要的内存降下来"><a href="#为了生产，先把每台需要的内存降下来" class="headerlink" title="为了生产，先把每台需要的内存降下来"></a>为了生产，先把每台需要的内存降下来</h3><p>马斯克回复的那条网友帖子，讨论的是人形机器人大规模生产会带来多少内存需求。</p><p>对方按每台200GB、100亿台机器人估算，得出总需求为2万亿GB，并以全球每年约450亿GB的 DRAM 产量作对照。DRAM 是一种常用的运行内存。</p><p>这些数字是网友提供的估算。马斯克没有在回复里确认这组需求预测，也没有背书其中的全球产量数字，不能把整段计算都算成他的判断。</p><p>他自己的说法更直接：减少内存，是满足 Optimus 生产所需供给的「唯一办法」，而且能够大幅降低成本。</p><p><img src="https://r2.weifamily.cn/obsidian/20261003084227814.webp"></p><p>这让问题从一台机器需要多少内存，转到了生产更多机器时，怎样分配有限的供给。如果其他条件相同，每套方案需要的内存更少，同样总量的内存就能支持更多套方案。</p><p>但这只是内存供给这一环。它不能直接换算成机器人产量翻倍，更不能据此判断 Optimus 的整机成本下降了多少。马斯克没有公布采购价格、具体供应商和节省金额，也没有拆分内存成本与整机成本。</p><p>这次调整的生产动机已经说清楚了，节省的收益有多大，还没有数字。</p><h3 id="容量管「放多少」，带宽管「搬多快」"><a href="#容量管「放多少」，带宽管「搬多快」" class="headerlink" title="容量管「放多少」，带宽管「搬多快」"></a>容量管「放多少」，带宽管「搬多快」</h3><p>理解性能影响，先要把两个容易混在一起的概念分开。</p><p>内存容量决定同一时刻能容纳多少数据，例如运行模型所需的权重、摄像头画面的缓冲，以及任务处理中需要保留的信息。内存带宽则决定这些数据每秒能在内存与处理器之间传输多少。</p><p>机器人完成一项任务，既需要相关数据放得下，也需要处理器及时拿到这些数据。</p><p>假设运行所需的数据原本就能放进72GB，减少容量后仍有余量，那么容量减半不必然导致任务变慢。如果原来的主要限制在数据传输，而带宽确实保持不变，马斯克所说的「影响可以忽略」就有了合理的解释。</p><p>但如果一项任务需要同时保留的数据超过了新容量，带宽再高，也不能让这些数据同时放进内存。系统就可能需要调整模型、减少缓存，或改变处理方式。具体会不会影响效果，要看任务和实现。</p><p>这并不意味着任务做得越久，内存就一定占得越多。数据可以被释放或重复使用，关键在于任务进行时，需要同时保留多少内容。</p><p>所以，「带宽不变」提供了一个重要条件，还需要知道另一个条件：调整后的容量，能否覆盖机器人实际运行的需求。</p><h3 id="「我们认为影响可忽略」，还需要怎样的证据"><a href="#「我们认为影响可忽略」，还需要怎样的证据" class="headerlink" title="「我们认为影响可忽略」，还需要怎样的证据"></a>「我们认为影响可忽略」，还需要怎样的证据</h3><p>马斯克的原句里有「we think」，即「我们认为」。他点名的是 Optimus 性能，判断依据是带宽比总容量更构成限制，而且带宽保持不变。</p><p>这句话不能直接改成「减半后性能已经证实不受影响」。帖子没有附上调整前后的对比测试，没有公布内存占用，也没有给出带宽数值和测试任务。</p><p>我更想看到的，是同一组任务在削减前后的表现：能否稳定完成、用时有多大变化、内存占用最高到了多少，以及容量接近上限时会发生什么。</p><p>这些数据能够把「影响可忽略」落到具体条件上。某组任务几乎没有差异，可以支持那组任务下的判断；是否还适用于其他模型和更复杂的任务，需要更多结果。</p><p>适用范围也需要分清。虽然马斯克谈的是 Tesla AI5 和 AI6 的内存配置，但性能判断针对 Optimus。帖子没有分别说明车用方案和机器人方案是否同步调整，也没有说车端推理会得到同样的结果。</p><p>他用了「现在是72GB」「现在是144GB」，也没有因此交代新配置从哪一批次开始生产。当前设计容量、芯片制造进度和机器人交付，是不同的问题。</p><p>至于其他报道补充的工艺、算力、供应商分工和量产年份，都需要各自的来源支持，不能把它们当作这条回复新公布的信息。</p><p>这次消息值得关注，因为它展示了一个很实际的取舍：为了让机器人更容易生产、更便宜，特斯拉减少了内存容量，并判断现有带宽足以让性能代价保持很小。</p><p>这个思路有道理，结果仍要看运行需求。72GB 能否留出足够余量，144GB 能覆盖哪些任务，比单独比较容量大小更有用。</p><p>如果调整后的方案能稳定完成同样的工作，少用内存就是一次有效的节省。要确认这一点，还需要看到机器人把任务做完的对比结果。</p><!-- <div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style> --><div style="text-align:center; margin:20px 0;">    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4611485386553827"        crossorigin="anonymous"></script>    <!-- 博客文章内嵌入广告02 -->    <ins class="adsbygoogle"        style="display:block"        data-ad-client="ca-pub-4611485386553827"        data-ad-slot="7924499111"        data-ad-format="auto"        data-full-width-responsive="true"></ins>    <script>        (adsbygoogle = window.adsbygoogle || []).push({});    </script></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 特斯拉 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 特斯拉 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>穆里尼奥考虑琼阿梅尼踢中卫？西语原文给的是一份备选名单</title>
       <link href="/undefined/mourinho-tchouameni-centre-back-villarreal/"/>
       <url>/undefined/mourinho-tchouameni-centre-back-villarreal/</url>
@@ -894,9 +919,9 @@
       
         <tags>
             
-            <tag> OpenAI </tag>
-            
             <tag> Apple </tag>
+            
+            <tag> OpenAI </tag>
             
         </tags>
       
@@ -1060,9 +1085,9 @@
             
             <tag> xAI </tag>
             
-            <tag> SpaceX </tag>
-            
             <tag> Anthropic </tag>
+            
+            <tag> SpaceX </tag>
             
         </tags>
       
@@ -1126,9 +1151,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> 马斯克 </tag>
-            
             <tag> Sam Altman </tag>
+            
+            <tag> 马斯克 </tag>
             
             <tag> Shivon Zilis </tag>
             
@@ -1161,9 +1186,9 @@
             
             <tag> OpenAI </tag>
             
-            <tag> 马斯克 </tag>
-            
             <tag> Sam Altman </tag>
+            
+            <tag> 马斯克 </tag>
             
             <tag> 人工智能 </tag>
             
@@ -1875,13 +1900,13 @@
             
             <tag> 马斯克 </tag>
             
-            <tag> 太空数据中心 </tag>
-            
-            <tag> Optimus </tag>
+            <tag> SpaceX </tag>
             
             <tag> 人工智能 </tag>
             
-            <tag> SpaceX </tag>
+            <tag> 太空数据中心 </tag>
+            
+            <tag> Optimus </tag>
             
             <tag> 科技趋势 </tag>
             
@@ -2420,9 +2445,9 @@
       
         <tags>
             
-            <tag> 自动驾驶 </tag>
-            
             <tag> 特斯拉 </tag>
+            
+            <tag> 自动驾驶 </tag>
             
         </tags>
       
