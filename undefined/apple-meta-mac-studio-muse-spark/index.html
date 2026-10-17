@@ -1,0 +1,406 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>苹果这次不比模型，改当“跑模型的机器” | Wei Family LLC</title><meta name="keywords" content="苹果, Meta, Mac Studio, M5 Ultra, Muse Spark Open, 本地AI, 开源大模型, MLX"><meta name="author" content="Wei Family LLC"><meta name="copyright" content="Wei Family LLC"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="苹果这次不比模型，改当“跑模型的机器”"><meta name="application-name" content="苹果这次不比模型，改当“跑模型的机器”"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="苹果这次不比模型，改当“跑模型的机器”"><meta property="og:url" content="https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/index.html"><meta property="og:site_name" content="Wei Family LLC"><meta property="og:description" content="面对大模型竞局，苹果没有硬卷自研模型，而是通过雷雳 5 串联 Mac Studio，将 8160 亿参数的开源模型搬上了办公桌。把硬件做成开源世界的首选基座，是一步极其精明务实的平台转向。"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://r2.weifamily.cn/obsidian//0006_20261017121132.webp"><meta property="article:author" content="Wei Family LLC"><meta property="article:tag" content="[&quot;Wei Family LLC&quot;,&quot;AI思维车间&quot;]"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://r2.weifamily.cn/obsidian//0006_20261017121132.webp"><meta name="description" content="面对大模型竞局，苹果没有硬卷自研模型，而是通过雷雳 5 串联 Mac Studio，将 8160 亿参数的开源模型搬上了办公桌。把硬件做成开源世界的首选基座，是一步极其精明务实的平台转向。"><link rel="shortcut icon" href="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png"><link rel="canonical" href="https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="codeva-uEBmfp28zo"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-4611485386553827',
+  enable_page_level_ads: 'true'
+});</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: {"enable":true,"img":"https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png"},
+  postHeadAiDescription: undefined,
+  diytitle: undefined,
+  LA51: undefined,
+  greetingBox: undefined,
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  music_page_default: "nav_music",
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: false,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: Wei Family LLC","link":"链接: ","source":"来源: Wei Family LLC","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'Wei Family LLC',
+  title: '苹果这次不比模型，改当“跑模型的机器”',
+  postAI: '',
+  pageFillDescription: '先看清楚：两台电脑怎么装下 8160 亿参数, 为什么我说这是务实的平台打法, 三个质疑我怎么看, 接下来看什么北京时间月日凌晨点扎克伯格在社交平台上晒出一张照片一块显示器下方并排放着两台银色的配文称刚刚开源的在新款上跑得极好文末特意致谢了约翰特努斯与苹果团队分钟后特努斯转发回帖在桌面上就能如此高效地运行这种量级的模型太了不起了互动双方的身份非同寻常一个是的掌舵人另一个则是上个月刚从库克手中接棒苹果的特努斯据报道自年以来苹果与就再没有任何公开层面的业务合作不少人的第一反应是意外这两家积怨颇深的公司怎么突然走到了一起但在我看来苹果这步棋走得极度务实通用大模型一时追赶不上就索性退回自己最有统治力的阵地把打造成谁的开源模型都能跑的底座台上的模型各凭本事台下卖的依然是苹果昂贵的高端硬件先看清楚两台电脑怎么装下亿参数据官方博客介绍的总参数量高达亿采用的是混合专家架构模型内置了多组专家子网络每处理一个只需激活其中一小部分因此每次实际参与计算的参数量大约是亿它支持万的超长上下文主打代码生成与自主智能体任务称其为迄今最强的美国开源权重模型亿参数的模型难点从来不在算力而在怎么装进内存苹果机器学习研究团队同日发文解释了其中的物理限制即便把模型做比特精度压缩模型本身的静态权重依然要吃掉约内存再加上推理过程中不断膨胀的键值缓存等动态数据哪怕是一台顶配统一内存的也根本塞不下解法很直接把模型拆散分装在多台机器上彼此之间用雷雳数据线直连在高速带宽下实时互传中间计算结果按开发者文档给出的指引目前可行的方案只有两种要么两台内存版要么四台内存版扎克伯格办公桌上那种并排两台的形态前提必须是还未正式出货的顶配版速度究竟怎么样苹果官方公布的测试数据是在上下文长度下双机方案每秒大约能吐出到个取决于模型的具体拆分策略如果是四台机器并联每秒生成速度可以达到个左右这个速度用来写代码或驱动自动化智能体已经完全具备实用价值但必须说明这目前仅仅是苹果实验室给出的官方数据市面上还没有第三方在集群上做过公开的独立实测整件事的分工其实很纯粹负责交付模型权重苹果负责提供高带宽统一内存硬件并调优底层的框架关键在于的模型没有进也没有变成消费级的为什么我说这是务实的平台打法先说模型赛一时追不上的现实报道提到苹果上个月推的新版实际表现依然赶不上头部实验室的聊天机器人与智能体苹果在模型层面的合作对象也换得频繁年高调接入结果据在诉讼文件里的说法那次整合表现大幅低于预期今年又转身找谷歌签下来支撑的日常运转自研通用大模型既然短期难有胜算苹果就把目光转回了自己最擅长的桌面硬件今年月苹果发布这一代时给它的定位就是本地的终极桌面宣传语里还特意强调了不用数这次也在技术博客中明确写道想在自己的桌面上跑起这种量级的顶级模型配合是最好的方式更有意思的是苹果压根没有把赌注单押在一家身上在苹果研究团队的技术博客里他们不仅测了的模型还同步测试了阿里巴巴的通义千问以及法国开源独角兽的模型后面这两款模型规模稍小单台的就能轻松装下这就是两种完全不同的境遇在上苹果不得不在与谷歌之间反复取舍受制于人但在上模型不管是来自阿里还是跑模型的机器统一内存架构和底层的框架全都是苹果自家的模型谁胜谁负不重要只要开发者想在本地跑买的都是苹果的硬件这就是典型的平台打法商业许可证也给这种玩法铺平了路并非完全无条件放开如果你把模型包装成云端卖给第三方且关联企业在连续个月内营收超过万美元必须向另买商业授权但如果是企业内部自用科研探索或是作为自家软硬件产品功能的一部分只要保留署名并遵守使用守则完全不受这笔营收门槛限制三个质疑我怎么看这种做法自然会引来各种质疑挑其中最核心的三条来看第一条质疑太贵了门槛太高价格确实非常昂贵据报道搭载芯片配备内存的起售价为美元基础款起价美元国行起售价高达元而能实现双机互联的版本售价尚未公布苹果官网仅标注月末推出按已知价格推算四台的设备总价至少要万美元两台的花费也必然会超过万美元以上推算均不含税费与高规格配件部署起来同样很折腾给出的配置指南显示安装流程预计耗时约小时每两台机器之间建议拉两根雷雳数据线做冗余直连每台电脑还要各自下载并保存一份近的完整模型文件而在万的长上下文测试中四台机器等第一个字生成出来需要足足等上约秒个人开发者伊万菲奥拉万蒂曾用两台上一代均为做过类似尝试这是目前极少数可参考的独立实测在上下文下首字等待时间约秒后续生成速度约为每秒个这不能直接代表的水准但足以说明首字延迟是个实实在在的瓶颈但拿贵来否定这个方案前提是把它当成了卖给普通人的大众消费品平台打法不需要人人都买两台它要证明的是当前最大一档的开源模型在桌面上是完全跑得通的想用这个模型的人本就有多种路径同一款模型在发布首日就上线了七家第三方平台按需付费最省心而对那些坚持本地部署的用户列出的官方硬件选项包括块英伟达或块英特尔至强处理器以及与传统的机架服务器相比真正的杀手锏在于桌面两个字单台在满载运行大模型时的峰值功耗只有瓦左右插上家用插座就能安静工作既不需要专用机房机柜散热也不用承担动辄数千瓦的电费与噪音对需要代码保密本地数据合规的团队来说机器放在办公室桌下数据根本不出门更何况绝大多数日常模型根本用不着这么夸张的硬件阿里千问和的主力模型单台就能从容应对亿参数的巨兽本就是用来帮苹果宣示桌面硬件天花板的第二条质疑这不是最强的模型这是客观事实报道指出本周早些时候发布的闭源模型综合能力明显强于首席官亚历山大王在受访时也直言这些不是我们开发过的最强模型第三方评测机构的数据显示的综合智能指数为分而闭源的达到了分差距最悬殊的是终端编程测试两者得分是对而写代码恰恰是这款开源模型主打的核心场景但关键在于是闭源的权重根本不对外开放世界上没有任何一台电脑能把它下载到本地跑能放进自己硬盘里的只有开源权重苹果要抢下的身位就是本地运行开源模型的首选硬件在这个界限之内已经是当前能够拿出的最大开源模型第三条质疑苹果讲了这么多年隐私怎么能跟站在一起两家公司的历史恩怨人尽皆知年剑桥分析丑闻爆发时库克被问及如果是扎克伯格会怎么处理他毫不客气地回应我根本不会让自己陷入那种处境年苹果推行应用跟踪透明度政策直接让一年损失了近百亿美元收入扎克伯格在接受乔罗根访谈时更是公开抨击苹果自之后就再没发明过什么了不起的东西这次合作曝光后海外科技社区里不少用户直言苹果这是丢掉了自己的道德指南针品牌声誉上的隐形折损是真真切切的两家公司过往的裂痕很难轻易抹去但这次合作的本质与当年争夺用户隐私数据的逻辑完全不同两家过去争吵的核心是平台收集并利用用户行为数据而这次是在本地离线环境跑开源模型所有提示词与输入数据都不经过的服务器正如亚历山大王对媒体所说开发者具体怎么用这款模型既控制不了也根本看不到苹果没有把引入系统的底层也没有把它接进它只是让一个任何人都能下载的开源模型在自家的上跑得比别人更快更省心接下来看什么这步棋走得务实但不代表接下来的路会一帆风顺有三件事值得继续盯紧一是版本的官方定价这个月底揭晓的售价将直接决定双机方案到底要付出多高的资金门槛二是真实的第三方实测实验室里的漂亮数据必须等待外部开发者在实际生产环境里反复检验尤其是长时间高负荷运行下的散热与稳定性三是两家关系的后续发展报道称两家公司目前都拒绝透露这是否是一段更深层合作的起点未来苹果是否会考虑将的模型能力引入如果真迈出那一步就是另一场完全不同性质的博弈了至少在眼下这一步苹果显得格外清醒不再硬着头皮去跟头部实验室比拼谁的云端模型更强既然自研模型短期赢面不大就把舞台让给开源世界让阿里的模型在桌面上跑起来台前争奇斗艳台下把自家的卖出去',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2026-10-17 12:12:41',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">Wei Family LLC</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 产品</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://www.aimindwork.com"><span> AI思维车间</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/wechat.jpg" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/wechat.jpg"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/zfb.jpg" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/zfb.jpg"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AGI/" style="font-size: 1.05rem;">AGI<sup>1</sup></a><a href="/tags/AI/" style="font-size: 1.05rem;">AI<sup>19</sup></a><a href="/tags/AI%E5%AE%89%E5%85%A8/" style="font-size: 1.05rem;">AI安全<sup>1</sup></a><a href="/tags/AI%E5%B7%A5%E4%BD%9C%E6%B5%81/" style="font-size: 1.05rem;">AI工作流<sup>1</sup></a><a href="/tags/AI%E6%8A%95%E8%B5%84/" style="font-size: 1.05rem;">AI投资<sup>1</sup></a><a href="/tags/AI%E7%BC%96%E7%A8%8B/" style="font-size: 1.05rem;">AI编程<sup>1</sup></a><a href="/tags/Apple/" style="font-size: 1.05rem;">Apple<sup>24</sup></a><a href="/tags/Claude-Code/" style="font-size: 1.05rem;">Claude Code<sup>1</sup></a><a href="/tags/Clawdbot/" style="font-size: 1.05rem;">Clawdbot<sup>2</sup></a><a href="/tags/Codex/" style="font-size: 1.05rem;">Codex<sup>1</sup></a><a href="/tags/Cybercab/" style="font-size: 1.05rem;">Cybercab<sup>1</sup></a><a href="/tags/DC/" style="font-size: 1.05rem;">DC<sup>1</sup></a><a href="/tags/Elon-Musk/" style="font-size: 1.05rem;">Elon Musk<sup>1</sup></a><a href="/tags/GPT-5-5-Pro/" style="font-size: 1.05rem;">GPT-5.5 Pro<sup>1</sup></a><a href="/tags/Mac-mini/" style="font-size: 1.05rem;">Mac mini<sup>1</sup></a><a href="/tags/Midjourney/" style="font-size: 1.05rem;">Midjourney<sup>25</sup></a><a href="/tags/OpenAI/" style="font-size: 1.05rem;">OpenAI<sup>7</sup></a><a href="/tags/Others/" style="font-size: 1.05rem;">Others<sup>5</sup></a><a href="/tags/Robotaxi/" style="font-size: 1.05rem;">Robotaxi<sup>1</sup></a><a href="/tags/Sam-Altman/" style="font-size: 1.05rem;">Sam Altman<sup>3</sup></a><a href="/tags/Siri/" style="font-size: 1.05rem;">Siri<sup>2</sup></a><a href="/tags/Tesla/" style="font-size: 1.05rem;">Tesla<sup>5</sup></a><a href="/tags/iPhone/" style="font-size: 1.05rem;">iPhone<sup>28</sup></a><a href="/tags/xAI/" style="font-size: 1.05rem;">xAI<sup>2</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%B2%BB%E7%90%86/" style="font-size: 1.05rem;">人工智能治理<sup>1</sup></a><a href="/tags/%E4%BB%99%E4%BE%A0/" style="font-size: 1.05rem;">仙侠<sup>1</sup></a><a href="/tags/%E5%8F%A4%E9%A3%8E/" style="font-size: 1.05rem;">古风<sup>1</sup></a><a href="/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/" style="font-size: 1.05rem;">开源项目<sup>1</sup></a><a href="/tags/%E5%BE%AE%E8%BD%AF/" style="font-size: 1.05rem;">微软<sup>2</sup></a><a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" style="font-size: 1.05rem;">效率工具<sup>1</sup></a><a href="/tags/%E6%95%99%E8%82%B2/" style="font-size: 1.05rem;">教育<sup>1</sup></a><a href="/tags/%E7%89%B9%E6%96%AF%E6%8B%89/" style="font-size: 1.05rem;">特斯拉<sup>20</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E5%AE%98%E5%8F%B8/" style="font-size: 1.05rem;">科技官司<sup>1</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E8%82%A1/" style="font-size: 1.05rem;">科技股<sup>1</sup></a><a href="/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/" style="font-size: 1.05rem;">自动驾驶<sup>2</sup></a><a href="/tags/%E8%8B%B1%E4%BC%9F%E8%BE%BE/" style="font-size: 1.05rem;">英伟达<sup>3</sup></a><a href="/tags/%E8%8B%B9%E6%9E%9C/" style="font-size: 1.05rem;">苹果<sup>3</sup></a><a href="/tags/%E9%99%AA%E5%AE%A1%E5%9B%A2%E5%AE%A1%E5%88%A4/" style="font-size: 1.05rem;">陪审团审判<sup>1</sup></a><a href="/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/" style="font-size: 1.05rem;">马斯克<sup>20</sup></a><a href="/tags/%E9%BE%99%E7%8F%A0/" style="font-size: 1.05rem;">龙珠<sup>4</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/10/"><span class="card-archive-list-date">十月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">14</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/09/"><span class="card-archive-list-date">九月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">28</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/08/"><span class="card-archive-list-date">八月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/07/"><span class="card-archive-list-date">七月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/06/"><span class="card-archive-list-date">六月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/05/"><span class="card-archive-list-date">五月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/04/"><span class="card-archive-list-date">四月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">10</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/03/"><span class="card-archive-list-date">三月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%8B%B9%E6%9E%9C/" itemprop="url">苹果</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E8%8B%B9%E6%9E%9C/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>苹果</span></a></span></div></div><h1 class="post-title" itemprop="name headline">苹果这次不比模型，改当“跑模型的机器”</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2026-10-17T04:10:39.000Z" title="发表于 2026-10-17 12:10:39">2026-10-17</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2026-10-17T04:12:41.549Z" title="更新于 2026-10-17 12:12:41">2026-10-17</time></span></div><div class="meta-secondline"><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为Sheridan"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>Sheridan</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://r2.weifamily.cn/obsidian//0006_20261017121132.webp"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/"><header><a class="post-meta-categories" href="/categories/%E8%8B%B9%E6%9E%9C/" itemprop="url">苹果</a><a href="/tags/%E8%8B%B9%E6%9E%9C/" tabindex="-1" itemprop="url">苹果</a><h1 id="CrawlerTitle" itemprop="name headline">苹果这次不比模型，改当“跑模型的机器”</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">Wei Family LLC</span><time itemprop="dateCreated datePublished" datetime="2026-10-17T04:10:39.000Z" title="发表于 2026-10-17 12:10:39">2026-10-17</time><time itemprop="dateCreated datePublished" datetime="2026-10-17T04:12:41.549Z" title="更新于 2026-10-17 12:12:41">2026-10-17</time></header><p>北京时间 10 月 16 日凌晨 1 点，扎克伯格在社交平台 X 上晒出一张照片：一块显示器下方，并排放着两台银色的 Mac Studio。配文称，Meta 刚刚开源的 Muse Spark Open 在新款 Mac Studio 上“跑得极好”，文末特意致谢了约翰·特努斯（John Ternus）与苹果团队。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0005_20261017120620.webp"></p>
+<p>44 分钟后，特努斯转发回帖：“在桌面上就能如此高效地运行这种量级的模型，太了不起了。”</p>
+<p>互动双方的身份非同寻常：一个是 Meta 的掌舵人，另一个则是上个月刚从库克手中接棒苹果 CEO 的特努斯。据 CNBC 报道，自 2017 年以来，苹果与 Meta 就再没有任何公开层面的业务合作。</p>
+<p>不少人的第一反应是意外：这两家积怨颇深的公司，怎么突然走到了一起？</p>
+<p>但在我看来，苹果这步棋走得极度务实。通用大模型一时追赶不上，就索性退回自己最有统治力的阵地，把 Mac 打造成谁的开源模型都能跑的底座——台上的模型各凭本事，台下卖的，依然是苹果昂贵的高端硬件。</p>
+<h2 id="先看清楚：两台电脑怎么装下-8160-亿参数"><a href="#先看清楚：两台电脑怎么装下-8160-亿参数" class="headerlink" title="先看清楚：两台电脑怎么装下 8160 亿参数"></a>先看清楚：两台电脑怎么装下 8160 亿参数</h2><p>据 Meta 官方博客介绍，Muse Spark Open 的总参数量高达 8160 亿，采用的是混合专家架构（MoE）：模型内置了多组“专家”子网络，每处理一个 token 只需激活其中一小部分，因此每次实际参与计算的参数量大约是 420 亿。它支持 100 万 token 的超长上下文，主打代码生成与自主智能体任务。Meta 称其为“迄今最强的美国开源权重模型”。</p>
+<p>8160 亿参数的模型，难点从来不在算力，而在怎么装进内存。</p>
+<p>苹果机器学习研究团队同日发文解释了其中的物理限制：即便把模型做 4 比特（4-bit）精度压缩，模型本身的静态权重依然要吃掉约 493GB 内存。再加上推理过程中不断膨胀的键值缓存（KV Cache）等动态数据，哪怕是一台顶配 512GB 统一内存的 Mac Studio，也根本塞不下。</p>
+<p>解法很直接：把模型拆散，分装在多台机器上，彼此之间用雷雳 5（Thunderbolt 5）数据线直连，在高速带宽下实时互传中间计算结果。</p>
+<p>按 Meta 开发者文档给出的指引，目前可行的方案只有两种：要么两台 512GB 内存版，要么四台 256GB 内存版。扎克伯格办公桌上那种并排两台的形态，前提必须是还未正式出货的 512GB 顶配版。</p>
+<p>速度究竟怎么样？</p>
+<p>苹果官方公布的测试数据是：在 8192 token 上下文长度下，双机方案每秒大约能吐出 16 到 25 个 token（取决于模型的具体拆分策略）；如果是四台机器并联，每秒生成速度可以达到 37 个左右。</p>
+<p>这个速度用来写代码或驱动自动化智能体，已经完全具备实用价值。但必须说明，这目前仅仅是苹果实验室给出的官方数据，市面上还没有第三方在 M5 Ultra 集群上做过公开的独立实测。</p>
+<p>整件事的分工其实很纯粹：Meta 负责交付模型权重，苹果负责提供高带宽统一内存硬件并调优底层的 MLX 框架。</p>
+<p>关键在于：Meta 的模型没有进 iPhone，也没有变成消费级的 Siri。</p>
+<h2 id="为什么我说这是务实的平台打法"><a href="#为什么我说这是务实的平台打法" class="headerlink" title="为什么我说这是务实的平台打法"></a>为什么我说这是务实的平台打法</h2><p>先说“模型赛一时追不上”的现实。</p>
+<p>CNBC 报道提到，苹果上个月推的新版 Siri，实际表现依然赶不上头部 AI 实验室的聊天机器人与智能体。苹果在模型层面的合作对象也换得频繁：2024 年高调接入 ChatGPT，结果据 OpenAI 在诉讼文件里的说法，那次整合“表现大幅低于预期”；今年又转身找谷歌签下 Gemini，来支撑 Apple Intelligence 的日常运转。</p>
+<p>自研通用大模型既然短期难有胜算，苹果就把目光转回了自己最擅长的桌面硬件。</p>
+<p>今年 8 月苹果发布这一代 Mac Studio 时，给它的定位就是“本地 AI 的终极桌面”，宣传语里还特意强调了“不用数 token”。这次 Meta 也在技术博客中明确写道：想在自己的桌面上跑起这种量级的顶级模型，Mac Studio 配合 Muse Spark Open 是最好的方式。</p>
+<p>更有意思的是，苹果压根没有把赌注单押在 Meta 一家身上。</p>
+<p>在苹果研究团队的技术博客里，他们不仅测了 Meta 的模型，还同步测试了阿里巴巴的通义千问（Qwen 3.8）以及法国开源独角兽 Mistral 的模型。后面这两款模型规模稍小，单台 512GB 的 Mac Studio 就能轻松装下。</p>
+<p>这就是两种完全不同的境遇：在 iPhone 上，苹果不得不在 OpenAI 与谷歌之间反复取舍、受制于人；但在 Mac 上，模型不管是来自 Meta、阿里还是 Mistral，跑模型的机器、统一内存架构和底层的 MLX 框架，全都是苹果自家的。</p>
+<p>模型谁胜谁负不重要，只要开发者想在本地跑，买的都是苹果的硬件。这就是典型的平台打法。</p>
+<p>商业许可证也给这种玩法铺平了路。Muse Model License 并非完全无条件放开：如果你把模型包装成云端 API 卖给第三方，且关联企业在连续 12 个月内营收超过 2000 万美元，必须向 Meta 另买商业授权；但如果是企业内部自用、科研探索，或是作为自家软硬件产品功能的一部分，只要保留“Built with Muse Spark Open”署名并遵守使用守则，完全不受这笔营收门槛限制。</p>
+<h2 id="三个质疑，我怎么看"><a href="#三个质疑，我怎么看" class="headerlink" title="三个质疑，我怎么看"></a>三个质疑，我怎么看</h2><p>这种做法自然会引来各种质疑。挑其中最核心的三条来看：</p>
+<p><strong>第一条质疑：太贵了，门槛太高。</strong></p>
+<p>价格确实非常昂贵。据 CNBC 报道，搭载 M5 Ultra 芯片、配备 256GB 内存的 Mac Studio 起售价为 10799 美元；M5 Ultra 基础款起价 5499 美元，国行起售价高达 46999 元。而能实现“双机互联”的 512GB 版本售价尚未公布，苹果官网仅标注“10 月末推出”。按已知价格推算，四台 256GB 的设备总价至少要 4.3 万美元；两台 512GB 的花费也必然会超过 2.16 万美元（以上推算均不含税费与高规格配件）。</p>
+<p>部署起来同样很折腾。Meta 给出的配置指南显示，安装流程“预计耗时约 4 小时”：每两台机器之间建议拉两根雷雳 5 数据线做冗余直连，每台电脑还要各自下载并保存一份近 500GB 的完整模型文件。而在 6.5 万 token 的长上下文测试中，四台机器等第一个字生成出来，需要足足等上约 40 秒。</p>
+<p>个人开发者伊万·菲奥拉万蒂（Ivan Fioravanti）曾用两台上一代 M3 Ultra（均为 512GB）做过类似尝试，这是目前极少数可参考的独立实测：在 8K 上下文下，首字等待时间约 30 秒，后续生成速度约为每秒 12 个 token。这不能直接代表 M5 Ultra 的水准，但足以说明首字延迟是个实实在在的瓶颈。</p>
+<p>但拿“贵”来否定这个方案，前提是把它当成了卖给普通人的大众消费品。</p>
+<p>平台打法不需要人人都买两台 Mac Studio，它要证明的是：当前最大一档的开源模型，在桌面上是完全跑得通的。</p>
+<p>想用这个模型的人本就有多种路径。同一款模型在发布首日就上线了七家第三方 API 平台，按需付费最省心。而对那些坚持本地部署的用户，Meta 列出的官方硬件选项包括：4 块英伟达 B300 或 GB300 GPU、8 块 AMD MI355X&#x2F;MI350X、英特尔至强 6 处理器，以及 Mac Studio。</p>
+<p>与传统的 GPU 机架服务器相比，Mac Studio 真正的杀手锏在于“桌面”两个字。</p>
+<p>单台 M5 Ultra 在满载运行大模型时的峰值功耗只有 300 瓦左右，插上家用插座就能安静工作，既不需要专用机房、机柜散热，也不用承担动辄数千瓦的电费与噪音。对需要代码保密、本地数据合规的团队来说，机器放在办公室桌下，数据根本不出门。</p>
+<p>更何况，绝大多数日常模型根本用不着这么夸张的硬件：阿里千问和 Mistral 的主力模型，单台 Mac Studio 就能从容应对。8160 亿参数的巨兽，本就是用来帮苹果宣示桌面硬件天花板的。</p>
+<p><strong>第二条质疑：这不是 Meta 最强的模型。</strong></p>
+<p>这是客观事实。CNBC 报道指出，Meta 本周早些时候发布的闭源模型 Muse Wonder，综合能力明显强于 Muse Spark Open。Meta 首席 AI 官亚历山大·王（Alexandr Wang）在受访时也直言：“这些不是我们开发过的最强模型。”</p>
+<p>第三方评测机构 Artificial Analysis 的数据显示：Muse Spark Open 的综合智能指数为 39 分，而闭源的 Muse Wonder 达到了 52 分。差距最悬殊的是终端编程测试（Terminal-Bench 4.0），两者得分是 8% 对 52%，而写代码恰恰是这款开源模型主打的核心场景。</p>
+<p>但关键在于：Muse Wonder 是闭源的，权重根本不对外开放，世界上没有任何一台电脑能把它下载到本地跑。</p>
+<p>能放进自己硬盘里的只有开源权重。苹果要抢下的身位，就是“本地运行开源模型的首选硬件”。在这个界限之内，Muse Spark Open 已经是当前 Meta 能够拿出的最大开源模型。</p>
+<p><strong>第三条质疑：苹果讲了这么多年隐私，怎么能跟 Meta 站在一起？</strong></p>
+<p>两家公司的历史恩怨人尽皆知。2018 年剑桥分析丑闻爆发时，库克被问及如果是扎克伯格会怎么处理，他毫不客气地回应：“我根本不会让自己陷入那种处境。”2021 年苹果推行应用跟踪透明度政策，直接让 Meta 一年损失了近百亿美元收入。扎克伯格在接受乔·罗根（Joe Rogan）访谈时，更是公开抨击苹果“自 iPhone 之后就再没发明过什么了不起的东西”。</p>
+<p>这次合作曝光后，海外科技社区里不少用户直言，苹果这是丢掉了自己的道德指南针。品牌声誉上的隐形折损是真真切切的，两家公司过往的裂痕很难轻易抹去。</p>
+<p>但这次合作的本质，与当年争夺用户隐私数据的逻辑完全不同。</p>
+<p>两家过去争吵的核心，是平台收集并利用用户行为数据。而这次是在本地离线环境跑开源模型，所有提示词与输入数据都不经过 Meta 的服务器。正如亚历山大·王对媒体所说，开发者具体怎么用这款模型，Meta 既控制不了，也根本看不到。</p>
+<p>苹果没有把 Meta 引入 iOS 系统的底层，也没有把它接进 Siri。它只是让一个任何人都能下载的开源模型，在自家的 Mac 上跑得比别人更快、更省心。</p>
+<h2 id="接下来看什么"><a href="#接下来看什么" class="headerlink" title="接下来看什么"></a>接下来看什么</h2><p>这步棋走得务实，但不代表接下来的路会一帆风顺。有三件事值得继续盯紧：</p>
+<p>一是 512GB 版本的官方定价。这个月底揭晓的售价，将直接决定双机方案到底要付出多高的资金门槛。</p>
+<p>二是真实的第三方实测。实验室里的漂亮数据，必须等待外部开发者在实际生产环境里反复检验，尤其是长时间高负荷运行下的散热与稳定性。</p>
+<p>三是两家关系的后续发展。CNBC 报道称，两家公司目前都拒绝透露这是否是一段更深层合作的起点。未来苹果是否会考虑将 Meta 的模型能力引入 Apple Intelligence？如果真迈出那一步，就是另一场完全不同性质的博弈了。</p>
+<p>至少在眼下这一步，苹果显得格外清醒：不再硬着头皮去跟头部实验室比拼谁的云端模型更强。既然自研模型短期赢面不大，就把舞台让给开源世界。让 Meta、阿里、Mistral 的模型在桌面上跑起来，台前争奇斗艳，台下把自家的 Mac Studio 卖出去。</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">Wei Family LLC</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/')">苹果这次不比模型，改当“跑模型的机器”</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/wechat.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/wechat.jpg" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://weifamily01.blob.core.windows.net/blog/zfb.jpg" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/blog/zfb.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=苹果这次不比模型，改当“跑模型的机器”&amp;url=https://blog.weifamily.cn/undefined/apple-meta-mac-studio-muse-spark/&amp;pic=https://r2.weifamily.cn/obsidian//0006_20261017121132.webp" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.weifamily.cn" target="_blank">Wei Family LLC</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/%E8%8B%B9%E6%9E%9C/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>苹果<span class="tagsPageCount">3</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://r2.weifamily.cn/obsidian//0006_20261017121132.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/undefined/mourinho-bernabeu-silence-rome-outburst/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0018_20261015110008.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">在伯纳乌没说的话，穆里尼奥到罗马说了</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/undefined/apple-ceo-ternus-cook-successor/" title="苹果换帅：一个更像乔布斯的人，能拯救创新乏力的苹果吗？"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260421092915655.JPG" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-04-21</div><div class="title">苹果换帅：一个更像乔布斯的人，能拯救创新乏力的苹果吗？</div></div></a></div><div><a href="/undefined/apple-record-earnings-nokia-crisi/" title="苹果史上最强财报背后，藏着一个诺基亚式的隐患"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian/20260202101104651.webp" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2026-02-02</div><div class="title">苹果史上最强财报背后，藏着一个诺基亚式的隐患</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://weifamily01.blob.core.windows.net/weifamilyllc/logo-128.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"></div></div></div><div class="card-widget anzhiyu-right-widget" id="card-wechat" onclick="null"><div id="flip-wrapper"><div id="flip-content"><div class="face" style="background: url(https://bu.dusays.com/2023/01/13/63c02edf44033.png) center center / 100% no-repeat"></div><div class="back face" style="background: url(https://bu.dusays.com/2023/05/13/645fa415e8694.png) center center / 100% no-repeat"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%88%E7%9C%8B%E6%B8%85%E6%A5%9A%EF%BC%9A%E4%B8%A4%E5%8F%B0%E7%94%B5%E8%84%91%E6%80%8E%E4%B9%88%E8%A3%85%E4%B8%8B-8160-%E4%BA%BF%E5%8F%82%E6%95%B0"><span class="toc-text">先看清楚：两台电脑怎么装下 8160 亿参数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E8%AF%B4%E8%BF%99%E6%98%AF%E5%8A%A1%E5%AE%9E%E7%9A%84%E5%B9%B3%E5%8F%B0%E6%89%93%E6%B3%95"><span class="toc-text">为什么我说这是务实的平台打法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E4%B8%AA%E8%B4%A8%E7%96%91%EF%BC%8C%E6%88%91%E6%80%8E%E4%B9%88%E7%9C%8B"><span class="toc-text">三个质疑，我怎么看</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8E%A5%E4%B8%8B%E6%9D%A5%E7%9C%8B%E4%BB%80%E4%B9%88"><span class="toc-text">接下来看什么</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/undefined/apple-meta-mac-studio-muse-spark/" title="苹果这次不比模型，改当“跑模型的机器”"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0006_20261017121132.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="苹果这次不比模型，改当“跑模型的机器”"/></a><div class="content"><a class="title" href="/undefined/apple-meta-mac-studio-muse-spark/" title="苹果这次不比模型，改当“跑模型的机器”">苹果这次不比模型，改当“跑模型的机器”</a><time datetime="2026-10-17T04:10:39.000Z" title="发表于 2026-10-17 12:10:39">2026-10-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/mourinho-bernabeu-silence-rome-outburst/" title="在伯纳乌没说的话，穆里尼奥到罗马说了"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0018_20261015110008.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="在伯纳乌没说的话，穆里尼奥到罗马说了"/></a><div class="content"><a class="title" href="/undefined/mourinho-bernabeu-silence-rome-outburst/" title="在伯纳乌没说的话，穆里尼奥到罗马说了">在伯纳乌没说的话，穆里尼奥到罗马说了</a><time datetime="2026-10-15T03:05:00.000Z" title="发表于 2026-10-15 11:05:00">2026-10-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/vinicius-red-card-clasico-suspension-mourinho/" title="处罚周三才出，维尼修斯为什么已经被算进国家德比的缺席名单"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0006_20261012104621.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="处罚周三才出，维尼修斯为什么已经被算进国家德比的缺席名单"/></a><div class="content"><a class="title" href="/undefined/vinicius-red-card-clasico-suspension-mourinho/" title="处罚周三才出，维尼修斯为什么已经被算进国家德比的缺席名单">处罚周三才出，维尼修斯为什么已经被算进国家德比的缺席名单</a><time datetime="2026-10-12T02:47:36.000Z" title="发表于 2026-10-12 10:47:36">2026-10-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/idcf-ransomware-225-ransom-notes/" title="黑客吐槽日本云平台：225份勒索信没人看，还得附上找信教程"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0003_20261010094310.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="黑客吐槽日本云平台：225份勒索信没人看，还得附上找信教程"/></a><div class="content"><a class="title" href="/undefined/idcf-ransomware-225-ransom-notes/" title="黑客吐槽日本云平台：225份勒索信没人看，还得附上找信教程">黑客吐槽日本云平台：225份勒索信没人看，还得附上找信教程</a><time datetime="2026-10-10T01:54:06.000Z" title="发表于 2026-10-10 09:54:06">2026-10-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/undefined/mourinho-mbappe-bike/" title="姆巴佩养伤骑车被穆里尼奥当众痛骂？"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://r2.weifamily.cn/obsidian//0000_20261009154736.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="姆巴佩养伤骑车被穆里尼奥当众痛骂？"/></a><div class="content"><a class="title" href="/undefined/mourinho-mbappe-bike/" title="姆巴佩养伤骑车被穆里尼奥当众痛骂？">姆巴佩养伤骑车被穆里尼奥当众痛骂？</a><time datetime="2026-10-09T08:00:44.000Z" title="发表于 2026-10-09 16:00:44">2026-10-09</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2020 - 2026 By <a class="footer-bar-link" href="/" title="Wei Family LLC" target="_blank">Wei Family LLC</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">176</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">102</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">46</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://blog.anheyu.com/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://image.anheyu.com/" title="安知鱼图床"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="安知鱼图床"/><span class="back-menu-item-text">安知鱼图床</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 产品</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" target="_blank" rel="noopener" href="https://www.aimindwork.com"><span> AI思维车间</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/AGI/" style="font-size: 0.88rem;">AGI<sup>1</sup></a><a href="/tags/AI/" style="font-size: 0.88rem;">AI<sup>19</sup></a><a href="/tags/AI%E5%AE%89%E5%85%A8/" style="font-size: 0.88rem;">AI安全<sup>1</sup></a><a href="/tags/AI%E5%B7%A5%E4%BD%9C%E6%B5%81/" style="font-size: 0.88rem;">AI工作流<sup>1</sup></a><a href="/tags/AI%E6%8A%95%E8%B5%84/" style="font-size: 0.88rem;">AI投资<sup>1</sup></a><a href="/tags/AI%E7%BC%96%E7%A8%8B/" style="font-size: 0.88rem;">AI编程<sup>1</sup></a><a href="/tags/Apple/" style="font-size: 0.88rem;">Apple<sup>24</sup></a><a href="/tags/Claude-Code/" style="font-size: 0.88rem;">Claude Code<sup>1</sup></a><a href="/tags/Clawdbot/" style="font-size: 0.88rem;">Clawdbot<sup>2</sup></a><a href="/tags/Codex/" style="font-size: 0.88rem;">Codex<sup>1</sup></a><a href="/tags/Cybercab/" style="font-size: 0.88rem;">Cybercab<sup>1</sup></a><a href="/tags/DC/" style="font-size: 0.88rem;">DC<sup>1</sup></a><a href="/tags/Elon-Musk/" style="font-size: 0.88rem;">Elon Musk<sup>1</sup></a><a href="/tags/GPT-5-5-Pro/" style="font-size: 0.88rem;">GPT-5.5 Pro<sup>1</sup></a><a href="/tags/Mac-mini/" style="font-size: 0.88rem;">Mac mini<sup>1</sup></a><a href="/tags/Midjourney/" style="font-size: 0.88rem;">Midjourney<sup>25</sup></a><a href="/tags/OpenAI/" style="font-size: 0.88rem;">OpenAI<sup>7</sup></a><a href="/tags/Others/" style="font-size: 0.88rem;">Others<sup>5</sup></a><a href="/tags/Robotaxi/" style="font-size: 0.88rem;">Robotaxi<sup>1</sup></a><a href="/tags/Sam-Altman/" style="font-size: 0.88rem;">Sam Altman<sup>3</sup></a><a href="/tags/Siri/" style="font-size: 0.88rem;">Siri<sup>2</sup></a><a href="/tags/Tesla/" style="font-size: 0.88rem;">Tesla<sup>5</sup></a><a href="/tags/iPhone/" style="font-size: 0.88rem;">iPhone<sup>28</sup></a><a href="/tags/xAI/" style="font-size: 0.88rem;">xAI<sup>2</sup></a><a href="/tags/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%B2%BB%E7%90%86/" style="font-size: 0.88rem;">人工智能治理<sup>1</sup></a><a href="/tags/%E4%BB%99%E4%BE%A0/" style="font-size: 0.88rem;">仙侠<sup>1</sup></a><a href="/tags/%E5%8F%A4%E9%A3%8E/" style="font-size: 0.88rem;">古风<sup>1</sup></a><a href="/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/" style="font-size: 0.88rem;">开源项目<sup>1</sup></a><a href="/tags/%E5%BE%AE%E8%BD%AF/" style="font-size: 0.88rem;">微软<sup>2</sup></a><a href="/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/" style="font-size: 0.88rem;">效率工具<sup>1</sup></a><a href="/tags/%E6%95%99%E8%82%B2/" style="font-size: 0.88rem;">教育<sup>1</sup></a><a href="/tags/%E7%89%B9%E6%96%AF%E6%8B%89/" style="font-size: 0.88rem;">特斯拉<sup>20</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E5%AE%98%E5%8F%B8/" style="font-size: 0.88rem;">科技官司<sup>1</sup></a><a href="/tags/%E7%A7%91%E6%8A%80%E8%82%A1/" style="font-size: 0.88rem;">科技股<sup>1</sup></a><a href="/tags/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6/" style="font-size: 0.88rem;">自动驾驶<sup>2</sup></a><a href="/tags/%E8%8B%B1%E4%BC%9F%E8%BE%BE/" style="font-size: 0.88rem;">英伟达<sup>3</sup></a><a href="/tags/%E8%8B%B9%E6%9E%9C/" style="font-size: 0.88rem;">苹果<sup>3</sup></a><a href="/tags/%E9%99%AA%E5%AE%A1%E5%9B%A2%E5%AE%A1%E5%88%A4/" style="font-size: 0.88rem;">陪审团审判<sup>1</sup></a><a href="/tags/%E9%A9%AC%E6%96%AF%E5%85%8B/" style="font-size: 0.88rem;">马斯克<sup>20</sup></a><a href="/tags/%E9%BE%99%E7%8F%A0/" style="font-size: 0.88rem;">龙珠<sup>4</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/01/2021 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2020 By 安知鱼 V1.6.14",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 Wei Family LLC 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
