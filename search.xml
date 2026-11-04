@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>iOS 27.3 开测 Apple 智能：国行缺了什么？</title>
+      <link href="/undefined/ios-27-3-beta-apple-intelligence-china-launch/"/>
+      <url>/undefined/ios-27-3-beta-apple-intelligence-china-launch/</url>
+      
+        <content type="html"><![CDATA[<p>自2024年随 iOS 18.1 在美国上线以来，时隔约两年，Apple Intelligence（国行名称 Apple 智能）在 iOS 27.3 测试版中开启测试。然而，此次向中国开发者开放的并非完整体验，最核心的 Siri AI 以及 iOS 27 中较新的 Apple Intelligence 功能均不在其中。</p><p><img src="https://r2.weifamily.cn/obsidian//0025_20261104103136.webp" alt="image"></p><h2 id="国行测试何时开启，支持哪些设备？"><a href="#国行测试何时开启，支持哪些设备？" class="headerlink" title="国行测试何时开启，支持哪些设备？"></a>国行测试何时开启，支持哪些设备？</h2><p>国行版 Apple Intelligence 何时上线，又有哪些设备与语言要求？10月31日，苹果中国官网在《Apple 智能即将登陆中国》新闻稿中写道：“这一系列 Apple 智能功能将自11月4日起随最新的 iOS 开发者 Beta 版开放测试，并将于12月 iOS 27.3 正式发布时面向中国用户推出。其他平台的支持将在获得必要审批后推出。”</p><p>11月4日，苹果已在 iOS 27.3 测试版中开放这些功能，中国的开发者升级后即可打开 Apple Intelligence。预计，苹果很可能很快推出公测版供中国用户用兼容设备试用，iOS 27.3 也将在12月发布；但苹果官方仅提及“12月 iOS 27.3 正式发布时”，未给出具体日期。</p><h2 id="首批上线的核心功能清单有哪些？"><a href="#首批上线的核心功能清单有哪些？" class="headerlink" title="首批上线的核心功能清单有哪些？"></a>首批上线的核心功能清单有哪些？</h2><p>升级至 iOS 27.3 测试版的中国开发者，目前在系统中实际能够使用哪些具体功能？苹果在新闻稿中针对写作体验介绍道：“借助创作功能，用户可以直接在系统全局的写作工具中，让千问从零开始创作原创内容。”</p><p>从已上线的功能看，在通信与录音方面，信息、FaceTime 和电话 app 均支持实时翻译，配合支持主动降噪的 AirPods 4、AirPods Pro 2 及后续机型同样可用；电话 app 支持通话转录并存入备忘录，备忘录 app 则提供录音摘要。在文本与信息处理上，系统全局的写作工具提供改写、校对和摘要，接入千问后还能生成文本；邮件应用包含邮件摘要、智能回复和优先邮件；通知系统支持通知摘要、首要通知和减少干扰专注模式。</p><p><img src="https://r2.weifamily.cn/obsidian//0027_20261104103532.webp" alt="image"></p><p>在图像与视觉方面，系统上线了视觉智能、智绘表情，以及照片 app 的消除工具、自然语言搜索和回忆影片。在语音助手交互上，用户可输入文字与 Siri 对话并获得更自然的 Siri 回答，Siri 也可把请求转给千问以给出更深入的回答。这份清单覆盖翻译、写作、照片、邮件、通知和录音等日常场景。</p><p><img src="https://r2.weifamily.cn/obsidian//0028_20261104103602.webp" alt="image"></p><h2 id="阿里巴巴的千问在系统中处于什么位置？"><a href="#阿里巴巴的千问在系统中处于什么位置？" class="headerlink" title="阿里巴巴的千问在系统中处于什么位置？"></a>阿里巴巴的千问在系统中处于什么位置？</h2><p>阿里巴巴的千问在系统中承担了什么功能？苹果在新闻稿中写道：“Apple 与阿里巴巴达成合作，在部分 Apple 智能体验中加入对千问的支持，让中国用户能直接在 Siri、写作工具以及视觉智能中使用阿里巴巴的千问，包括文本与图像理解相关功能。”</p><p>在系统集成方式上，新闻稿写明，“在处理特定请求时，Siri 能够接入千问，利用其广博的知识为用户提供协助。用户还可以针对照片以及包含 PDF 与演示文稿的文档进行提问。只需登录千问账户，或使用通过 Apple 登录，用户即可在 Apple 智能中顺畅访问千问。”与此同时，新闻稿写明 Apple Intelligence “由 Apple 构建的生成式模型驱动”。但苹果和阿里巴巴都没有说明哪些请求会交给千问、哪些由苹果自己的模型处理，两者的具体分工边界尚未公开。</p><h2 id="国行版本缺了哪些核心能力？"><a href="#国行版本缺了哪些核心能力？" class="headerlink" title="国行版本缺了哪些核心能力？"></a>国行版本缺了哪些核心能力？</h2><p>与海外已更新的体验相比，此次随 iOS 27.3 测试版落地的国行版 Apple Intelligence 究竟缺少了什么？苹果中国官网新闻稿明确指出：“本次更新不包含 Siri AI 及 Apple 在 WWDC 2026 上宣布的其他下一代 Apple 智能功能。”</p><p>Siri app 也不在其中。Siri AI 是苹果在2026年6月 WWDC 上介绍的全新版 Siri，按苹果的说法，它更强大、更有对话感、更个性化。根据2026年10月26日的苹果官方消息，随 27.2 系统更新，Siri AI 已在英语、法语、日语、韩语、葡萄牙语和西班牙语中提供测试版；另有繁体中文、挪威语、土耳其语和越南语将在年底前上线。简体中文既不在 Siri AI 当前的语言名单里，也不在年底前的名单里。这意味着国行用户现阶段无法体验全新版 Siri 与独立的 Siri app。</p><hr><p>Apple Intelligence 2024年随 iOS 18.1 在美国上线，隔了约两年，在苹果与阿里巴巴合作并获中国监管部门批准后，才随 iOS 27.3 测试版向中国开发者开放；按苹果的说法，12月随正式版面向中国用户推出。此次更新由苹果生成式模型驱动并接入千问，提供实时翻译、写作工具、视觉智能和消除工具等功能，但不含 Siri AI、Siri app 及 iOS 27 较新功能。总体而言，这次开测给国行用户的是一批已经成型的基础功能，不是完整版本；简体中文不在苹果列出的年底前语言名单里，Siri AI 何时到来仍没有时间表。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 苹果 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 苹果 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>被追问“是否只剩两场”，卡里克与更衣室释放了什么信号？</title>
       <link href="/undefined/manchester-united-roma-preview-carrick-press-conference/"/>
       <url>/undefined/manchester-united-roma-preview-carrick-press-conference/</url>
